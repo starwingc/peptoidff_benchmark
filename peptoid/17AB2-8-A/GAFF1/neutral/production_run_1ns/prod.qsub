@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -N 17AB2-8-A_prod.pf
+#PBS -o 17AB2-8-A_prod.out
+#PBS -q medium 
+#PBS -l nodes=1:ppn=16
+#PBS -l walltime=48:00:00
+#PBS
+
+cd $PBS_O_WORKDIR
+export OMP_NUM_THREADS=1
+
+module load gromacs/2021.2
+module load mpi/openmpi
+
+mpirun mdrun_mpi -v -s prod.tpr -deffnm prod

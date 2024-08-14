@@ -1,0 +1,1463 @@
+c_term,citation,cyc_points,experiment,n_term,pub_doi,release,sequence,struct_doi,struct_smiles,title,topology,peptoid_code,_links.2d_image,_links.3d_image,_links.authors,_links.residues,_links.self
+*N,"
+
+
+@article{Wu_2003,
+	doi = {10.1021/ja037540r},
+	url = {https://doi.org/10.1021%2Fja037540r},
+	year = 2003,
+	month = {nov},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {125},
+	number = {44},
+	pages = {13525--13530},
+	author = {Cindy W. Wu and Kent Kirshenbaum and Tracy J. Sanborn and James A. Patch and Kai Huang and Ken A. Dill and Ronald N. Zuckermann and Annelise E. Barron},
+	title = {Structural and Spectroscopic Studies of Peptoid Oligomers with $\upalpha$-Chiral Aliphatic Side Chains},
+	journal = {J. Am. Chem. Soc.}
+}
+",,X-Ray Diffraction,*,10.1021/ja037540r,"Tue, 18 Nov 2003 00:00:00 GMT","(S)-N-(1-cyclohexylethyl)glycine, (S)-N-(1-cyclohexylethyl)glycine, (S)-N-(1-cyclohexylethyl)glycine, (S)-N-(1-cyclohexylethyl)glycine, (S)-N-(1-cyclohexylethyl)glycine",10.5517/cc7jql1,,Polyproline Type I-Like Pentamer (a-chiral aliphatic side chains),A,03AA1-5-A,/static/peptoids/03AA1-5-A_2d.png,/static/peptoids/03AA1.png,/api/peptoids/03AA1-5-A/authors,/api/peptoids/03AA1-5-A/residues,/api/peptoids/03AA1-5-A
+*N,"
+
+
+@article{Huang_2006,
+	doi = {10.1021/ja0574318},
+	url = {https://doi.org/10.1021%2Fja0574318},
+	year = 2006,
+	month = {feb},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {128},
+	number = {5},
+	pages = {1733--1738},
+	author = {Kai Huang and Cindy W. Wu and Tracy J. Sanborn and James A. Patch and Kent Kirshenbaum and Ronald N. Zuckermann and Annelise E. Barron and Ishwar Radhakrishnan},
+	title = {A Threaded Loop Conformation Adopted by a Family of Peptoid Nonamers},
+	journal = {J. Am. Chem. Soc.}
+}
+",,Solution NMR,*,10.1021/ja0574318,"Sat, 14 Jan 2006 00:00:00 GMT","(S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine",,,Threaded Loop Nonamer (a-chiral aromatic side chains),A,06AA1-9-A,/static/peptoids/06AA1-9-A_2d.png,/static/peptoids/06AA1.png,/api/peptoids/06AA1-9-A/authors,/api/peptoids/06AA1-9-A/residues,/api/peptoids/06AA1-9-A
+*2,"
+
+
+@article{Shin_2007,
+	doi = {10.1021/ja066960o},
+	url = {https://doi.org/10.1021%2Fja066960o},
+	year = 2007,
+	month = {mar},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {129},
+	number = {11},
+	pages = {3218--3225},
+	author = {Sung Bin Y. Shin and Barney Yoo and Louis J. Todaro and Kent Kirshenbaum},
+	title = {Cyclic Peptoids},
+	journal = {J. Am. Chem. Soc.}
+}
+",,X-Ray Diffraction,2*,10.1021/ja066960o,"Tue, 27 Feb 2007 00:00:00 GMT","N-(methoxyethyl)glycine, N-(phenylmethyl)glycine, N-(methoxyethyl)glycine, N-(phenylmethyl)glycine, N-(methoxyethyl)glycine, N-(phenylmethyl)glycine",10.5517/cc9xh6w,,N-Alkyl Cyclic Hexamer,C,07AA1-6-C,/static/peptoids/07AA1-6-C_2d.png,/static/peptoids/07AA1.png,/api/peptoids/07AA1-6-C/authors,/api/peptoids/07AA1-6-C/residues,/api/peptoids/07AA1-6-C
+*2,"
+
+
+@article{Shin_2007,
+	doi = {10.1021/ja066960o},
+	url = {https://doi.org/10.1021%2Fja066960o},
+	year = 2007,
+	month = {mar},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {129},
+	number = {11},
+	pages = {3218--3225},
+	author = {Sung Bin Y. Shin and Barney Yoo and Louis J. Todaro and Kent Kirshenbaum},
+	title = {Cyclic Peptoids},
+	journal = {J. Am. Chem. Soc.}
+}
+",,X-Ray Diffraction,2*,10.1021/ja066960o,"Tue, 27 Feb 2007 00:00:00 GMT","N-(methoxyethyl)glycine, N-(phenylmethyl)glycine, N-(methoxyethyl)glycine, N-(phenylmethyl)glycine, N-(methoxyethyl)glycine, N-(phenylmethyl)glycine, N-(methoxyethyl)glycine, N-(phenylmethyl)glycine",10.5517/ccpn8q9,,N-Alkyl Cyclic Octamer,C,07AA2-8-C,/static/peptoids/07AA2-8-C_2d.png,/static/peptoids/07AA2.png,/api/peptoids/07AA2-8-C/authors,/api/peptoids/07AA2-8-C/residues,/api/peptoids/07AA2-8-C
+*1,"
+
+
+@article{Roy_2008,
+	doi = {10.1021/ol7030763},
+	url = {https://doi.org/10.1021%2Fol7030763},
+	year = 2008,
+	month = {feb},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {10},
+	number = {5},
+	pages = {921--924},
+	author = {Olivier Roy and Sophie Faure and Vincent Thery and Claude Didierjean and Claude Taillefumier},
+	title = {Cyclic $\upbeta$-Peptoids},
+	journal = {Org. Lett.}
+}
+",,X-Ray Diffraction,1*,10.1021/ol7030763,"Wed, 06 Feb 2008 00:00:00 GMT","N-(propargyl)beta-alanine, N-(propargyl)beta-alanine, N-(propargyl)beta-alanine, N-(propargyl)beta-alanine",10.5517/ccr0q1h,,Cyclic β-Peptoid Tetramer (propargyl side chains),C,08AA1-4-C,/static/peptoids/08AA1-4-C_2d.png,/static/peptoids/08AA1.png,/api/peptoids/08AA1-4-C/authors,/api/peptoids/08AA1-4-C/residues,/api/peptoids/08AA1-4-C
+*2,"
+
+
+@article{Maulucci_2008,
+	doi = {10.1039/b806508j},
+	url = {https://doi.org/10.1039%2Fb806508j},
+	year = 2008,
+	publisher = {Royal Society of Chemistry ({RSC})},
+	number = {33},
+	pages = {3927},
+	author = {N. Maulucci and I. Izzo and G. Bifulco and A. Aliberti and C. De Cola and D. Comegna and C. Gaeta and A. Napolitano and C. Pizza and C. Tedesco and D. Flot and F. De Riccardis},
+	title = {Synthesis, structures, and properties of nine-, twelve-, and eighteen-membered N-benzyloxyethyl cyclic $\upalpha$-peptoids},
+	journal = {Chem. Commun.}
+}
+",,X-Ray Diffraction,2*,10.1039/B806508J,"Thu, 03 Jul 2008 00:00:00 GMT","N-(benzoxyethyl)glycine, N-(benzoxyethyl)glycine, N-(benzoxyethyl)glycine, N-(benzoxyethyl)glycine, N-(benzoxyethyl)glycine, N-(benzoxyethyl)glycine",10.5517/ccr0743,,"Cyclic Hexamer (benzyloxyethyl side chains, strontium picrate complex)",C,08AB1-6-C,/static/peptoids/08AB1-6-C_2d.png,/static/peptoids/08AB1.png,/api/peptoids/08AB1-6-C/authors,/api/peptoids/08AB1-6-C/residues,/api/peptoids/08AB1-6-C
+*2,"
+
+
+@article{Maulucci_2008,
+	doi = {10.1039/b806508j},
+	url = {https://doi.org/10.1039%2Fb806508j},
+	year = 2008,
+	publisher = {Royal Society of Chemistry ({RSC})},
+	number = {33},
+	pages = {3927},
+	author = {N. Maulucci and I. Izzo and G. Bifulco and A. Aliberti and C. De Cola and D. Comegna and C. Gaeta and A. Napolitano and C. Pizza and C. Tedesco and D. Flot and F. De Riccardis},
+	title = {Synthesis, structures, and properties of nine-, twelve-, and eighteen-membered N-benzyloxyethyl cyclic $\upalpha$-peptoids},
+	journal = {Chem. Commun.}
+}
+",,X-Ray Diffraction,2*,10.1039/B806508J,"Thu, 03 Jul 2008 00:00:00 GMT","N-(benzoxyethyl)glycine, N-(benzoxyethyl)glycine, N-(benzoxyethyl)glycine, N-(benzoxyethyl)glycine",10.5517/ccr0754,,N-Benzyloxyethyl Cyclic Tetramer,C,08AB2-4-C,/static/peptoids/08AB2-4-C_2d.png,/static/peptoids/08AB2.png,/api/peptoids/08AB2-4-C/authors,/api/peptoids/08AB2-4-C/residues,/api/peptoids/08AB2-4-C
+*3,"
+
+
+@article{Shah_2008,
+	doi = {10.1021/ja804580n},
+	url = {https://doi.org/10.1021%2Fja804580n},
+	year = 2008,
+	month = {nov},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {130},
+	number = {49},
+	pages = {16622--16632},
+	author = {Neel H. Shah and Glenn L. Butterfoss and Khanh Nguyen and Barney Yoo and Richard Bonneau and Dallas L. Rabenstein and Kent Kirshenbaum},
+	title = {Oligo(N-aryl glycines): A New Twist on Structured Peptoids},
+	journal = {J. Am. Chem. Soc.}
+}
+",,X-Ray Diffraction,3*,10.1021/ja804580n,"Mon, 17 Nov 2008 00:00:00 GMT","(S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, N-(phenyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, N-(phenyl)glycine",,,N-Aryl/N-Alkyl Cyclic Hexamer,C,08AC1-6-C,/static/peptoids/08AC1-6-C_2d.png,/static/peptoids/08AC1.png,/api/peptoids/08AC1-6-C/authors,/api/peptoids/08AC1-6-C/residues,/api/peptoids/08AC1-6-C
+*N,"
+
+
+@article{Shah_2008,
+	doi = {10.1021/ja804580n},
+	url = {https://doi.org/10.1021%2Fja804580n},
+	year = 2008,
+	month = {nov},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {130},
+	number = {49},
+	pages = {16622--16632},
+	author = {Neel H. Shah and Glenn L. Butterfoss and Khanh Nguyen and Barney Yoo and Richard Bonneau and Dallas L. Rabenstein and Kent Kirshenbaum},
+	title = {Oligo(N-aryl glycines): A New Twist on Structured Peptoids},
+	journal = {J. Am. Chem. Soc.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/ja804580n,"Mon, 17 Nov 2008 00:00:00 GMT","N-(4-hydroxy-3-nitrophenyl)glycine, N-(phenyl)glycine",10.5517/cc1jxq7d,,N-Aryl Linear Dimer,A,08AC2-2-A,/static/peptoids/08AC2-2-A_2d.png,/static/peptoids/08AC2.png,/api/peptoids/08AC2-2-A/authors,/api/peptoids/08AC2-2-A/residues,/api/peptoids/08AC2-2-A
+*N,"
+
+
+@article{Stringer_2010,
+	doi = {10.1021/jo101075a},
+	url = {https://doi.org/10.1021%2Fjo101075a},
+	year = 2010,
+	month = {sep},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {75},
+	number = {18},
+	pages = {6068--6078},
+	author = {Joseph R. Stringer and J. Aaron Crapster and Ilia A. Guzei and Helen E. Blackwell},
+	title = {Construction of Peptoids with {AllTrans}-Amide Backbones and Peptoid Reverse Turns via the Tactical Incorporation {ofN}-Aryl Side Chains Capable of Hydrogen Bonding},
+	journal = {J. Org. Chem.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/jo101075a,"Thu, 19 Aug 2010 00:00:00 GMT","N-(phenyl)glycine, N-(2-acetamidophenyl)glycine, N-(2-hydroxyphenyl)glycine",10.5517/ccw92t1,,ortho-Substituted N-Aryl Linear Trimer,A,10AA1-3-A,/static/peptoids/10AA1-3-A_2d.png,/static/peptoids/10AA1.png,/api/peptoids/10AA1-3-A/authors,/api/peptoids/10AA1-3-A/residues,/api/peptoids/10AA1-3-A
+*N1CCCCC1,"
+
+
+@article{Crapster_2011,
+	doi = {10.1002/bip.21599},
+	url = {https://doi.org/10.1002%2Fbip.21599},
+	year = 2011,
+	publisher = {Wiley},
+	volume = {96},
+	number = {5},
+	pages = {604--616},
+	author = {J. Aaron Crapster and Joseph R. Stringer and Ilia A. Guzei and Helen E. Blackwell},
+	title = {Design and conformational analysis of peptoids containing N-hydroxy amides reveals a unique sheet-like secondary structure},
+	journal = {Biopolymers}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1002/bip.21599,"Thu, 03 Feb 2011 00:00:00 GMT","N-hydroxyglycine, N-hydroxyglycine",10.5517/ccvr9pk,,N-Hydroxy Amide Linear Dimer,A,11AA1-2-A,/static/peptoids/11AA1-2-A_2d.png,/static/peptoids/11AA1.png,/api/peptoids/11AA1-2-A/authors,/api/peptoids/11AA1-2-A/residues,/api/peptoids/11AA1-2-A
+*N(C)C,"
+
+
+@article{Crapster_2011,
+	doi = {10.1002/bip.21599},
+	url = {https://doi.org/10.1002%2Fbip.21599},
+	year = 2011,
+	publisher = {Wiley},
+	volume = {96},
+	number = {5},
+	pages = {604--616},
+	author = {J. Aaron Crapster and Joseph R. Stringer and Ilia A. Guzei and Helen E. Blackwell},
+	title = {Design and conformational analysis of peptoids containing N-hydroxy amides reveals a unique sheet-like secondary structure},
+	journal = {Biopolymers}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1002/bip.21599,"Thu, 03 Feb 2011 00:00:00 GMT","N-hydroxyglycine, N-(phenyl)glycine, N-hydroxyglycine",10.5517/ccvr9ql,,N-Hydroxy Amide Linear Trimer,A,11AA2-3-A,/static/peptoids/11AA2-3-A_2d.png,/static/peptoids/11AA2.png,/api/peptoids/11AA2-3-A/authors,/api/peptoids/11AA2-3-A/residues,/api/peptoids/11AA2-3-A
+*2,"
+
+
+@article{De_Santis_2011,
+	doi = {10.1007/s00726-011-0887-1},
+	url = {https://doi.org/10.1007%2Fs00726-011-0887-1},
+	year = 2011,
+	month = {apr},
+	publisher = {Springer Science and Business Media {LLC}},
+	volume = {41},
+	number = {3},
+	pages = {663--672},
+	author = {Emiliana De Santis and Thomas Hjelmgaard and Sophie Faure and Olivier Roy and Claude Didierjean and Bruce D. Alexander and Giuliano Siligardi and Rohanah Hussain and Tam{\'{a}}s J{\'{a}}vorfi and Alison A. Edwards and Claude Taillefumier},
+	title = {Cyclic $\upalpha$,$\upbeta$-peptoid octamers with differing side chain patterns: synthesis and conformational investigation},
+	journal = {Amino Acids}
+}
+",,X-Ray Diffraction,2*,10.1007/s00726-011-0887-1,"Sat, 02 Apr 2011 00:00:00 GMT","(S)-N-(1-phenylethyl)glycine, N-(benzoxyethyl)beta-alanine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)beta-alanine, (S)-N-(1-phenylethyl)glycine, N-(benzoxyethyl)beta-alanine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)beta-alanine",10.5517/ccwbpql,,"Cyclic α,β-Peptoid Octamer",C,11AB1-8-C,/static/peptoids/11AB1-8-C_2d.png,/static/peptoids/11AB1.png,/api/peptoids/11AB1-8-C/authors,/api/peptoids/11AB1-8-C/residues,/api/peptoids/11AB1-8-C
+*Nc1ccccc1C(=O)OC,"
+
+
+@article{Paul_2011,
+	doi = {10.1021/ja2028684},
+	url = {https://doi.org/10.1021%2Fja2028684},
+	year = 2011,
+	month = {jul},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {133},
+	number = {28},
+	pages = {10910--10919},
+	author = {Bishwajit Paul and Glenn L. Butterfoss and Mikki G. Boswell and P. Douglas Renfrew and Fanny G. Yeung and Neel H. Shah and Christian Wolf and Richard Bonneau and Kent Kirshenbaum},
+	title = {Peptoid Atropisomers},
+	journal = {J. Am. Chem. Soc.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/ja2028684,"Thu, 02 Jun 2011 00:00:00 GMT",N-(2-methylphenyl)glycine,10.5517/ccy39z9,,N-Aryl Linear Dimer Atropisomer (1),A,11AC1-2-A,/static/peptoids/11AC1-2-A_2d.png,/static/peptoids/11AC1.png,/api/peptoids/11AC1-2-A/authors,/api/peptoids/11AC1-2-A/residues,/api/peptoids/11AC1-2-A
+*Nc1ccccc1C(=O)OC,"
+
+
+@article{Paul_2011,
+	doi = {10.1021/ja2028684},
+	url = {https://doi.org/10.1021%2Fja2028684},
+	year = 2011,
+	month = {jul},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {133},
+	number = {28},
+	pages = {10910--10919},
+	author = {Bishwajit Paul and Glenn L. Butterfoss and Mikki G. Boswell and P. Douglas Renfrew and Fanny G. Yeung and Neel H. Shah and Christian Wolf and Richard Bonneau and Kent Kirshenbaum},
+	title = {Peptoid Atropisomers},
+	journal = {J. Am. Chem. Soc.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/ja2028684,"Thu, 02 Jun 2011 00:00:00 GMT",N-(2-iodophenyl)glycine,10.5517/ccy3b0c,,N-Aryl Linear Dimer Atropisomer (2),A,11AC2-2-A,/static/peptoids/11AC2-2-A_2d.png,/static/peptoids/11AC2.png,/api/peptoids/11AC2-2-A/authors,/api/peptoids/11AC2-2-A/residues,/api/peptoids/11AC2-2-A
+*Nc1ccccc1C(=O)OC,"
+
+
+@article{Paul_2011,
+	doi = {10.1021/ja2028684},
+	url = {https://doi.org/10.1021%2Fja2028684},
+	year = 2011,
+	month = {jul},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {133},
+	number = {28},
+	pages = {10910--10919},
+	author = {Bishwajit Paul and Glenn L. Butterfoss and Mikki G. Boswell and P. Douglas Renfrew and Fanny G. Yeung and Neel H. Shah and Christian Wolf and Richard Bonneau and Kent Kirshenbaum},
+	title = {Peptoid Atropisomers},
+	journal = {J. Am. Chem. Soc.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/ja2028684,"Thu, 02 Jun 2011 00:00:00 GMT","N-(2-tert-butylphenyl)glycine, N-(2-iodophenyl)glycine",10.5517/ccy3b1d,,N-Aryl Linear Trimer Enanotiomeric Pair,A,11AC3-3-A,/static/peptoids/11AC3-3-A_2d.png,/static/peptoids/11AC3.png,/api/peptoids/11AC3-3-A/authors,/api/peptoids/11AC3-3-A/residues,/api/peptoids/11AC3-3-A
+*OC(C)(C)C,"
+
+
+@article{Stringer_2011,
+	doi = {10.1021/ja204755p},
+	url = {https://doi.org/10.1021%2Fja204755p},
+	year = 2011,
+	month = {oct},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {133},
+	number = {39},
+	pages = {15559--15567},
+	author = {Joseph R. Stringer and J. Aaron Crapster and Ilia A. Guzei and Helen E. Blackwell},
+	title = {Extraordinarily Robust Polyproline Type I Peptoid Helices Generatedviathe Incorporation of $\upalpha$-Chiral {AromaticN}-1-Naphthylethyl Side Chains},
+	journal = {J. Am. Chem. Soc.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/ja204755p,"Wed, 24 Aug 2011 00:00:00 GMT","(S)-N-(1-naphthylethyl)glycine, (S)-N-(1-naphthylethyl)glycine",10.5517/ccvftmp,,N-1-Naphthylethyl Linear Dimer,A,11AD1-2-A,/static/peptoids/11AD1-2-A_2d.png,/static/peptoids/11AD1.png,/api/peptoids/11AD1-2-A/authors,/api/peptoids/11AD1-2-A/residues,/api/peptoids/11AD1-2-A
+*OC(C)(C)C,"
+
+
+@article{Stringer_2011,
+	doi = {10.1021/ja204755p},
+	url = {https://doi.org/10.1021%2Fja204755p},
+	year = 2011,
+	month = {oct},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {133},
+	number = {39},
+	pages = {15559--15567},
+	author = {Joseph R. Stringer and J. Aaron Crapster and Ilia A. Guzei and Helen E. Blackwell},
+	title = {Extraordinarily Robust Polyproline Type I Peptoid Helices Generatedviathe Incorporation of $\upalpha$-Chiral {AromaticN}-1-Naphthylethyl Side Chains},
+	journal = {J. Am. Chem. Soc.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/ja204755p,"Wed, 24 Aug 2011 00:00:00 GMT","(S)-N-(1-naphthylethyl)glycine, (S)-N-(1-naphthylethyl)glycine, (S)-N-(1-naphthylethyl)glycine",10.5517/ccvftkm,,N-1-Naphthylethyl Linear Trimer,A,11AD2-3-A,/static/peptoids/11AD2-3-A_2d.png,/static/peptoids/11AD2.png,/api/peptoids/11AD2-3-A/authors,/api/peptoids/11AD2-3-A/residues,/api/peptoids/11AD2-3-A
+*OC(C)(C)C,"
+
+
+@article{Stringer_2011,
+	doi = {10.1021/ja204755p},
+	url = {https://doi.org/10.1021%2Fja204755p},
+	year = 2011,
+	month = {oct},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {133},
+	number = {39},
+	pages = {15559--15567},
+	author = {Joseph R. Stringer and J. Aaron Crapster and Ilia A. Guzei and Helen E. Blackwell},
+	title = {Extraordinarily Robust Polyproline Type I Peptoid Helices Generatedviathe Incorporation of $\upalpha$-Chiral {AromaticN}-1-Naphthylethyl Side Chains},
+	journal = {J. Am. Chem. Soc.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/ja204755p,"Wed, 24 Aug 2011 00:00:00 GMT","(S)-N-(1-naphthylethyl)glycine, (S)-N-(1-naphthylethyl)glycine, (S)-N-(1-naphthylethyl)glycine, (S)-N-(1-naphthylethyl)glycine",10.5517/ccvftln,,N-1-Naphthylethyl Helical Tetramer,A,11AD3-4-A,/static/peptoids/11AD3-4-A_2d.png,/static/peptoids/11AD3.png,/api/peptoids/11AD3-4-A/authors,/api/peptoids/11AD3-4-A/residues,/api/peptoids/11AD3-4-A
+*N,"
+
+
+@article{Paul_2012,
+	doi = {10.1021/ol203452f},
+	url = {https://doi.org/10.1021%2Fol203452f},
+	year = 2012,
+	month = {jan},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {14},
+	number = {3},
+	pages = {926--929},
+	author = {Bishwajit Paul and Glenn L. Butterfoss and Mikki G. Boswell and Mia L. Huang and Richard Bonneau and Christian Wolf and Kent Kirshenbaum},
+	title = {N-Naphthyl Peptoid Foldamers Exhibiting Atropisomerism},
+	journal = {Org. Lett.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/ol203452f,"Tue, 24 Jan 2012 00:00:00 GMT","N-(1-naphthyl)glycine, (S)-N-(1-naphthylethyl)glycine",10.5517/ccyjdsm,,N-Aryl/N-Alkyl Linear Dimer Atropisomer,A,12AA1-2-A,/static/peptoids/12AA1-2-A_2d.png,/static/peptoids/12AA1.png,/api/peptoids/12AA1-2-A/authors,/api/peptoids/12AA1-2-A/residues,/api/peptoids/12AA1-2-A
+*3,"
+
+
+@article{Paul_2012,
+	doi = {10.1021/ol203452f},
+	url = {https://doi.org/10.1021%2Fol203452f},
+	year = 2012,
+	month = {jan},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {14},
+	number = {3},
+	pages = {926--929},
+	author = {Bishwajit Paul and Glenn L. Butterfoss and Mikki G. Boswell and Mia L. Huang and Richard Bonneau and Christian Wolf and Kent Kirshenbaum},
+	title = {N-Naphthyl Peptoid Foldamers Exhibiting Atropisomerism},
+	journal = {Org. Lett.}
+}
+",,X-Ray Diffraction,3*,10.1021/ol203452f,"Tue, 24 Jan 2012 00:00:00 GMT","N-(phenylmethyl)glycine, N-(phenylmethyl)glycine, N-(1-naphthyl)glycine, N-(phenylmethyl)glycine, N-(phenylmethyl)glycine, N-(1-naphthyl)glycine",10.5517/ccyjdtn,,N-Aryl/N-Alkyl Cyclic Hexamer Atropisomer,C,12AA2-6-C,/static/peptoids/12AA2-6-C_2d.png,/static/peptoids/12AA2.png,/api/peptoids/12AA2-6-C/authors,/api/peptoids/12AA2-6-C/residues,/api/peptoids/12AA2-6-C
+*2,"
+
+
+@article{Vollrath_2012,
+	doi = {10.1039/c2sc20473h},
+	url = {https://doi.org/10.1039%2Fc2sc20473h},
+	year = 2012,
+	publisher = {Royal Society of Chemistry ({RSC})},
+	volume = {3},
+	number = {9},
+	pages = {2726},
+	author = {Sidonie B. L. Vollrath and Stefan Bräse and Kent Kirshenbaum},
+	title = {Twice tied tight: Enforcing conformational order in bicyclic peptoid oligomers},
+	journal = {Chem. Sci.}
+}
+","1,5",X-Ray Diffraction,2*,10.1039/C2SC20473H,"Mon, 18 Jun 2012 00:00:00 GMT","N-(propargyl)glycine, N-(methoxyethyl)glycine, N-(phenyl)glycine, N-(phenyl)glycine, N-(azidopropyl)glycine, N-(methoxyethyl)glycine, N-(phenyl)glycine, N-(phenyl)glycine",10.5517/ccyg3m3,,Bicyclic Octamer (Two Conformers),M,12AB1-8-M,/static/peptoids/12AB1-8-M_2d.png,/static/peptoids/12AB1.png,/api/peptoids/12AB1-8-M/authors,/api/peptoids/12AB1-8-M/residues,/api/peptoids/12AB1-8-M
+*3,"
+
+
+@article{Vollrath_2012,
+	doi = {10.1039/c2sc20473h},
+	url = {https://doi.org/10.1039%2Fc2sc20473h},
+	year = 2012,
+	publisher = {Royal Society of Chemistry ({RSC})},
+	volume = {3},
+	number = {9},
+	pages = {2726},
+	author = {Sidonie B. L. Vollrath and Stefan Bräse and Kent Kirshenbaum},
+	title = {Twice tied tight: Enforcing conformational order in bicyclic peptoid oligomers},
+	journal = {Chem. Sci.}
+}
+","[1,9], [5,16]",X-Ray Diffraction,2*,10.1039/C2SC20473H,"Mon, 18 Jun 2012 00:00:00 GMT","N-(propargyl)glycine, N-(methoxyethyl)glycine, N-(phenyl)glycine, N-(phenyl)glycine, N-(azidopropyl)glycine, N-(methoxyethyl)glycine, N-(phenyl)glycine, N-(phenyl)glycine, N-(propargyl)glycine, N-(methoxyethyl)glycine, N-(phenyl)glycine, N-(phenyl)glycine, N-(azidopropyl)glycine, N-(methoxyethyl)glycine, N-(phenyl)glycine, N-(phenyl)glycine",10.5517/ccyg3n4,,Multicyclic Hexadecamer (Doubly-Crosslinked Cyclic Octamers),M,12AB2-16-M,/static/peptoids/12AB2-16-M_2d.png,/static/peptoids/12AB2.png,/api/peptoids/12AB2-16-M/authors,/api/peptoids/12AB2-16-M/residues,/api/peptoids/12AB2-16-M
+*O,"
+
+
+@article{Butterfoss_2012,
+	doi = {10.1073/pnas.1209945109},
+	url = {https://doi.org/10.1073%2Fpnas.1209945109},
+	year = 2012,
+	month = {aug},
+	publisher = {Proceedings of the National Academy of Sciences},
+	volume = {109},
+	number = {36},
+	pages = {14320--14325},
+	author = {G. L. Butterfoss and B. Yoo and J. N. Jaworski and I. Chorny and K. A. Dill and R. N. Zuckermann and R. Bonneau and K. Kirshenbaum and V. A. Voelz},
+	title = {De novo structure prediction and experimental characterization of folded peptoid oligomers},
+	journal = {Proceedings of the National Academy of Sciences}
+}
+",,X-Ray Diffraction,*,10.1073/pnas.1209945109,"Thu, 12 Jul 2012 00:00:00 GMT","N-(2-phenylethyl)glycine, N-(2-phenylethyl)glycine, N-(2-phenylethyl)glycine",10.5517/ccywy4w,,Phenylethyl Linear Trimer,A,12AC1-3-A,/static/peptoids/12AC1-3-A_2d.png,/static/peptoids/12AC1.png,/api/peptoids/12AC1-3-A/authors,/api/peptoids/12AC1-3-A/residues,/api/peptoids/12AC1-3-A
+*2,"
+
+
+@article{Butterfoss_2012,
+	doi = {10.1073/pnas.1209945109},
+	url = {https://doi.org/10.1073%2Fpnas.1209945109},
+	year = 2012,
+	month = {aug},
+	publisher = {Proceedings of the National Academy of Sciences},
+	volume = {109},
+	number = {36},
+	pages = {14320--14325},
+	author = {G. L. Butterfoss and B. Yoo and J. N. Jaworski and I. Chorny and K. A. Dill and R. N. Zuckermann and R. Bonneau and K. Kirshenbaum and V. A. Voelz},
+	title = {De novo structure prediction and experimental characterization of folded peptoid oligomers},
+	journal = {Proceedings of the National Academy of Sciences}
+}
+",,X-Ray Diffraction,2*,10.1073/pnas.1209945109,"Thu, 12 Jul 2012 00:00:00 GMT","(S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine",10.5517/ccywy3v,,(S)-N-(1-Phenylethyl) Cyclic Nonamer,C,12AC2-9-C,/static/peptoids/12AC2-9-C_2d.png,/static/peptoids/12AC2.png,/api/peptoids/12AC2-9-C/authors,/api/peptoids/12AC2-9-C/residues,/api/peptoids/12AC2-9-C
+*2,"
+
+
+@article{Izzo_2013,
+	doi = {10.1021/ol3034143},
+	url = {https://doi.org/10.1021%2Fol3034143},
+	year = 2013,
+	month = {jan},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {15},
+	number = {3},
+	pages = {598--601},
+	author = {Irene Izzo and Graziella Ianniello and Chiara De Cola and Brunello Nardone and Loredana Erra and Gavin Vaughan and Consiglia Tedesco and Francesco De Riccardis},
+	title = {Structural Effects of Proline Substitution and Metal Binding on Hexameric Cyclic Peptoids},
+	journal = {Org. Lett.}
+}
+",,X-Ray Diffraction,2*,10.1021/ol3034143,"Fri, 18 Jan 2013 00:00:00 GMT","Proline, N-(methoxyethyl)glycine, Proline, N-(methoxyethyl)glycine, Proline, N-(methoxyethyl)glycine",10.5517/ccz46dp,,Proline Substituted Cyclic Hexamer Sodium Complex,C,13AA1-6-C,/static/peptoids/13AA1-6-C_2d.png,/static/peptoids/13AA1.png,/api/peptoids/13AA1-6-C/authors,/api/peptoids/13AA1-6-C/residues,/api/peptoids/13AA1-6-C
+*1,"
+
+
+@article{Izzo_2013,
+	doi = {10.1021/ol3034143},
+	url = {https://doi.org/10.1021%2Fol3034143},
+	year = 2013,
+	month = {jan},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {15},
+	number = {3},
+	pages = {598--601},
+	author = {Irene Izzo and Graziella Ianniello and Chiara De Cola and Brunello Nardone and Loredana Erra and Gavin Vaughan and Consiglia Tedesco and Francesco De Riccardis},
+	title = {Structural Effects of Proline Substitution and Metal Binding on Hexameric Cyclic Peptoids},
+	journal = {Org. Lett.}
+}
+",,X-Ray Diffraction,1*,10.1021/ol3034143,"Fri, 18 Jan 2013 00:00:00 GMT","N-(methoxyethyl)glycine, N-(methoxyethyl)glycine, N-(methoxyethyl)glycine, N-(methoxyethyl)glycine, N-(methoxyethyl)glycine, N-(methoxyethyl)glycine",10.5517/ccdc.csd.ccz46fq,,N-Methoxyethyl Cyclic Hexamer Sodium Complex,C,13AA2-6-C,/static/peptoids/13AA2-6-C_2d.png,/static/peptoids/13AA2.png,/api/peptoids/13AA2-6-C/authors,/api/peptoids/13AA2-6-C/residues,/api/peptoids/13AA2-6-C
+*1,"
+
+
+@article{Izzo_2013,
+	doi = {10.1021/ol3034143},
+	url = {https://doi.org/10.1021%2Fol3034143},
+	year = 2013,
+	month = {jan},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {15},
+	number = {3},
+	pages = {598--601},
+	author = {Irene Izzo and Graziella Ianniello and Chiara De Cola and Brunello Nardone and Loredana Erra and Gavin Vaughan and Consiglia Tedesco and Francesco De Riccardis},
+	title = {Structural Effects of Proline Substitution and Metal Binding on Hexameric Cyclic Peptoids},
+	journal = {Org. Lett.}
+}
+",,X-Ray Diffraction,1*,10.1021/ol3034143,"Fri, 18 Jan 2013 00:00:00 GMT","N-(methoxyethyl)glycine, N-(methoxyethyl)glycine, N-(methoxyethyl)glycine, N-(methoxyethyl)glycine, N-(methoxyethyl)glycine, N-(methoxyethyl)glycine",10.5517/ccz46gr,,N-Methoxyethyl Cyclic Hexamer,C,13AA3-6-C,/static/peptoids/13AA3-6-C_2d.png,/static/peptoids/13AA3.png,/api/peptoids/13AA3-6-C/authors,/api/peptoids/13AA3-6-C/residues,/api/peptoids/13AA3-6-C
+*N(C)C,"
+
+
+@article{Crapster_2013,
+	doi = {10.1002/anie.201208630},
+	url = {https://doi.org/10.1002%2Fanie.201208630},
+	year = 2013,
+	month = {apr},
+	publisher = {Wiley},
+	volume = {52},
+	number = {19},
+	pages = {5079--5084},
+	author = {J. Aaron Crapster and Ilia A. Guzei and Helen E. Blackwell},
+	title = {A Peptoid Ribbon Secondary Structure},
+	journal = {Angew. Chem. Int. Ed.}
+}
+",,Solution NMR,CC(=O)*,10.1002/anie.201208630,"Tue, 09 Apr 2013 00:00:00 GMT","N-(3,5-dimethylphenyl)glycine, (S)-N-(1-naphthylethyl)glycine, N-(2,6-dimethylphenyl)glycine, (S)-N-(1-naphthylethyl)glycine, N-(4-fluorophenyl)glycine, (S)-N-(1-naphthylethyl)glycine",,,N-1-Naphthylethyl/N-Aryl Ribbon Hexamer,A,13AC1-6-A,/static/peptoids/13AC1-6-A_2d.png,/static/peptoids/13AC1.png,/api/peptoids/13AC1-6-A/authors,/api/peptoids/13AC1-6-A/residues,/api/peptoids/13AC1-6-A
+*N(C)C,"
+
+
+@article{Crapster_2013,
+	doi = {10.1002/anie.201208630},
+	url = {https://doi.org/10.1002%2Fanie.201208630},
+	year = 2013,
+	month = {apr},
+	publisher = {Wiley},
+	volume = {52},
+	number = {19},
+	pages = {5079--5084},
+	author = {J. Aaron Crapster and Ilia A. Guzei and Helen E. Blackwell},
+	title = {A Peptoid Ribbon Secondary Structure},
+	journal = {Angew. Chem. Int. Ed.}
+}
+",,X-Ray Diffraction,BrCC(=O)*,10.1002/anie.201208630,"Tue, 09 Apr 2013 00:00:00 GMT","N-(phenyl)glycine, (S)-N-(1-naphthylethyl)glycine",10.5517/ccy54s0,,N-1-Naphthylethyl/N-Aryl Linear Dimer,A,13AC2-2-A,/static/peptoids/13AC2-2-A_2d.png,/static/peptoids/13AC2.png,/api/peptoids/13AC2-2-A/authors,/api/peptoids/13AC2-2-A/residues,/api/peptoids/13AC2-2-A
+*N(C)C,"
+
+
+@article{Crapster_2013,
+	doi = {10.1002/anie.201208630},
+	url = {https://doi.org/10.1002%2Fanie.201208630},
+	year = 2013,
+	month = {apr},
+	publisher = {Wiley},
+	volume = {52},
+	number = {19},
+	pages = {5079--5084},
+	author = {J. Aaron Crapster and Ilia A. Guzei and Helen E. Blackwell},
+	title = {A Peptoid Ribbon Secondary Structure},
+	journal = {Angew. Chem. Int. Ed.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1002/anie.201208630,"Tue, 09 Apr 2013 00:00:00 GMT","(S)-N-(1-naphthylethyl)glycine, N-(phenyl)glycine, (S)-N-(1-naphthylethyl)glycine",10.5517/ccy54rz,,N-1-Naphthylethyl/N-Aryl Linear Trimer,A,13AC3-3-A,/static/peptoids/13AC3-3-A_2d.png,/static/peptoids/13AC3.png,/api/peptoids/13AC3-3-A/authors,/api/peptoids/13AC3-3-A/residues,/api/peptoids/13AC3-3-A
+*N(C)C,"
+
+
+@article{Crapster_2013,
+	doi = {10.1002/anie.201208630},
+	url = {https://doi.org/10.1002%2Fanie.201208630},
+	year = 2013,
+	month = {apr},
+	publisher = {Wiley},
+	volume = {52},
+	number = {19},
+	pages = {5079--5084},
+	author = {J. Aaron Crapster and Ilia A. Guzei and Helen E. Blackwell},
+	title = {A Peptoid Ribbon Secondary Structure},
+	journal = {Angew. Chem. Int. Ed.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1002/anie.201208630,"Tue, 09 Apr 2013 00:00:00 GMT","N-(2,6-dimethylphenyl)glycine, (S)-N-(1-naphthylethyl)glycine, N-(phenyl)glycine, (S)-N-(1-naphthylethyl)glycine",10.5517/ccy54qy,,N-1-Naphthylethyl/N-Aryl Ribbon Tetramer,A,13AC4-4-A,/static/peptoids/13AC4-4-A_2d.png,/static/peptoids/13AC4.png,/api/peptoids/13AC4-4-A/authors,/api/peptoids/13AC4-4-A/residues,/api/peptoids/13AC4-4-A
+*OCc1ccccc1,"
+
+
+@article{Roy_2013,
+	doi = {10.1021/ol400820y},
+	url = {https://doi.org/10.1021%2Fol400820y},
+	year = 2013,
+	month = {apr},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {15},
+	number = {9},
+	pages = {2246--2249},
+	author = {O. Roy and C. Caumes and Y. Esvan and C. Didierjean and S. Faure and C. Taillefumier},
+	title = {The tert-Butyl Side Chain: A Powerful Means to Lock Peptoid Amide Bonds in the Cis Conformation},
+	journal = {Org. Lett.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/ol400820y,"Tue, 16 Apr 2013 00:00:00 GMT","N-(tert-butyl)glycine, N-(tert-butyl)glycine",10.5517/cc10p865,,N–tert-Butyl Linear Dimer,A,13AD1-2-A,/static/peptoids/13AD1-2-A_2d.png,/static/peptoids/13AD1.png,/api/peptoids/13AD1-2-A/authors,/api/peptoids/13AD1-2-A/residues,/api/peptoids/13AD1-2-A
+*2,"
+
+
+@article{Caumes_2013,
+	doi = {10.1021/ol401478j},
+	url = {https://doi.org/10.1021%2Fol401478j},
+	year = 2013,
+	month = {jun},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {15},
+	number = {14},
+	pages = {3626--3629},
+	author = {C{\'{e}}cile Caumes and Carlos Fernandes and Olivier Roy and Thomas Hjelmgaard and Emmanuel Wenger and Claude Didierjean and Claude Taillefumier and Sophie Faure},
+	title = {Cyclic $\upalpha$,$\upbeta$-Tetrapeptoids: Sequence-Dependent Cyclization and Conformational Preference},
+	journal = {Org. Lett.}
+}
+",,X-Ray Diffraction,2*,10.1021/ol401478j,"Thu, 27 Jun 2013 00:00:00 GMT","(S)-N-(1-phenylethyl)beta-alanine, N-(propargyl)beta-alanine, (S)-N-(1-phenylethyl)beta-alanine, N-(propargyl)beta-alanine",10.5517/cc112419,,"α,β-Cyclic Tetramer (N-Cα branched side chain)",C,13AE1-4-C,/static/peptoids/13AE1-4-C_2d.png,/static/peptoids/13AE1.png,/api/peptoids/13AE1-4-C/authors,/api/peptoids/13AE1-4-C/residues,/api/peptoids/13AE1-4-C
+*2,"
+
+
+@article{Tedesco_2014,
+	doi = {10.1039/c3ce42456a},
+	url = {https://doi.org/10.1039%2Fc3ce42456a},
+	year = 2014,
+	publisher = {Royal Society of Chemistry ({RSC})},
+	volume = {16},
+	number = {18},
+	pages = {3667--3687},
+	author = {Consiglia Tedesco and Loredana Erra and Irene Izzo and Francesco De Riccardis},
+	title = {Solid state assembly of cyclic $\upalpha$-peptoids},
+	journal = {CrystEngComm}}
+}
+",,X-Ray Diffraction,2*,10.1039/C3CE42456A,"Mon, 10 Feb 2014 00:00:00 GMT","N-(phenylmethyl)glycine, N-(phenylmethyl)glycine, N-(phenylmethyl)glycine, N-(phenylmethyl)glycine",10.5517/cc11lfhk,,N-Benzyl Cyclic Tetramer,C,14AA1-4-C,/static/peptoids/14AA1-4-C_2d.png,/static/peptoids/14AA1.png,/api/peptoids/14AA1-4-C/authors,/api/peptoids/14AA1-4-C/residues,/api/peptoids/14AA1-4-C
+*OC(C)(C)C,"
+
+
+@article{Laursen_2015,
+	doi = {10.1038/ncomms8013},
+	url = {https://doi.org/10.1038%2Fncomms8013},
+	year = 2015,
+	month = {may},
+	publisher = {Springer Science and Business Media {LLC}},
+	volume = {6},
+	number = {1},
+	author = {Jonas S. Laursen and Pernille Harris and Peter Fristrup and Christian A. Olsen},
+	title = {Triangular prism-shaped $\upbeta$-peptoid helices as unique biomimetic scaffolds},
+	journal = {Nat Commun}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1038/ncomms8013,"Wed, 06 May 2015 00:00:00 GMT","(S)-N-(1-naphthylethyl)beta-alanine, (S)-N-(1-naphthylethyl)beta-alanine, (S)-N-(1-naphthylethyl)beta-alanine, (S)-N-(1-naphthylethyl)beta-alanine, (S)-N-(1-naphthylethyl)beta-alanine, (S)-N-(1-naphthylethyl)beta-alanine",10.5517/ccdc.csd.cc14cy7p,,β-Peptoid Triangular Helix,A,15AA1-6-A,/static/peptoids/15AA1-6-A_2d.png,/static/peptoids/15AA1.png,/api/peptoids/15AA1-6-A/authors,/api/peptoids/15AA1-6-A/residues,/api/peptoids/15AA1-6-A
+*OC(C)(C)C,"
+
+
+@article{Gorske_2016,
+	doi = {10.1021/acs.orglett.6b01283},
+	url = {https://doi.org/10.1021%2Facs.orglett.6b01283},
+	year = 2016,
+	month = {may},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {18},
+	number = {11},
+	pages = {2780--2783},
+	author = {Benjamin C. Gorske and Emily M. Mumford and Rebecca R. Conry},
+	title = {Tandem Incorporation of Enantiomeric Residues Engenders Discrete Peptoid Structures},
+	journal = {Org. Lett.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/acs.orglett.6b01283,"Mon, 23 May 2016 00:00:00 GMT","(S)-N-(1-naphthylethyl)glycine, (R)-N-(1-naphthylethyl)glycine, (S)-N-(1-naphthylethyl)glycine",10.5517/ccdc.csd.cc1m0v8r,,ω-Strand,A,16AB1-3-A,/static/peptoids/16AB1-3-A_2d.png,/static/peptoids/16AB1.png,/api/peptoids/16AB1-3-A/authors,/api/peptoids/16AB1-3-A/residues,/api/peptoids/16AB1-3-A
+*1,"
+
+
+@article{Tedesco_2017,
+	doi = {10.1107/s2052520617002505},
+	url = {https://doi.org/10.1107%2Fs2052520617002505},
+	year = 2017,
+	month = {jun},
+	publisher = {International Union of Crystallography ({IUCr})},
+	volume = {73},
+	number = {3},
+	pages = {399--412},
+	author = {Consiglia Tedesco and Eleonora Macedi and Alessandra Meli and Giovanni Pierri and Giorgio Della Sala and Christina Drathen and Andrew N. Fitch and Gavin B. M. Vaughan and Irene Izzo and Francesco De Riccardis},
+	title = {Synthesis, crystallization, X-ray structural characterization and solid-state assembly of a cyclic hexapeptoid with propargyl and methoxyethyl side chains},
+	journal = {Acta Crystallogr Sect B}
+}
+",,X-Ray Diffraction,1*,10.1107/S2052520617002505,"Mon, 13 Feb 2017 00:00:00 GMT","N-(methoxyethyl)glycine, N-(methoxyethyl)glycine, N-(propargyl)glycine, N-(methoxyethyl)glycine, N-(methoxyethyl)glycine, N-(propargyl)glycine",10.5517/ccdc.csd.cc1mndh5,,Cyclic Hexamer (propargyl and methoxyethyl side chains),C,17AA1-6-C,/static/peptoids/17AA1-6-C_2d.png,/static/peptoids/17AA1.png,/api/peptoids/17AA1-6-C/authors,/api/peptoids/17AA1-6-C/residues,/api/peptoids/17AA1-6-C
+*1,"
+
+
+@article{Hioki_2004,
+	doi = {10.1016/j.tetlet.2003.10.214},
+	url = {https://doi.org/10.1016%2Fj.tetlet.2003.10.214},
+	year = 2004,
+	month = {jan},
+	publisher = {Elsevier {BV}},
+	volume = {45},
+	number = {5},
+	pages = {1091--1094},
+	author = {Hideaki Hioki and Hiroyuki Kinami and Atsushi Yoshida and Aoi Kojima and Mitsuaki Kodama and Shigeru Takaoka and Keisuke Ueda and Takashi Katsu},
+	title = {Synthesis of N-substituted cyclic triglycines and their response to metal ions},
+	journal = {Tetrahedron Letters}
+}
+",,X-Ray Diffraction,1*,10.1016/j.tetlet.2003.10.214,"Tue, 30 Sep 2003 00:00:00 GMT","N-allylglycine, N-allylglycine, N-allylglycine",10.5517/cc7dpbm,,Cyclic Trimer (propene side chains),C,03AB1-3-C,/static/peptoids/03AB1-3-C_2d.png,/static/peptoids/03AB1.png,/api/peptoids/03AB1-3-C/authors,/api/peptoids/03AB1-3-C/residues,/api/peptoids/03AB1-3-C
+*OC(C)(C)C,"
+
+
+@article{Roy_2017,
+	doi = {10.1021/jacs.7b07475},
+	url = {https://doi.org/10.1021%2Fjacs.7b07475},
+	year = 2017,
+	month = {sep},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {139},
+	number = {38},
+	pages = {13533--13540},
+	author = {Olivier Roy and Geoffrey Dumonteil and Sophie Faure and Laurent Jouffret and Alexandre Kriznik and Claude Taillefumier},
+	title = {Homogeneous and Robust Polyproline Type I Helices from Peptoids with Nonaromatic $\upalpha$-Chiral Side Chains},
+	journal = {J. Am. Chem. Soc.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/jacs.7b07475,"Sat, 07 Oct 2017 00:00:00 GMT","(S)-N-(1-tert-butylethyl)glycine, (S)-N-(1-tert-butylethyl)glycine, (S)-N-(1-tert-butylethyl)glycine, (S)-N-(1-tert-butylethyl)glycine, (S)-N-(1-tert-butylethyl)glycine",10.5517/ccdc.csd.cc1pdnb2,,Helical Pentamer (chiral alkyl side chains),A,17AD2-5-A,/static/peptoids/17AD2-5-A_2d.png,/static/peptoids/17AD2.png,/api/peptoids/17AD2-5-A/authors,/api/peptoids/17AD2-5-A/residues,/api/peptoids/17AD2-5-A
+*N[C@@H](C)c1cccc2ccccc21,"
+
+
+@article{Gorske_2017,
+	doi = {10.1021/jacs.7b02319},
+	url = {https://doi.org/10.1021%2Fjacs.7b02319},
+	year = 2017,
+	month = {jun},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {139},
+	number = {24},
+	pages = {8070--8073},
+	author = {Benjamin C. Gorske and Emily M. Mumford and Charles G. Gerrity and Imelda Ko},
+	title = {A Peptoid Square Helix via Synergistic Control of Backbone Dihedral Angles},
+	journal = {J. Am. Chem. Soc.}
+}
+",,Solution NMR,CC(=O)*,10.1021/jacs.7b02319,"Wed, 24 May 2017 00:00:00 GMT","(S)-N-(1-naphthylethyl)glycine, N-(3,5-dimethylphenyl)glycine, (R)-N-(1-naphthylethyl)glycine, N-(phenyl)glycine",,,Ribbon Pentamer,A,17AB1-5-A,/static/peptoids/17AB1-5-A_2d.png,/static/peptoids/17AB1.png,/api/peptoids/17AB1-5-A/authors,/api/peptoids/17AB1-5-A/residues,/api/peptoids/17AB1-5-A
+*N[C@@H](C)c1cccc2ccccc21,"
+
+
+@article{Gorske_2017,
+	doi = {10.1021/jacs.7b02319},
+	url = {https://doi.org/10.1021%2Fjacs.7b02319},
+	year = 2017,
+	month = {jun},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {139},
+	number = {24},
+	pages = {8070--8073},
+	author = {Benjamin C. Gorske and Emily M. Mumford and Charles G. Gerrity and Imelda Ko},
+	title = {A Peptoid Square Helix via Synergistic Control of Backbone Dihedral Angles},
+	journal = {J. Am. Chem. Soc.}
+}
+",,Solution NMR,CC(=O)*,10.1021/jacs.7b02319,"Wed, 24 May 2017 00:00:00 GMT","N-(2,6-dimethylphenyl)glycine, (R)-N-(1-naphthylethyl)glycine, N-(4-fluorophenyl)glycine, (S)-N-(1-naphthylethyl)glycine, N-(3,5-dimethylphenyl)glycine, (R)-N-(1-naphthylethyl)glycine, N-(phenyl)glycine",,,Square Helical Octamer,A,17AB2-8-A,/static/peptoids/17AB2-8-A_2d.png,/static/peptoids/17AB2.png,/api/peptoids/17AB2-8-A/authors,/api/peptoids/17AB2-8-A/residues,/api/peptoids/17AB2-8-A
+*2,"
+
+
+@article{Culf_2014,
+	doi = {10.1021/ol501102b},
+	url = {https://doi.org/10.1021%2Fol501102b},
+	year = 2014,
+	month = {may},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {16},
+	number = {10},
+	pages = {2780--2783},
+	author = {Adrian S. Culf and Miroslava {\v{C}}uperlovi{\'{c}}-Culf and Daniel A. L{\'{e}}ger and Andreas Decken},
+	title = {Small Head-to-Tail Macrocyclic $\upalpha$-Peptoids},
+	journal = {Org. Lett.}
+}
+",,X-Ray Diffraction,2*,10.1021/ol501102b,"Mon, 05 May 2014 00:00:00 GMT","N-(phenylmethyl)glycine, N-(phenylmethyl)glycine, N-(phenylmethyl)glycine",10.5517/cc12thp2,,Cyclic Trimer (aromatic side chains),C,14AB1-3-C,/static/peptoids/14AB1-3-C_2d.png,/static/peptoids/14AB1.png,/api/peptoids/14AB1-3-C/authors,/api/peptoids/14AB1-3-C/residues,/api/peptoids/14AB1-3-C
+*2,"
+
+
+@article{Culf_2014,
+	doi = {10.1021/ol501102b},
+	url = {https://doi.org/10.1021%2Fol501102b},
+	year = 2014,
+	month = {may},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {16},
+	number = {10},
+	pages = {2780--2783},
+	author = {Adrian S. Culf and Miroslava {\v{C}}uperlovi{\'{c}}-Culf and Daniel A. L{\'{e}}ger and Andreas Decken},
+	title = {Small Head-to-Tail Macrocyclic $\upalpha$-Peptoids},
+	journal = {Org. Lett.}
+}
+",,X-Ray Diffraction,2*,10.1021/ol501102b,"Mon, 05 May 2014 00:00:00 GMT","N-(phenylmethyl)glycine, N-(phenylmethyl)glycine, N-(phenylmethyl)glycine, N-(phenylmethyl)glycine, N-(phenylmethyl)glycine",10.5517/cc12thlz,,Cyclic Pentamer,C,14AB2-5-C,/static/peptoids/14AB2-5-C_2d.png,/static/peptoids/14AB2.png,/api/peptoids/14AB2-5-C/authors,/api/peptoids/14AB2-5-C/residues,/api/peptoids/14AB2-5-C
+*2,"
+
+
+@article{Culf_2014,
+	doi = {10.1021/ol501102b},
+	url = {https://doi.org/10.1021%2Fol501102b},
+	year = 2014,
+	month = {may},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {16},
+	number = {10},
+	pages = {2780--2783},
+	author = {Adrian S. Culf and Miroslava {\v{C}}uperlovi{\'{c}}-Culf and Daniel A. L{\'{e}}ger and Andreas Decken},
+	title = {Small Head-to-Tail Macrocyclic $\upalpha$-Peptoids},
+	journal = {Org. Lett.}
+}
+",,X-Ray Diffraction,2*,10.1021/ol501102b,"Mon, 05 May 2014 00:00:00 GMT","N-(phenylmethyl)glycine, N-(phenylmethyl)glycine, N-(phenylmethyl)glycine, N-(phenylmethyl)glycine",10.5517/cc12thn1,,Cyclic Tetramer,C,14AB3-4-C,/static/peptoids/14AB3-4-C_2d.png,/static/peptoids/14AB3.png,/api/peptoids/14AB3-4-C/authors,/api/peptoids/14AB3-4-C/residues,/api/peptoids/14AB3-4-C
+*1,"
+
+
+@article{D_Amato_2017,
+	doi = {10.1021/acs.joc.7b00965},
+	url = {https://doi.org/10.1021%2Facs.joc.7b00965},
+	year = 2017,
+	month = {aug},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {82},
+	number = {17},
+	pages = {8848--8863},
+	author = {Assunta D'Amato and Raffaele Volpe and Maria Carmela Vaccaro and Stefania Terracciano and Ines Bruno and Massimo Tosolini and Consiglia Tedesco and Giovanni Pierri and Paolo Tecilla and Chiara Costabile and Giorgio Della Sala and Irene Izzo and Francesco De Riccardis},
+	title = {Cyclic Peptoids as Mycotoxin Mimics: An Exploration of Their Structural and Biological Properties},
+	journal = {J. Org. Chem.}
+}
+",,X-Ray Diffraction,1*,10.1021/acs.joc.7b00965,"Tue, 01 Aug 2017 00:00:00 GMT","N-isopropylglycine, N-isopropylglycine, N-isopropylglycine, N-isopropylglycine, N-isopropylglycine, N-isopropylglycine",10.5517/ccdc.csd.cc1ntr07,,Cyclic Hexamer (isopropyl side chains),C,17AC1-6-C,/static/peptoids/17AC1-6-C_2d.png,/static/peptoids/17AC1.png,/api/peptoids/17AC1-6-C/authors,/api/peptoids/17AC1-6-C/residues,/api/peptoids/17AC1-6-C
+*2,"
+
+
+@article{D_Amato_2017,
+	doi = {10.1021/acs.joc.7b00965},
+	url = {https://doi.org/10.1021%2Facs.joc.7b00965},
+	year = 2017,
+	month = {aug},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {82},
+	number = {17},
+	pages = {8848--8863},
+	author = {Assunta D'Amato and Raffaele Volpe and Maria Carmela Vaccaro and Stefania Terracciano and Ines Bruno and Massimo Tosolini and Consiglia Tedesco and Giovanni Pierri and Paolo Tecilla and Chiara Costabile and Giorgio Della Sala and Irene Izzo and Francesco De Riccardis},
+	title = {Cyclic Peptoids as Mycotoxin Mimics: An Exploration of Their Structural and Biological Properties},
+	journal = {J. Org. Chem.}
+}
+",,X-Ray Diffraction,2*,10.1021/acs.joc.7b00965,"Tue, 01 Aug 2017 00:00:00 GMT","N-isopropylglycine, N-(phenylmethyl)glycine, N-isopropylglycine, N-(phenylmethyl)glycine, N-isopropylglycine, N-(phenylmethyl)glycine",10.5517/ccdc.csd.cc1ntr18,,Cyclic Hexamer (benzyl and isopropyl side chains),C,17AC2-6-C,/static/peptoids/17AC2-6-C_2d.png,/static/peptoids/17AC2.png,/api/peptoids/17AC2-6-C/authors,/api/peptoids/17AC2-6-C/residues,/api/peptoids/17AC2-6-C
+*2,"
+
+
+@article{D_Amato_2017,
+	doi = {10.1021/acs.joc.7b00965},
+	url = {https://doi.org/10.1021%2Facs.joc.7b00965},
+	year = 2017,
+	month = {aug},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {82},
+	number = {17},
+	pages = {8848--8863},
+	author = {Assunta D'Amato and Raffaele Volpe and Maria Carmela Vaccaro and Stefania Terracciano and Ines Bruno and Massimo Tosolini and Consiglia Tedesco and Giovanni Pierri and Paolo Tecilla and Chiara Costabile and Giorgio Della Sala and Irene Izzo and Francesco De Riccardis},
+	title = {Cyclic Peptoids as Mycotoxin Mimics: An Exploration of Their Structural and Biological Properties},
+	journal = {J. Org. Chem.}
+}
+",,X-Ray Diffraction,2*,10.1021/acs.joc.7b00965,"Tue, 01 Aug 2017 00:00:00 GMT","N-(phenylmethyl)glycine, N-(sec-butyl)glycine, N-(phenylmethyl)glycine, N-(sec-butyl)glycine, N-(phenylmethyl)glycine, N-(sec-butyl)glycine",10.5517/ccdc.csd.cc1ntr29,,Cyclic Hexamer (benzyl and tert-butyl side chains),C,17AC3-6-C,/static/peptoids/17AC3-6-C_2d.png,/static/peptoids/17AC3.png,/api/peptoids/17AC3-6-C/authors,/api/peptoids/17AC3-6-C/residues,/api/peptoids/17AC3-6-C
+*OCc1ccccc1,"
+
+
+@article{Angelici_2016,
+	doi = {10.1039/c6cc00375c},
+	url = {https://doi.org/10.1039%2Fc6cc00375c},
+	year = 2016,
+	publisher = {Royal Society of Chemistry ({RSC})},
+	volume = {52},
+	number = {24},
+	pages = {4573--4576},
+	author = {G. Angelici and N. Bhattacharjee and O. Roy and S. Faure and C. Didierjean and L. Jouffret and F. Jolibois and L. Perrin and C. Taillefumier},
+	title = {Weak backbone {CH}$\unicodecdots$OC and side chain {tBu}$\unicodecdots${tBu} London interactions help promote helix folding of achiral {NtBu} peptoids},
+	journal = {Chem. Commun.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1039/C6CC00375C,"Wed, 17 Feb 2016 00:00:00 GMT","N-(tert-butyl)glycine, N-(tert-butyl)glycine, N-(tert-butyl)glycine",10.5517/cc1kfp2r,,N-tert-Butyl Linear Trimer,A,16AA1-3-A,/static/peptoids/16AA1-3-A_2d.png,/static/peptoids/16AA1.png,/api/peptoids/16AA1-3-A/authors,/api/peptoids/16AA1-3-A/residues,/api/peptoids/16AA1-3-A
+*OCc1ccccc1,"
+
+
+@article{Angelici_2016,
+	doi = {10.1039/c6cc00375c},
+	url = {https://doi.org/10.1039%2Fc6cc00375c},
+	year = 2016,
+	publisher = {Royal Society of Chemistry ({RSC})},
+	volume = {52},
+	number = {24},
+	pages = {4573--4576},
+	author = {G. Angelici and N. Bhattacharjee and O. Roy and S. Faure and C. Didierjean and L. Jouffret and F. Jolibois and L. Perrin and C. Taillefumier},
+	title = {Weak backbone {CH}$\unicodecdots$OC and side chain {tBu}$\unicodecdots${tBu} London interactions help promote helix folding of achiral {NtBu} peptoids},
+	journal = {Chem. Commun.}
+}
+",,X-Ray Diffraction,*,10.1039/C6CC00375C,"Wed, 17 Feb 2016 00:00:00 GMT","N-(tert-butyl)glycine, N-(tert-butyl)glycine, N-(tert-butyl)glycine, N-(tert-butyl)glycine, N-(tert-butyl)glycine",10.5517/cc1kj1ty,,N-tert-Butyl Linear Pentamer,A,16AA2-5-A,/static/peptoids/16AA2-5-A_2d.png,/static/peptoids/16AA2.png,/api/peptoids/16AA2-5-A/authors,/api/peptoids/16AA2-5-A/residues,/api/peptoids/16AA2-5-A
+*O,"
+
+
+@article{Nguyen_2018,
+	doi = {10.1039/c8sc04240c},
+	url = {https://doi.org/10.1039%2Fc8sc04240c},
+	year = 2018,
+	publisher = {Royal Society of Chemistry ({RSC})},
+	volume = {9},
+	number = {47},
+	pages = {8806--8813},
+	author = {Andy I. Nguyen and Ryan K. Spencer and Christopher~L. Anderson and Ronald N. Zuckermann},
+	title = {A bio-inspired approach to ligand design: folding single-chain peptoids to chelate a multimetallic cluster},
+	journal = {Chem. Sci.}
+}
+",,Solution NMR,c1cc(C)ccc1S(=O)(=O)*,10.1039/c8sc04240c,"Mon, 05 Nov 2018 00:00:00 GMT","N-(2-carboxyethyl)glycine, N-(2-aminoethyl)glycine, N-(2-hydroxyethyl)glycine, (S)-N-(1-phenylethyl)glycine, N-carboxymethylglycine, N-(phenylmethyl)glycine, Alanine",,,Cubane-Binding Linear Heptamer,A,18AC2-7-A,/static/peptoids/18AC2-7-A_2d.png,/static/peptoids/18AC2.png,/api/peptoids/18AC2-7-A/authors,/api/peptoids/18AC2-7-A/residues,/api/peptoids/18AC2-7-A
+*O,"
+
+
+@article{Nguyen_2018,
+	doi = {10.1039/c8sc04240c},
+	url = {https://doi.org/10.1039%2Fc8sc04240c},
+	year = 2018,
+	publisher = {Royal Society of Chemistry ({RSC})},
+	volume = {9},
+	number = {47},
+	pages = {8806--8813},
+	author = {Andy I. Nguyen and Ryan K. Spencer and Christopher~L. Anderson and Ronald N. Zuckermann},
+	title = {A bio-inspired approach to ligand design: folding single-chain peptoids to chelate a multimetallic cluster},
+	journal = {Chem. Sci.}
+}
+",,Solution NMR,c1cc(C)ccc1S(=O)(=O)*,10.1039/c8sc04240c,"Mon, 05 Nov 2018 00:00:00 GMT","N-carboxymethylglycine, N-(phenylmethyl)glycine, Alanine",,,Cubane-Binding Linear Trimer,A,18AC1-3-A,/static/peptoids/18AC1-3-A_2d.png,/static/peptoids/18AC1.png,/api/peptoids/18AC1-3-A/authors,/api/peptoids/18AC1-3-A/residues,/api/peptoids/18AC1-3-A
+*OCC,"
+
+
+@article{Dumonteil_2018,
+	doi = {10.1021/acs.joc.8b00606},
+	url = {https://doi.org/10.1021%2Facs.joc.8b00606},
+	year = 2018,
+	month = {jun},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {83},
+	number = {12},
+	pages = {6382--6396},
+	author = {Geoffrey Dumonteil and Nicholus Bhattacharjee and Gaetano Angelici and Olivier Roy and Sophie Faure and Laurent Jouffret and Franck Jolibois and Lionel Perrin and Claude Taillefumier},
+	title = {Exploring the Conformation of Mixed Cis{\textendash}Trans $\upalpha$,$\upbeta$-Oligopeptoids: A~Joint Experimental and Computational Study},
+	journal = {J. Org. Chem.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/acs.joc.8b00606,"Mon, 04 Jun 2018 00:00:00 GMT","N-(phenyl)beta-alanine, N-(tert-butyl)glycine",10.5517/ccdc.csd.cc1z77dv,,β-α Dimer,A,18AA1-2-A,/static/peptoids/18AA1-2-A_2d.png,/static/peptoids/18AA1.png,/api/peptoids/18AA1-2-A/authors,/api/peptoids/18AA1-2-A/residues,/api/peptoids/18AA1-2-A
+*1,"
+
+
+@article{Tedesco_2018,
+	doi = {10.1021/acs.cgd.8b01137},
+	url = {https://doi.org/10.1021%2Facs.cgd.8b01137},
+	year = 2018,
+	month = {nov},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {19},
+	number = {1},
+	pages = {125--133},
+	author = {Consiglia Tedesco and Rosaria Schettini and Veronica Iuliano and Giovanni Pierri and Andrew N. Fitch and Francesco De Riccardis and Irene Izzo},
+	title = {Role of Side Chains in the Solid State Assembly of Cyclic Peptoids},
+	journal = {Crystal Growth & Design} Design}
+}
+",,X-Ray Diffraction,1*,10.1021/acs.cgd.8b01137,"Fri, 30 Nov 2018 00:00:00 GMT","N-(methoxyethyl)glycine, N-(propargyl)glycine, N-(propargyl)glycine, N-(propargyl)glycine, N-(methoxyethyl)glycine, N-(propargyl)glycine, N-(propargyl)glycine, N-(propargyl)glycine",10.5517/ccdc.csd.cc20b0w8,,Cyclic Octamer (propargyl and methoxyethyl side chains),C,18AD1-8-C,/static/peptoids/18AD1-8-C_2d.png,/static/peptoids/18AD1.png,/api/peptoids/18AD1-8-C/authors,/api/peptoids/18AD1-8-C/residues,/api/peptoids/18AD1-8-C
+*N,"
+
+
+@article{Castelletto_2019,
+	doi = {10.1039/c9cc02335f},
+	url = {https://doi.org/10.1039%2Fc9cc02335f},
+	year = 2019,
+	publisher = {Royal Society of Chemistry ({RSC})},
+	volume = {55},
+	number = {42},
+	pages = {5867--5869},
+	author = {Valeria Castelletto and Ann M. Chippindale and Ian W. Hamley and Sarah Barnett and Abshar Hasan and King Hang Aaron Lau},
+	title = {Crystallization and lamellar nanosheet formation of an aromatic dipeptoid},
+	journal = {Chem. Commun.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1039/c9cc02335f,"Mon, 29 Apr 2019 00:00:00 GMT","N-(phenylmethyl)glycine, N-(phenylmethyl)glycine",10.5517/ccdc.csd.cc21xl1m,,Linear Dimer (benzyl side chains),A,19AA1-2-A,/static/peptoids/19AA1-2-A_2d.png,/static/peptoids/19AA1.png,/api/peptoids/19AA1-2-A/authors,/api/peptoids/19AA1-2-A/residues,/api/peptoids/19AA1-2-A
+*N,"
+
+
+@article{Ghosh_2018,
+	doi = {10.1002/anie.201800583},
+	url = {https://doi.org/10.1002%2Fanie.201800583},
+	year = 2018,
+	month = {may},
+	publisher = {Wiley},
+	volume = {57},
+	number = {26},
+	pages = {7703--7708},
+	author = {Totan Ghosh and Natalia Fridman and Monica Kosa and Galia Maayan},
+	title = {Self-Assembled Cyclic Structures from Copper({II}) Peptoids},
+	journal = {Angew. Chem. Int. Ed.}
+}
+",,X-Ray Diffraction,*,10.1002/anie.201800583,"Tue, 19 Jun 2018 00:00:00 GMT","N-(phenylmethyl)glycine, N-(methoxyethyl)glycine, N-{2-[([2,2’-bipyridin]-6-yl)oxy]ethyl}glycine",10.5517/ccdc.csd.cc1q8hdw,,Copper(II)-Binding Linear Trimer (methoxyethyl side chain),A,18AB1-3-A,/static/peptoids/18AB1-3-A_2d.png,/static/peptoids/18AB1.png,/api/peptoids/18AB1-3-A/authors,/api/peptoids/18AB1-3-A/residues,/api/peptoids/18AB1-3-A
+*N,"
+
+
+@article{Ghosh_2018,
+	doi = {10.1002/anie.201800583},
+	url = {https://doi.org/10.1002%2Fanie.201800583},
+	year = 2018,
+	month = {may},
+	publisher = {Wiley},
+	volume = {57},
+	number = {26},
+	pages = {7703--7708},
+	author = {Totan Ghosh and Natalia Fridman and Monica Kosa and Galia Maayan},
+	title = {Self-Assembled Cyclic Structures from Copper({II}) Peptoids},
+	journal = {Angew. Chem. Int. Ed.}
+}
+",,X-Ray Diffraction,*,10.1002/anie.201800583,"Tue, 19 Jun 2018 00:00:00 GMT","N-(phenylmethyl)glycine, N-(2-aminoethyl)glycine, N-{2-[([2,2’-bipyridin]-6-yl)oxy]ethyl}glycine",10.5517/ccdc.csd.cc1q8hfx,,Copper(II)-Binding Linear Trimer (aminoethyl side chain),A,18AB2-3-A,/static/peptoids/18AB2-3-A_2d.png,/static/peptoids/18AB2.png,/api/peptoids/18AB2-3-A/authors,/api/peptoids/18AB2-3-A/residues,/api/peptoids/18AB2-3-A
+*N,"
+
+
+@article{Ghosh_2018,
+	doi = {10.1002/anie.201800583},
+	url = {https://doi.org/10.1002%2Fanie.201800583},
+	year = 2018,
+	month = {may},
+	publisher = {Wiley},
+	volume = {57},
+	number = {26},
+	pages = {7703--7708},
+	author = {Totan Ghosh and Natalia Fridman and Monica Kosa and Galia Maayan},
+	title = {Self-Assembled Cyclic Structures from Copper({II}) Peptoids},
+	journal = {Angew. Chem. Int. Ed.}
+}
+",,X-Ray Diffraction,*,10.1002/anie.201800583,"Tue, 19 Jun 2018 00:00:00 GMT","N-(phenylmethyl)glycine, N-(2-hydroxyethyl)glycine, N-{2-[([2,2’-bipyridin]-6-yl)oxy]ethyl}glycine",10.5517/ccdc.csd.cc1pbkdz,,Copper(II)-Binding Linear Trimer (hydroxyethyl side chain),A,18AB3-3-A,/static/peptoids/18AB3-3-A_2d.png,/static/peptoids/18AB3.png,/api/peptoids/18AB3-3-A/authors,/api/peptoids/18AB3-3-A/residues,/api/peptoids/18AB3-3-A
+*2,"
+
+
+@article{D_Amato_2019,
+	doi = {10.1021/acs.joc.9b01509},
+	url = {https://doi.org/10.1021%2Facs.joc.9b01509},
+	year = 2019,
+	month = {jul},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {84},
+	number = {17},
+	pages = {10911--10928},
+	author = {Assunta D'Amato and Giovanni Pierri and Consiglia Tedesco and Giorgio Della Sala and Irene Izzo and Chiara Costabile and Francesco De Riccardis},
+	title = {Reverse Turn and Loop Secondary Structures in Stereodefined Cyclic Peptoid Scaffolds},
+	journal = {J. Org. Chem.}
+}
+",,X-Ray Diffraction,2*,10.1021/acs.joc.9b01509,"Wed, 24 Jul 2019 00:00:00 GMT","(S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine",10.5517/ccdc.csd.cc224g3t,,(S)-N-(1-Phenylethyl) Cyclic Hexamer,C,19AB1-6-C,/static/peptoids/19AB1-6-C_2d.png,/static/peptoids/19AB1.png,/api/peptoids/19AB1-6-C/authors,/api/peptoids/19AB1-6-C/residues,/api/peptoids/19AB1-6-C
+*2,"
+
+
+@article{D_Amato_2019,
+	doi = {10.1021/acs.joc.9b01509},
+	url = {https://doi.org/10.1021%2Facs.joc.9b01509},
+	year = 2019,
+	month = {jul},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {84},
+	number = {17},
+	pages = {10911--10928},
+	author = {Assunta D'Amato and Giovanni Pierri and Consiglia Tedesco and Giorgio Della Sala and Irene Izzo and Chiara Costabile and Francesco De Riccardis},
+	title = {Reverse Turn and Loop Secondary Structures in Stereodefined Cyclic Peptoid Scaffolds},
+	journal = {J. Org. Chem.}
+}
+",,X-Ray Diffraction,2*,10.1021/acs.joc.9b01509,"Wed, 24 Jul 2019 00:00:00 GMT","(S)-N-(1-phenylethyl)glycine, N-(phenylmethyl)glycine, (S)-N-(1-phenylethyl)glycine, N-(phenylmethyl)glycine",10.5517/ccdc.csd.cc224g4v,,Cyclic Tetramer (alternating chiral and achiral side chains),C,19AB2-4-C,/static/peptoids/19AB2-4-C_2d.png,/static/peptoids/19AB2.png,/api/peptoids/19AB2-4-C/authors,/api/peptoids/19AB2-4-C/residues,/api/peptoids/19AB2-4-C
+*2,"
+
+
+@article{D_Amato_2019,
+	doi = {10.1021/acs.joc.9b01509},
+	url = {https://doi.org/10.1021%2Facs.joc.9b01509},
+	year = 2019,
+	month = {jul},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {84},
+	number = {17},
+	pages = {10911--10928},
+	author = {Assunta D'Amato and Giovanni Pierri and Consiglia Tedesco and Giorgio Della Sala and Irene Izzo and Chiara Costabile and Francesco De Riccardis},
+	title = {Reverse Turn and Loop Secondary Structures in Stereodefined Cyclic Peptoid Scaffolds},
+	journal = {J. Org. Chem.}
+}
+",,X-Ray Diffraction,2*,10.1021/acs.joc.9b01509,"Wed, 24 Jul 2019 00:00:00 GMT","(S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine, (S)-N-(1-phenylethyl)glycine",10.5517/ccdc.csd.cc224g5w,,Square Cyclic Octamer ((S)-N-(1-Phenylethyl) side chains),C,19AB3-8-C,/static/peptoids/19AB3-8-C_2d.png,/static/peptoids/19AB3.png,/api/peptoids/19AB3-8-C/authors,/api/peptoids/19AB3-8-C/residues,/api/peptoids/19AB3-8-C
+*2,"
+
+
+@article{D_Amato_2019,
+	doi = {10.1021/acs.joc.9b01509},
+	url = {https://doi.org/10.1021%2Facs.joc.9b01509},
+	year = 2019,
+	month = {jul},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {84},
+	number = {17},
+	pages = {10911--10928},
+	author = {Assunta D'Amato and Giovanni Pierri and Consiglia Tedesco and Giorgio Della Sala and Irene Izzo and Chiara Costabile and Francesco De Riccardis},
+	title = {Reverse Turn and Loop Secondary Structures in Stereodefined Cyclic Peptoid Scaffolds},
+	journal = {J. Org. Chem.}
+}
+",,X-Ray Diffraction,2*,10.1021/acs.joc.9b01509,"Wed, 24 Jul 2019 00:00:00 GMT","(S)-N-(1-phenylethyl)glycine, N-(phenylmethyl)glycine, N-(phenylmethyl)glycine, N-(phenylmethyl)glycine",10.5517/ccdc.csd.cc224g6x,,Cyclic Tetramer (one chiral side chain),C,19AB4-4-C,/static/peptoids/19AB4-4-C_2d.png,/static/peptoids/19AB4.png,/api/peptoids/19AB4-4-C/authors,/api/peptoids/19AB4-4-C/residues,/api/peptoids/19AB4-4-C
+*1,"
+
+
+@article{Schettini_2020,
+	doi = {10.1002/ejoc.202001401},
+	url = {https://doi.org/10.1002%2Fejoc.202001401},
+	year = 2020,
+	month = {dec},
+	publisher = {Wiley},
+	volume = {2021},
+	number = {3},
+	pages = {464--472},
+	author = {Rosaria Schettini and Massimo Tosolini and Jawad ur Rehman and Muhammed Raza Shah and Giovanni Pierri and Consiglia Tedesco and Giorgio Della Sala and Francesco De Riccardis and Paolo Tecilla and Irene Izzo},
+	title = {Role of Lipophilicity in the Activity of Hexameric Cyclic Peptoid Ion Carriers},
+	journal = {Eur. J. Org. Chem.}
+}
+",,X-Ray Diffraction,1*,10.1002/ejoc.202001401,"Mon, 23 Nov 2020 00:00:00 GMT","N-propylglycine, N-propylglycine, N-propylglycine, N-propylglycine, N-propylglycine, N-propylglycine",10.5517/ccdc.csd.cc261tps,,Cyclic Hexamer (propyl side chains),C,20AD1-6-C,/static/peptoids/20AD1-6-C_2d.png,/static/peptoids/20AD1.png,/api/peptoids/20AD1-6-C/authors,/api/peptoids/20AD1-6-C/residues,/api/peptoids/20AD1-6-C
+*OC(C)(C)C,"
+
+
+@article{Rzeigui_2019,
+	doi = {10.1021/acs.joc.9b02916},
+	url = {https://doi.org/10.1021%2Facs.joc.9b02916},
+	year = 2019,
+	month = {dec},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {85},
+	number = {4},
+	pages = {2190--2201},
+	author = {Maha Rzeigui and Mounir Traikia and Laurent Jouffret and Alexandre Kriznik and Jameleddine Khiari and Olivier Roy and Claude Taillefumier},
+	title = {Strengthening Peptoid Helicity through Sequence Site-Specific Positioning of Amide cis-Inducing {NtBu} Monomers},
+	journal = {J. Org. Chem.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/acs.joc.9b02916,"Tue, 24 Dec 2019 00:00:00 GMT","N-(tert-butyl)glycine, (S)-N-(1-tert-butylethyl)glycine, (S)-N-(1-tert-butylethyl)glycine",10.5517/ccdc.csd.cc23tjdw,,Helical Trimer (alkyl side chains),A,19AD1-3-A,/static/peptoids/19AD1-3-A_2d.png,/static/peptoids/19AD1.png,/api/peptoids/19AD1-3-A/authors,/api/peptoids/19AD1-3-A/residues,/api/peptoids/19AD1-3-A
+*OC(C)(C)C,"
+
+
+@article{Rzeigui_2019,
+	doi = {10.1021/acs.joc.9b02916},
+	url = {https://doi.org/10.1021%2Facs.joc.9b02916},
+	year = 2019,
+	month = {dec},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {85},
+	number = {4},
+	pages = {2190--2201},
+	author = {Maha Rzeigui and Mounir Traikia and Laurent Jouffret and Alexandre Kriznik and Jameleddine Khiari and Olivier Roy and Claude Taillefumier},
+	title = {Strengthening Peptoid Helicity through Sequence Site-Specific Positioning of Amide cis-Inducing {NtBu} Monomers},
+	journal = {J. Org. Chem.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/acs.joc.9b02916,"Tue, 24 Dec 2019 00:00:00 GMT","(S)-N-(1-tert-butylethyl)glycine, (S)-N-(1-tert-butylethyl)glycine, N-(tert-butyl)glycine, (S)-N-(1-tert-butylethyl)glycine, (S)-N-(1-tert-butylethyl)glycine",10.5517/ccdc.csd.cc23tgv8,,Helical Pentamer (alkyl side chains),A,19AD2-5-A,/static/peptoids/19AD2-5-A_2d.png,/static/peptoids/19AD2.png,/api/peptoids/19AD2-5-A/authors,/api/peptoids/19AD2-5-A/residues,/api/peptoids/19AD2-5-A
+*2,"
+
+
+@article{Schneider_2018,
+	doi = {10.1038/s41467-018-06845-3},
+	url = {https://doi.org/10.1038%2Fs41467-018-06845-3},
+	year = 2018,
+	month = {oct},
+	publisher = {Springer Science and Business Media {LLC}},
+	volume = {9},
+	number = {1},
+	author = {Jeffrey A. Schneider and Timothy W. Craven and Amanda C. Kasper and Chi Yun and Michael Haugbro and Erica M. Briggs and Vladimir Svetlov and Evgeny Nudler and Holger Knaut and Richard Bonneau and Michael J. Garabedian and Kent Kirshenbaum and Susan K. Logan},
+	title = {Design of Peptoid-peptide Macrocycles to Inhibit the $\upbeta$-catenin {TCF} Interaction in Prostate Cancer},
+	journal = {Nat Commun}
+}
+",,X-Ray Diffraction,2*,10.1038/s41467-018-06845-3,"Tue, 23 Oct 2018 00:00:00 GMT","D-Alanine, N-(methoxyethyl)glycine, N-[2-(4-methoxyphenyl)ethyl]glycine, N-(3,5-dimethoxyphenyl)glycine, (S)-N-[1-(4-methoxyphenyl)ethyl]glycine, (S)-N-[1-(4-methoxyphenyl)ethyl]glycine",10.5517/ccdc.csd.cc20n2rj,,Cyclic Peptoid-Peptide Hexamer,C,18AE1-6-C,/static/peptoids/18AE1-6-C_2d.png,/static/peptoids/18AE1.png,/api/peptoids/18AE1-6-C/authors,/api/peptoids/18AE1-6-C/residues,/api/peptoids/18AE1-6-C
+*N,"
+
+
+@article{Roe_2019,
+	doi = {10.1002/bip.23267},
+	url = {https://doi.org/10.1002%2Fbip.23267},
+	year = 2019,
+	month = {mar},
+	publisher = {Wiley},
+	volume = {110},
+	number = {6},
+	author = {Leah T. Roe and Jeffrey G. Pelton and John R. Edison and Glenn L. Butterfoss and Blakely W. Tresca and Bridgette A. LaFaye and Stephen Whitelam and David E. Wemmer and Ronald N. Zuckermann},
+	title = {Unconstrained peptoid tetramer exhibits a predominant conformation in aqueous solution},
+	journal = {Biopolymers}
+}
+",,Solution NMR,*,10.1002/bip.23267,"Wed, 19 Jun 2019 00:00:00 GMT","N-(2-aminoethyl)glycine, N-(2-phenylethyl)glycine, N-(2-aminoethyl)glycine, N-(2-phenylethyl)glycine",,,Unconstrained Linear Tetramer,A,19AE1-4-A,/static/peptoids/19AE1-4-A_2d.png,/static/peptoids/19AE1.png,/api/peptoids/19AE1-4-A/authors,/api/peptoids/19AE1-4-A/residues,/api/peptoids/19AE1-4-A
+*OC(C)(C)C,"
+
+
+@article{Wellh_fer_2019,
+	doi = {10.1021/acs.joc.9b00218},
+	url = {https://doi.org/10.1021%2Facs.joc.9b00218},
+	year = 2019,
+	month = {mar},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {84},
+	number = {7},
+	pages = {3762--3779},
+	author = {Isabelle Wellhöfer and Karla Frydenvang and Simona Kotesova and Andreas M. Christiansen and Jonas S. Laursen and Christian A. Olsen},
+	title = {Functionalized Helical $\upbeta$-Peptoids},
+	journal = {J. Org. Chem.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/acs.joc.9b00218,"Wed, 13 Mar 2019 00:00:00 GMT","(S)-N-(1-naphthylethyl)beta-alanine, (S)-N-(1-naphthylethyl)beta-alanine, (S)-N-[1-(1-naphthyl)pentyl]beta-alanine, (S)-N-(1-naphthylethyl)beta-alanine, (S)-N-(1-naphthylethyl)beta-alanine, (S)-N-(1-naphthylethyl)beta-alanine",10.5517/ccdc.csd.cc20bhd8,,Functionalized β-Peptoid Helix,A,19AC1-6-A,/static/peptoids/19AC1-6-A_2d.png,/static/peptoids/19AC1.png,/api/peptoids/19AC1-6-A/authors,/api/peptoids/19AC1-6-A/residues,/api/peptoids/19AC1-6-A
+*N,"
+
+
+@article{Wijaya_2019,
+	doi = {10.1021/jacs.9b10497},
+	url = {https://doi.org/10.1021%2Fjacs.9b10497},
+	year = 2019,
+	month = {nov},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {141},
+	number = {49},
+	pages = {19436--19447},
+	author = {Andrew W. Wijaya and Andy I. Nguyen and Leah T. Roe and Glenn L. Butterfoss and Ryan K. Spencer and Nan K. Li and Ronald N. Zuckermann},
+	title = {Cooperative Intramolecular Hydrogen Bonding Strongly Enforces cis-Peptoid Folding},
+	journal = {J. Am. Chem. Soc.}
+}
+",,Solution NMR,O=C*,10.1021/jacs.9b10497,"Wed, 11 Dec 2019 00:00:00 GMT","N-(3,5-dimethylphenyl)glycine, N-[2-(N,N-disopropyl)ammonium]ethylglycine, N-(4-isopropyl)phenylglycine, N-[2-(N-benzyl-N,N-diethyl)ammonium]ethylglycine, N-(3,5-dimethoxyphenyl)glycine, N-[2-(N-triethyl)ammonium]ethylglycine, N-(4-methyl)phenylglycine, N-(2-(N-trimethylammonium)ethyl)glycine, N-(4-methoxy)phenylglycine, N-[2-(N,N-disopropyl)ammonium]ethylglycine",,,Ribbon Decamer,A,19AF1-10-A,/static/peptoids/19AF1-10-A_2d.png,/static/peptoids/19AF1.png,/api/peptoids/19AF1-10-A/authors,/api/peptoids/19AF1-10-A/residues,/api/peptoids/19AF1-10-A
+*1,"
+
+
+@article{Pierri_2020,
+	doi = {10.1039/d0ce01136c},
+	url = {https://doi.org/10.1039%2Fd0ce01136c},
+	year = 2020,
+	publisher = {Royal Society of Chemistry ({RSC})},
+	volume = {22},
+	number = {38},
+	pages = {6371--6384},
+	author = {Giovanni Pierri and Rosaria Schettini and Jürgen Nuss and Robert E. Dinnebier and Francesco De Riccardis and Irene Izzo and Consiglia Tedesco},
+	title = {Cyclic hexapeptoids with N-alkyl side chains: solid-state assembly and thermal behaviour},
+	journal = {CrystEngComm}}
+}
+",,X-Ray Diffraction,1*,10.1039/D0CE01136C,"Mon, 05 Oct 2020 00:00:00 GMT","N-pentylglycine, N-pentylglycine, N-pentylglycine, N-pentylglycine, N-pentylglycine, N-pentylglycine",10.5517/ccdc.csd.cc25skwf,,Cyclic Hexamer (pentyl side chains),C,20AC1-6-C,/static/peptoids/20AC1-6-C_2d.png,/static/peptoids/20AC1.png,/api/peptoids/20AC1-6-C/authors,/api/peptoids/20AC1-6-C/residues,/api/peptoids/20AC1-6-C
+*1,"
+
+
+@article{Pierri_2020,
+	doi = {10.1039/d0ce01136c},
+	url = {https://doi.org/10.1039%2Fd0ce01136c},
+	year = 2020,
+	publisher = {Royal Society of Chemistry ({RSC})},
+	volume = {22},
+	number = {38},
+	pages = {6371--6384},
+	author = {Giovanni Pierri and Rosaria Schettini and Jürgen Nuss and Robert E. Dinnebier and Francesco De Riccardis and Irene Izzo and Consiglia Tedesco},
+	title = {Cyclic hexapeptoids with N-alkyl side chains: solid-state assembly and thermal behaviour},
+	journal = {CrystEngComm}}
+}
+",,X-Ray Diffraction,1*,10.1039/D0CE01136C,"Mon, 05 Oct 2020 00:00:00 GMT","N-hexylglycine, N-hexylglycine, N-hexylglycine, N-hexylglycine, N-hexylglycine, N-hexylglycine",10.5517/ccdc.csd.cc25skxg,,Cyclic Hexamer (hexyl side chains),C,20AC2-6-C,/static/peptoids/20AC2-6-C_2d.png,/static/peptoids/20AC2.png,/api/peptoids/20AC2-6-C/authors,/api/peptoids/20AC2-6-C/residues,/api/peptoids/20AC2-6-C
+*2,"
+
+
+@article{Bats_1980,
+	doi = {10.1021/ja00526a049},
+	url = {https://doi.org/10.1021%2Fja00526a049},
+	year = 1980,
+	month = {mar},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {102},
+	number = {6},
+	pages = {2065--2070},
+	author = {J. W. Bats and H. Fuess},
+	title = {Conformation and structure of cyclo-(dibenzylglycyl-L-proline) and cyclo-(di-L-prolyl-D-proline) in the crystalline state},
+	journal = {J. Am. Chem. Soc.}
+}
+",,X-Ray Diffraction,2*,10.1021/ja00526a049,"Sun, 25 May 1980 00:00:00 GMT","Proline, N-(phenylmethyl)glycine, N-(phenylmethyl)glycine",,,Cyclic Trimer (proline-substituted),C,80AA1-3-C,/static/peptoids/80AA1-3-C_2d.png,/static/peptoids/80AA1.png,/api/peptoids/80AA1-3-C/authors,/api/peptoids/80AA1-3-C/residues,/api/peptoids/80AA1-3-C
+*1,"
+
+
+@article{Groth_1975,
+	doi = {10.3891/acta.chem.scand.29a-0038},
+	url = {https://doi.org/10.3891%2Facta.chem.scand.29a-0038},
+	year = 1975,
+	publisher = {Danish Chemical Society},
+	volume = {29a},
+	pages = {38--44},
+	author = {P. Groth and Steinar Esper{\aa}s and Steinar Husebye and {\O}yvind Mikalsen and J. T. Southern and Kaj Edlund and Mogens Eliasen and Carsten Herskind and Thomas Laursen and Poul M{\o}ller Pedersen},
+	title = {Crystal Structure of Cycloheptasarcosyl Hydrate.},
+	journal = {Acta Chem. Scand.}
+}
+",,X-Ray Diffraction,1*,10.3891/acta.chem.scand.29a-0038,"Thu, 28 Aug 1975 00:00:00 GMT","Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine",,,Cyclic Heptamer (sarcosine),C,75AA1-7-C,/static/peptoids/75AA1-7-C_2d.png,/static/peptoids/75AA1.png,/api/peptoids/75AA1-7-C/authors,/api/peptoids/75AA1-7-C/residues,/api/peptoids/75AA1-7-C
+*1,"
+
+
+@article{Titlestad_1973,
+	doi = {10.1039/c39730000646},
+	url = {https://doi.org/10.1039%2Fc39730000646},
+	year = 1973,
+	publisher = {Royal Society of Chemistry ({RSC})},
+	number = {18},
+	pages = {646},
+	author = {Kirsten Titlestad and Per Groth and Johannes Dale},
+	title = {Crystal and solution conformation of cyclopentasarcosyl},
+	journal = {J. Chem. Soc., Chem. Commun.}
+}
+",,X-Ray Diffraction,1*,10.1039/C39730000646,"Tue, 25 Sep 1973 00:00:00 GMT","Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine",,,Cyclic Pentamer (sarcosine),C,73AB1-5-C,/static/peptoids/73AB1-5-C_2d.png,/static/peptoids/73AB1.png,/api/peptoids/73AB1-5-C/authors,/api/peptoids/73AB1-5-C/residues,/api/peptoids/73AB1-5-C
+*1,"
+
+
+@article{Groth_1973,
+	doi = {10.3891/acta.chem.scand.27-3217},
+	url = {https://doi.org/10.3891%2Facta.chem.scand.27-3217},
+	year = 1973,
+	publisher = {Danish Chemical Society},
+	volume = {27},
+	pages = {3217--3226},
+	author = {P. Groth and Wanda Mark and Lennart Kenne and {\AA}ke Pilotti and Sigfrid Svensson and Carl-Gunnar Swahn},
+	title = {Crystal Structure of Cyclooctasarcosyl.},
+	journal = {Acta Chem. Scand.}
+}
+",,X-Ray Diffraction,1*,10.3891/acta.chem.scand.27-3217,"Tue, 05 Jun 1973 00:00:00 GMT","Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine",,,Cyclic Octamer (sarcosine),C,73AA1-8-C,/static/peptoids/73AA1-8-C_2d.png,/static/peptoids/73AA1.png,/api/peptoids/73AA1-8-C/authors,/api/peptoids/73AA1-8-C/residues,/api/peptoids/73AA1-8-C
+*1,"
+
+
+@article{Groth_1970,
+	doi = {10.3891/acta.chem.scand.24-0780},
+	url = {https://doi.org/10.3891%2Facta.chem.scand.24-0780},
+	year = 1970,
+	publisher = {Danish Chemical Society},
+	volume = {24},
+	pages = {780--790},
+	author = {P. Groth and Owe Rönnquist and Jon Aarskog and Per Halfdan Nielsen and S. E. Rasmussen and Erling Sunde and Nils Andreas S{\o}rensen},
+	title = {Crystal Structure of Cyclotetrasarcosyl.},
+	journal = {Acta Chem. Scand.}
+}
+",,X-Ray Diffraction,1*,10.3891/acta.chem.scand.24-0780,"Fri, 31 Dec 1971 00:00:00 GMT","Sarcosine, Sarcosine, Sarcosine, Sarcosine",,,Cyclic Tetramer (sarcosine),C,70AA1-4-C,/static/peptoids/70AA1-4-C_2d.png,/static/peptoids/70AA1.png,/api/peptoids/70AA1-4-C/authors,/api/peptoids/70AA1-4-C/residues,/api/peptoids/70AA1-4-C
+*1,"
+
+
+@article{Groth_1976,
+	doi = {10.3891/acta.chem.scand.30a-0840},
+	url = {https://doi.org/10.3891%2Facta.chem.scand.30a-0840},
+	year = 1976,
+	publisher = {Danish Chemical Society},
+	volume = {30a},
+	pages = {840--842},
+	author = {P. Groth and Inger S{\o}tofte and Raili Koskinen and Marja-Liisa Pohjonen and Jouko Koskikallio},
+	title = {Crystal Conformation of Cyclodecasarcosyl.4CH3OH at -160 degrees C.},
+	journal = {Acta Chem. Scand.}
+}
+",,X-Ray Diffraction,1*,10.3891/acta.chem.scand.30a-0840,"Sun, 11 Sep 1977 00:00:00 GMT","Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine",,,Cyclic Decamer (sarcosine),C,76AB1-10-C,/static/peptoids/76AB1-10-C_2d.png,/static/peptoids/76AB1.png,/api/peptoids/76AB1-10-C/authors,/api/peptoids/76AB1-10-C/residues,/api/peptoids/76AB1-10-C
+*1,"
+
+
+@article{Groth_1976,
+	doi = {10.3891/acta.chem.scand.30a-0838},
+	url = {https://doi.org/10.3891%2Facta.chem.scand.30a-0838},
+	year = 1976,
+	publisher = {Danish Chemical Society},
+	volume = {30a},
+	pages = {838--840},
+	author = {P. Groth and Inger S{\o}tofte and Raili Koskinen and Marja-Liisa Pohjonen and Jouko Koskikallio},
+	title = {Crystal Conformation of Cyclotrisarcosyl at -160 degrees C.},
+	journal = {Acta Chem. Scand.}
+}
+",,X-Ray Diffraction,1*,10.3891/acta.chem.scand.30a-0838,"Sun, 11 Sep 1977 00:00:00 GMT","Sarcosine, Sarcosine, Sarcosine",,,Cyclic Trimer (sarcosine),C,76AA1-3-C,/static/peptoids/76AA1-3-C_2d.png,/static/peptoids/76AA1.png,/api/peptoids/76AA1-3-C/authors,/api/peptoids/76AA1-3-C/residues,/api/peptoids/76AA1-3-C
+*1,"
+
+
+@article{Groth_1977,
+	doi = {10.3891/acta.chem.scand.31a-0232},
+	url = {https://doi.org/10.3891%2Facta.chem.scand.31a-0232},
+	year = 1977,
+	publisher = {Danish Chemical Society},
+	volume = {31a},
+	pages = {232--234},
+	author = {P. Groth and Tore Thorstenson and Elina Näsäkkälä and Arne Kjekshus and Trond Rakke and Arne F. Andresen},
+	title = {Crystal Conformation of Cyclohexasarcosyl 2CH3OH at -156 degrees C.},
+	journal = {Acta Chem. Scand.}
+}
+",,X-Ray Diffraction,1*,10.3891/acta.chem.scand.31a-0232,"Wed, 05 Oct 1977 00:00:00 GMT","Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine, Sarcosine",,,Cyclic Hexamer (sarcosine),C,77AA1-6-C,/static/peptoids/77AA1-6-C_2d.png,/static/peptoids/77AA1.png,/api/peptoids/77AA1-6-C/authors,/api/peptoids/77AA1-6-C/residues,/api/peptoids/77AA1-6-C
+*2,"
+
+
+@article{Ueno_1983,
+	doi = {10.1002/bip.360220208},
+	url = {https://doi.org/10.1002%2Fbip.360220208},
+	year = 1983,
+	month = {feb},
+	publisher = {Wiley},
+	volume = {22},
+	number = {2},
+	pages = {633--641},
+	author = {Katsuhiko Ueno and Toshimi Shimizu},
+	title = {Crystal structure and conformation of a cyclic tetrapeptidecyclo(L-Pro-Sar)2 containing all-cis peptide units},
+	journal = {Biopolymers}
+}
+",,X-Ray Diffraction,2*,10.1002/bip.360220208,"Tue, 01 Feb 1983 00:00:00 GMT","Proline, Sarcosine, Proline, Sarcosine",,,Cyclic Tetramer (all cis amide bonds),C,83AA1-4-C,/static/peptoids/83AA1-4-C_2d.png,/static/peptoids/83AA1.png,/api/peptoids/83AA1-4-C/authors,/api/peptoids/83AA1-4-C/residues,/api/peptoids/83AA1-4-C
+*2,"
+
+
+@article{Bats_1982,
+	doi = {10.1107/s0567740882004762},
+	url = {https://doi.org/10.1107%2Fs0567740882004762},
+	year = 1982,
+	month = {mar},
+	publisher = {International Union of Crystallography ({IUCr})},
+	volume = {38},
+	number = {3},
+	pages = {1004--1007},
+	author = {J. W. Bats and H. Fuess},
+	title = {Conformation and structure of cyclo(-N-benzylglycyl-L-prolyl-L-prolyl-)},
+	journal = {Acta Crystallogr Sect B}
+}
+",,X-Ray Diffraction,2*,10.1107/S0567740882004762,"Mon, 01 Mar 1982 00:00:00 GMT","Proline, Proline, N-(phenylmethyl)glycine",,,Cyclic Trimer (two proline substitutions),C,82AA1-3-C,/static/peptoids/82AA1-3-C_2d.png,/static/peptoids/82AA1.png,/api/peptoids/82AA1-3-C/authors,/api/peptoids/82AA1-3-C/residues,/api/peptoids/82AA1-3-C
+*2,"
+
+
+@article{Vollrath_2013,
+	doi = {10.1039/c3cc37163h},
+	url = {https://doi.org/10.1039%2Fc3cc37163h},
+	year = 2013,
+	publisher = {Royal Society of Chemistry ({RSC})},
+	volume = {49},
+	number = {23},
+	pages = {2317},
+	author = {Sidonie B. L. Vollrath and Chunhua Hu and Stefan Bräse and Kent Kirshenbaum},
+	title = {Peptoid nanotubes: an oligomer macrocycle that reversibly sequesters water via single-crystal-to-single-crystal transformations},
+	journal = {Chem. Commun.}
+}
+",,X-Ray Diffraction,2*,10.1039/C3CC37163H,"Tue, 12 Feb 2013 00:00:00 GMT","N-(methoxyethyl)glycine, N-(phenyl)glycine, N-(phenyl)glycine, N-(propargyl)glycine, N-(methoxyethyl)glycine, N-(phenyl)glycine, N-(phenyl)glycine, N-(propargyl)glycine",10.5517/ccyspx9,,Cyclic Octamer Nanotube (reversible water loading),C,13AB1-8-C,/static/peptoids/13AB1-8-C_2d.png,/static/peptoids/13AB1.png,/api/peptoids/13AB1-8-C/authors,/api/peptoids/13AB1-8-C/residues,/api/peptoids/13AB1-8-C
+*OC(C)(C)C,"
+
+
+@article{Roy_2017,
+	doi = {10.1021/jacs.7b07475},
+	url = {https://doi.org/10.1021%2Fjacs.7b07475},
+	year = 2017,
+	month = {sep},
+	publisher = {American Chemical Society ({ACS})},
+	volume = {139},
+	number = {38},
+	pages = {13533--13540},
+	author = {Olivier Roy and Geoffrey Dumonteil and Sophie Faure and Laurent Jouffret and Alexandre Kriznik and Claude Taillefumier},
+	title = {Homogeneous and Robust Polyproline Type I Helices from Peptoids with Nonaromatic $\upalpha$-Chiral Side Chains},
+	journal = {J. Am. Chem. Soc.}
+}
+",,X-Ray Diffraction,CC(=O)*,10.1021/jacs.7b07475,"Sat, 07 Oct 2017 00:00:00 GMT","N-(tert-butyl)glycine, N-(tert-butyl)glycine, (S)-N-(1-tert-butylethyl)glycine, (S)-N-(1-tert-butylethyl)glycine, (S)-N-(1-tert-butylethyl)glycine, (S)-N-(1-tert-butylethyl)glycine, N-(tert-butyl)glycine, N-(tert-butyl)glycine",10.5517/ccdc.csd.cc1pdnc3,,Helical Octamer (chiral alkyl side chains),A,17AD1-8-A,/static/peptoids/17AD1-8-A_2d.png,/static/peptoids/17AD1.png,/api/peptoids/17AD1-8-A/authors,/api/peptoids/17AD1-8-A/residues,/api/peptoids/17AD1-8-A
+*N,"
+
+
+@article{Ghosh_2020,
+	doi = {10.1002/chem.202003612},
+	url = {https://doi.org/10.1002%2Fchem.202003612},
+	year = 2020,
+	month = {dec},
+	publisher = {Wiley},
+	volume = {27},
+	number = {2},
+	pages = {634--640},
+	author = {Pritam Ghosh and Natalia Fridman and Galia Maayan},
+	title = {From Distinct Metallopeptoids to Self-Assembled Supramolecular Architectures},
+	journal = {Chem. Eur. J.} A European Journal}
+}
+",,X-Ray Diffraction,*,10.1002/chem.202003612,"Thu, 27 Aug 2020 00:00:00 GMT","N-(2-picolyl)glycine, N-{2-[([2,2’-bipyridin]-6-yl)oxy]ethyl}glycine, (S)-N-(1-tert-butylethyl)glycine",10.5517/ccdc.csd.cc22jr6l,,Metallopeptoid Dimeric Assembly (tert-butyl),A,20AA4-3-A,/static/peptoids/20AA4-3-A_2d.png,/static/peptoids/20AA4.png,/api/peptoids/20AA4-3-A/authors,/api/peptoids/20AA4-3-A/residues,/api/peptoids/20AA4-3-A
+*N,"
+
+
+@article{Ghosh_2020,
+	doi = {10.1002/chem.202003612},
+	url = {https://doi.org/10.1002%2Fchem.202003612},
+	year = 2020,
+	month = {dec},
+	publisher = {Wiley},
+	volume = {27},
+	number = {2},
+	pages = {634--640},
+	author = {Pritam Ghosh and Natalia Fridman and Galia Maayan},
+	title = {From Distinct Metallopeptoids to Self-Assembled Supramolecular Architectures},
+	journal = {Chem. Eur. J.} A European Journal}
+}
+",,X-Ray Diffraction,*,10.1002/chem.202003612,"Thu, 27 Aug 2020 00:00:00 GMT","N-(2-picolyl)glycine, N-{2-[([2,2’-bipyridin]-6-yl)oxy]ethyl}glycine, N-(cyclohexyl)methylglycine",10.5517/ccdc.csd.cc22jr5k,,Metallopeptoid Dimeric Assembly (cyclohexyl),A,20AA3-3-A,/static/peptoids/20AA3-3-A_2d.png,/static/peptoids/20AA3.png,/api/peptoids/20AA3-3-A/authors,/api/peptoids/20AA3-3-A/residues,/api/peptoids/20AA3-3-A
+*N,"
+
+
+@article{Ghosh_2020,
+	doi = {10.1002/chem.202003612},
+	url = {https://doi.org/10.1002%2Fchem.202003612},
+	year = 2020,
+	month = {dec},
+	publisher = {Wiley},
+	volume = {27},
+	number = {2},
+	pages = {634--640},
+	author = {Pritam Ghosh and Natalia Fridman and Galia Maayan},
+	title = {From Distinct Metallopeptoids to Self-Assembled Supramolecular Architectures},
+	journal = {Chem. Eur. J.} A European Journal}
+}
+",,X-Ray Diffraction,*,10.1002/chem.202003612,"Thu, 27 Aug 2020 00:00:00 GMT","N-(2-picolyl)glycine, N-{2-[([2,2’-bipyridin]-6-yl)oxy]ethyl}glycine, N-(1-naphthylmethyl)glycine",10.5517/ccdc.csd.cc22jr4j,,Metallopeptoid Dimeric Assembly (naphthyl),A,20AA2-3-A,/static/peptoids/20AA2-3-A_2d.png,/static/peptoids/20AA2.png,/api/peptoids/20AA2-3-A/authors,/api/peptoids/20AA2-3-A/residues,/api/peptoids/20AA2-3-A
+*N,"
+
+
+@article{Ghosh_2020,
+	doi = {10.1002/chem.202003612},
+	url = {https://doi.org/10.1002%2Fchem.202003612},
+	year = 2020,
+	month = {dec},
+	publisher = {Wiley},
+	volume = {27},
+	number = {2},
+	pages = {634--640},
+	author = {Pritam Ghosh and Natalia Fridman and Galia Maayan},
+	title = {From Distinct Metallopeptoids to Self-Assembled Supramolecular Architectures},
+	journal = {Chem. Eur. J.} A European Journal}
+}
+",,X-Ray Diffraction,*,10.1002/chem.202003612,"Thu, 27 Aug 2020 00:00:00 GMT","N-(2-picolyl)glycine, N-{2-[([2,2’-bipyridin]-6-yl)oxy]ethyl}glycine, N-(phenylmethyl)glycine",10.5517/ccdc.csd.cc22jr3h,,Metallopeptoid Dimeric Assembly (phenyl),A,20AA1-3-A,/static/peptoids/20AA1-3-A_2d.png,/static/peptoids/20AA1.png,/api/peptoids/20AA1-3-A/authors,/api/peptoids/20AA1-3-A/residues,/api/peptoids/20AA1-3-A
+*2,"
+
+
+@article{SHIMIZU_2009,
+	doi = {10.1111/j.1399-3011.1983.tb02090.x},
+	url = {https://doi.org/10.1111%2Fj.1399-3011.1983.tb02090.x},
+	year = 2009,
+	month = {jan},
+	publisher = {Wiley},
+	volume = {22},
+	number = {2},
+	pages = {231--238},
+	author = {TOSHIMI SHIMIZU and KATSUHIKO UENO and YOSHIO TANAKA and KEISHIRO TSUDA},
+	title = {Ring conformation of cyclic octapeptide cyclo (L -Pro-Sar)4 in the crystalline state},
+	journal = {International Journal of Peptide and Protein Research}
+}
+",,X-Ray Diffraction,2*,10.1111/j.1399-3011.1983.tb02090.x,"Mon, 01 Aug 1983 00:00:00 GMT","Proline, Sarcosine, Proline, Sarcosine, Proline, Sarcosine, Proline, Sarcosine",,,Cyclic Octamer (proline and sarcosine),C,83AB1-8-C,/static/peptoids/83AB1-8-C_2d.png,/static/peptoids/83AB1.png,/api/peptoids/83AB1-8-C/authors,/api/peptoids/83AB1-8-C/residues,/api/peptoids/83AB1-8-C

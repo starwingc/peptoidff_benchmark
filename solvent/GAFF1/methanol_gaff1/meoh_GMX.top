@@ -1,0 +1,16 @@
+; smiles_molecule_GMX.top created by acpype (v: 2023.10.27) on Wed Jul  3 14:48:00 2024
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333333333
+
+; Include smiles_molecule_GMX.itp topology
+#include "smiles_molecule.acpype/smiles_molecule_GMX.itp"
+
+
+[ system ]
+ smiles_molecule
+
+[ molecules ]
+; Compound        nmols
+ smiles_molecule  320     

@@ -1,0 +1,12 @@
+; Include force field parameters
+#include "/usr/local/gromacs/share/gromacs/top/amber99.ff/forcefield.itp"
+
+; Include Peptoid
+#include "./19AF1-10-A.itp"
+
+[ system ]
+ 19AF1-10-A
+
+[ molecules ]
+; Compound        nmols
+ 19AF1-10-A        1 

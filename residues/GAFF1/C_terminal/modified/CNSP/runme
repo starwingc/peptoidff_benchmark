@@ -1,0 +1,1 @@
+python ~/Voelz_Lab/git/prep-tools/scripts/build_amber_residue.py -s N NSP.mol2 CNSP CappingAtoms.dat N G 0

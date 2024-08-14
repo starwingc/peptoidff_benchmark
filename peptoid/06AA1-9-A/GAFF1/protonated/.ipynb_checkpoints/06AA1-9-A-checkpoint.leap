@@ -1,0 +1,11 @@
+source oldff/leaprc.ff14SB
+source leaprc.gaff
+loadoff /Users/starwingchen/Voelz_Lab/git/peptoid_24summer/residues/GAFF/middle/modified/NSP/NSP.off
+
+loadoff /Users/starwingchen/Voelz_Lab/git/peptoid_24summer/residues/GAFF/N_terminal/modified/+NNSP/NNSP.off
+
+protein = sequence { NNSP NSP NSP NSP NSP NSP NSP NSP NSP NHE }
+
+savepdb protein 06AA1-9-A_protonated.pdb
+saveAmberParm protein 06AA1-9-A_protonated.prmtop 06AA1-9-A_protonated.crd
+quit

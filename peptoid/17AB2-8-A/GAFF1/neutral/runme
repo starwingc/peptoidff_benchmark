@@ -1,0 +1,2 @@
+tleap -f 17AB2-8-A.leap
+acpype -p '17AB2-8-A.prmtop' -x '17AB2-8-A.crd'

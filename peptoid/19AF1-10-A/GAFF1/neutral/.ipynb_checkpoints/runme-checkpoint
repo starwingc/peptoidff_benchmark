@@ -1,0 +1,2 @@
+tleap -f 19AF1-10-A.leap
+acpype -p '19AF1-10-A.prmtop' -x '19AF1-10-A.crd'

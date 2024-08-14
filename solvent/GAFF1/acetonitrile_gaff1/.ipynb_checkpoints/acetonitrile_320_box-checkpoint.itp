@@ -1,0 +1,52 @@
+; smiles_molecule_GMX.itp created by acpype (v: 2023.10.27) on Wed Jul  3 17:05:40 2024
+
+[ atomtypes ]
+;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
+ c3       c3          0.00000  0.00000   A     3.39967e-01   4.57730e-01 ; 1.91  0.1094
+ c1       c1          0.00000  0.00000   A     3.39967e-01   8.78640e-01 ; 1.91  0.2100
+ n1       n1          0.00000  0.00000   A     3.25000e-01   7.11280e-01 ; 1.82  0.1700
+ hc       hc          0.00000  0.00000   A     2.64953e-01   6.56888e-02 ; 1.49  0.0157
+
+[ moleculetype ]
+;name            nrexcl
+ smiles_molecule  3
+
+[ atoms ]
+;   nr  type  resi  res  atom  cgnr     charge      mass       ; qtot   bond_type
+     1   c3     1   UNL     C    1    -0.045000     12.01000 ; qtot -0.045
+     2   c1     1   UNL    C1    2     0.208700     12.01000 ; qtot 0.164
+     3   n1     1   UNL     N    3    -0.375800     14.01000 ; qtot -0.212
+     4   hc     1   UNL     H    4     0.070700      1.00800 ; qtot -0.141
+     5   hc     1   UNL    H1    5     0.070700      1.00800 ; qtot -0.071
+     6   hc     1   UNL    H2    6     0.070700      1.00800 ; qtot -0.000
+
+[ bonds ]
+;   ai     aj funct   r             k
+     1      2   1    1.4671e-01    3.1095e+05 ;      C - C1    
+     1      4   1    1.0969e-01    2.7665e+05 ;      C - H     
+     1      5   1    1.0969e-01    2.7665e+05 ;      C - H1    
+     1      6   1    1.0969e-01    2.7665e+05 ;      C - H2    
+     2      3   1    1.1535e-01    7.9881e+05 ;     C1 - N     
+
+[ pairs ]
+;   ai     aj    funct
+     4      3      1 ;      H - N     
+     5      3      1 ;     H1 - N     
+     6      3      1 ;     H2 - N     
+
+[ angles ]
+;   ai     aj     ak    funct   theta         cth
+     1      2      3      1    1.7858e+02    4.8534e+02 ;      C - C1     - N     
+     2      1      4      1    1.0941e+02    4.0501e+02 ;     C1 - C      - H     
+     2      1      5      1    1.0941e+02    4.0501e+02 ;     C1 - C      - H1    
+     2      1      6      1    1.0941e+02    4.0501e+02 ;     C1 - C      - H2    
+     4      1      5      1    1.0758e+02    3.2970e+02 ;      H - C      - H1    
+     4      1      6      1    1.0758e+02    3.2970e+02 ;      H - C      - H2    
+     5      1      6      1    1.0758e+02    3.2970e+02 ;     H1 - C      - H2    
+
+[ dihedrals ] ; propers
+; for gromacs 4.5 or higher, using funct 9
+;    i      j      k      l   func   phase     kd      pn
+     4      1      2      3      9   180.00   0.00000   2 ;      H-     C-    C1-     N
+     5      1      2      3      9   180.00   0.00000   2 ;     H1-     C-    C1-     N
+     6      1      2      3      9   180.00   0.00000   2 ;     H2-     C-    C1-     N

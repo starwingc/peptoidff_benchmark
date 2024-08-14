@@ -1,0 +1,16 @@
+; Include force field parameters
+#include "/usr/local/gromacs/share/gromacs/top/amber99.ff/forcefield.itp"
+
+; Include Peptoid
+#include "./17AB1-5-A.itp"
+
+; Include meoh model
+#include "./meoh_320_box.itp"
+
+[ system ]
+17AB1-5-A in water
+
+[ molecules ]
+; Compound        nmols
+ 17AB1-5-A         1
+UNL              1050

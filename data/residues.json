@@ -1,0 +1,898 @@
+[
+    {
+        "(S)-N-(1-cyclohexylethyl)glycine": {
+            "SMILES": "*N([C@@H](C)C1CCCCC1)CC(=O)*",
+            "full_nomenclature": "(S)-N-(1-cyclohexylethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "03AA1-5-A": "/api/peptoids/03AA1-5-A"
+            },
+            "short_name": "Nsch",
+            "type": "alpha"
+        }
+    },
+    {
+        "(R)-N-(1-cyclohexylethyl)glycine": {
+            "SMILES": "*N([C@H](C)C1CCCCC1)CC(=O)*",
+            "full_nomenclature": "(R)-N-(1-cyclohexylethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {},
+            "short_name": "Nrch",
+            "type": "alpha"
+        }
+    },
+    {
+        "(S)-N-(2-butyl)glycine": {
+            "SMILES": "*N([C@@H](C)CC)CC(=O)*",
+            "full_nomenclature": "(S)-N-(2-butyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {},
+            "short_name": "Nssb",
+            "type": "alpha"
+        }
+    },
+    {
+        "(R)-N-(2-butyl)glycine": {
+            "SMILES": "*N([C@H](C)CC)CC(=O)*",
+            "full_nomenclature": "(R)-N-(2-butyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {},
+            "short_name": "Nrsb",
+            "type": "alpha"
+        }
+    },
+    {
+        "(S)-N-(1-phenylethyl)glycine": {
+            "SMILES": "*N([C@@H](C)c1ccccc1)CC(=O)*",
+            "full_nomenclature": "(S)-N-(1-phenylethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "06AA1-9-A": "/api/peptoids/06AA1-9-A",
+                "08AC1-6-C": "/api/peptoids/08AC1-6-C",
+                "11AB1-8-C": "/api/peptoids/11AB1-8-C",
+                "12AC2-9-C": "/api/peptoids/12AC2-9-C",
+                "18AC2-7-A": "/api/peptoids/18AC2-7-A",
+                "19AB1-6-C": "/api/peptoids/19AB1-6-C",
+                "19AB2-4-C": "/api/peptoids/19AB2-4-C",
+                "19AB3-8-C": "/api/peptoids/19AB3-8-C",
+                "19AB4-4-C": "/api/peptoids/19AB4-4-C"
+            },
+            "short_name": "Nspe",
+            "type": "alpha"
+        }
+    },
+    {
+        "(R)-N-(1-phenylethyl)glycine": {
+            "SMILES": "*N([C@H](C)c1ccccc1)CC(=O)*",
+            "full_nomenclature": "(R)-N-(1-phenylethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {},
+            "short_name": "Nrpe",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(phenylmethyl)glycine": {
+            "SMILES": "*N(Cc1ccccc1)CC(=O)*",
+            "full_nomenclature": "N-(phenylmethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "07AA1-6-C": "/api/peptoids/07AA1-6-C",
+                "07AA2-8-C": "/api/peptoids/07AA2-8-C",
+                "12AA2-6-C": "/api/peptoids/12AA2-6-C",
+                "14AA1-4-C": "/api/peptoids/14AA1-4-C",
+                "14AB1-3-C": "/api/peptoids/14AB1-3-C",
+                "14AB2-5-C": "/api/peptoids/14AB2-5-C",
+                "14AB3-4-C": "/api/peptoids/14AB3-4-C",
+                "17AC2-6-C": "/api/peptoids/17AC2-6-C",
+                "17AC3-6-C": "/api/peptoids/17AC3-6-C",
+                "18AB1-3-A": "/api/peptoids/18AB1-3-A",
+                "18AB2-3-A": "/api/peptoids/18AB2-3-A",
+                "18AB3-3-A": "/api/peptoids/18AB3-3-A",
+                "18AC1-3-A": "/api/peptoids/18AC1-3-A",
+                "18AC2-7-A": "/api/peptoids/18AC2-7-A",
+                "19AA1-2-A": "/api/peptoids/19AA1-2-A",
+                "19AB2-4-C": "/api/peptoids/19AB2-4-C",
+                "19AB4-4-C": "/api/peptoids/19AB4-4-C",
+                "20AA1-3-A": "/api/peptoids/20AA1-3-A",
+                "80AA1-3-C": "/api/peptoids/80AA1-3-C",
+                "82AA1-3-C": "/api/peptoids/82AA1-3-C"
+            },
+            "short_name": "Npm",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(methoxyethyl)glycine": {
+            "SMILES": "*N(CCOC)CC(=O)*",
+            "full_nomenclature": "N-(methoxyethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "07AA1-6-C": "/api/peptoids/07AA1-6-C",
+                "07AA2-8-C": "/api/peptoids/07AA2-8-C",
+                "12AB1-8-M": "/api/peptoids/12AB1-8-M",
+                "12AB2-16-M": "/api/peptoids/12AB2-16-M",
+                "13AA1-6-C": "/api/peptoids/13AA1-6-C",
+                "13AA2-6-C": "/api/peptoids/13AA2-6-C",
+                "13AA3-6-C": "/api/peptoids/13AA3-6-C",
+                "13AB1-8-C": "/api/peptoids/13AB1-8-C",
+                "17AA1-6-C": "/api/peptoids/17AA1-6-C",
+                "18AB1-3-A": "/api/peptoids/18AB1-3-A",
+                "18AD1-8-C": "/api/peptoids/18AD1-8-C",
+                "18AE1-6-C": "/api/peptoids/18AE1-6-C"
+            },
+            "short_name": "Nme",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(benzoxyethyl)glycine": {
+            "SMILES": "*N(CCOc1ccccc1)CC(=O)*",
+            "full_nomenclature": "N-(benzoxyethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "08AB1-6-C": "/api/peptoids/08AB1-6-C",
+                "08AB2-4-C": "/api/peptoids/08AB2-4-C"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(phenyl)glycine": {
+            "SMILES": "*N(c1ccccc1)CC(=O)*",
+            "full_nomenclature": "N-(phenyl)glycine",
+            "monomer_structure": "10.5517/ccw92qy",
+            "peptoids": {
+                "08AC1-6-C": "/api/peptoids/08AC1-6-C",
+                "08AC2-2-A": "/api/peptoids/08AC2-2-A",
+                "10AA1-3-A": "/api/peptoids/10AA1-3-A",
+                "12AB1-8-M": "/api/peptoids/12AB1-8-M",
+                "12AB2-16-M": "/api/peptoids/12AB2-16-M",
+                "13AB1-8-C": "/api/peptoids/13AB1-8-C",
+                "13AC2-2-A": "/api/peptoids/13AC2-2-A",
+                "13AC3-3-A": "/api/peptoids/13AC3-3-A",
+                "13AC4-4-A": "/api/peptoids/13AC4-4-A",
+                "17AB1-5-A": "/api/peptoids/17AB1-5-A",
+                "17AB2-8-A": "/api/peptoids/17AB2-8-A"
+            },
+            "short_name": "Nph",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(4-hydroxy-3-nitrophenyl)glycine": {
+            "SMILES": "*N(c1cc(N(=O)=O)c(O)cc1)CC(=O)*",
+            "full_nomenclature": "N-(4-hydroxy-3-nitrophenyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "08AC2-2-A": "/api/peptoids/08AC2-2-A"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(2-hydroxyphenyl)glycine": {
+            "SMILES": "*N(c1c(O)cccc1)CC(=O)*",
+            "full_nomenclature": "N-(2-hydroxyphenyl)glycine",
+            "monomer_structure": "10.5517/ccw92s0",
+            "peptoids": {
+                "10AA1-3-A": "/api/peptoids/10AA1-3-A"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(2-acetamidophenyl)glycine": {
+            "SMILES": "*Nc1ccccc1N(C(=O)C)CC(=O)*",
+            "full_nomenclature": "N-(2-acetamidophenyl)glycine",
+            "monomer_structure": "10.5517/ccw92rz",
+            "peptoids": {
+                "10AA1-3-A": "/api/peptoids/10AA1-3-A"
+            },
+            "short_name": "",
+            "type": "other"
+        }
+    },
+    {
+        "N-hydroxyglycine": {
+            "SMILES": "*N(O)CC(=O)*",
+            "full_nomenclature": "N-hydroxyglycine",
+            "monomer_structure": "10.5517/ccvr9nj",
+            "peptoids": {
+                "11AA1-2-A": "/api/peptoids/11AA1-2-A",
+                "11AA2-3-A": "/api/peptoids/11AA2-3-A"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "(S)-N-(1-phenylethyl)beta-alanine": {
+            "SMILES": "*N([C@@H](C)c1ccccc1)CCC(=O)*",
+            "full_nomenclature": "(S)-N-(1-phenylethyl)beta-alanine",
+            "monomer_structure": "",
+            "peptoids": {
+                "11AB1-8-C": "/api/peptoids/11AB1-8-C",
+                "13AE1-4-C": "/api/peptoids/13AE1-4-C"
+            },
+            "short_name": "betaNspe",
+            "type": "beta"
+        }
+    },
+    {
+        "N-(benzoxyethyl)beta-alanine": {
+            "SMILES": "*N(CCOc1ccccc1)CCC(=O)*",
+            "full_nomenclature": "N-(benzoxyethyl)beta-alanine",
+            "monomer_structure": "",
+            "peptoids": {
+                "11AB1-8-C": "/api/peptoids/11AB1-8-C"
+            },
+            "short_name": "",
+            "type": "beta"
+        }
+    },
+    {
+        "N-(2-methylphenyl)glycine": {
+            "SMILES": "*N(c1c(C)cccc1)CC(=O)*",
+            "full_nomenclature": "N-(2-methylphenyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "11AC1-2-A": "/api/peptoids/11AC1-2-A"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(2-iodophenyl)glycine": {
+            "SMILES": "*N(c1c(I)cccc1)CC(=O)*",
+            "full_nomenclature": "N-(2-iodophenyl)glycine",
+            "monomer_structure": "10.5517/ccy39y8",
+            "peptoids": {
+                "11AC2-2-A": "/api/peptoids/11AC2-2-A",
+                "11AC3-3-A": "/api/peptoids/11AC3-3-A"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(2-tert-butylphenyl)glycine": {
+            "SMILES": "*N(c1c(C(C)(C)C)cccc1)CC(=O)*",
+            "full_nomenclature": "N-(2-tert-butylphenyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "11AC3-3-A": "/api/peptoids/11AC3-3-A"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "(S)-N-(1-naphthylethyl)glycine": {
+            "SMILES": "*N([C@@H](C)c1cccc2ccccc21)CC(=O)*",
+            "full_nomenclature": "(S)-N-(1-naphthylethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "11AD1-2-A": "/api/peptoids/11AD1-2-A",
+                "11AD2-3-A": "/api/peptoids/11AD2-3-A",
+                "11AD3-4-A": "/api/peptoids/11AD3-4-A",
+                "12AA1-2-A": "/api/peptoids/12AA1-2-A",
+                "13AC1-6-A": "/api/peptoids/13AC1-6-A",
+                "13AC2-2-A": "/api/peptoids/13AC2-2-A",
+                "13AC3-3-A": "/api/peptoids/13AC3-3-A",
+                "13AC4-4-A": "/api/peptoids/13AC4-4-A",
+                "16AB1-3-A": "/api/peptoids/16AB1-3-A",
+                "17AB1-5-A": "/api/peptoids/17AB1-5-A",
+                "17AB2-8-A": "/api/peptoids/17AB2-8-A",
+                "20AA2-3-A": "/api/peptoids/20AA2-3-A"
+            },
+            "short_name": "Ns1npe",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(1-naphthyl)glycine": {
+            "SMILES": "*N(c1cccc2ccccc21)CC(=O)*",
+            "full_nomenclature": "N-(1-naphthyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "12AA1-2-A": "/api/peptoids/12AA1-2-A",
+                "12AA2-6-C": "/api/peptoids/12AA2-6-C"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(azidopropyl)glycine": {
+            "SMILES": "*N(CCC[N-][N+]#N)CC(=O)*",
+            "full_nomenclature": "N-(azidopropyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "12AB1-8-M": "/api/peptoids/12AB1-8-M",
+                "12AB2-16-M": "/api/peptoids/12AB2-16-M"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(propargyl)glycine": {
+            "SMILES": "*N(CC#C)CC(=O)*",
+            "full_nomenclature": "N-(propargyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "12AB1-8-M": "/api/peptoids/12AB1-8-M",
+                "12AB2-16-M": "/api/peptoids/12AB2-16-M",
+                "13AB1-8-C": "/api/peptoids/13AB1-8-C",
+                "17AA1-6-C": "/api/peptoids/17AA1-6-C",
+                "18AD1-8-C": "/api/peptoids/18AD1-8-C"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "Proline": {
+            "SMILES": "*N1CCC[C@@H]1C(=O)*",
+            "full_nomenclature": "Proline",
+            "monomer_structure": "",
+            "peptoids": {
+                "13AA1-6-C": "/api/peptoids/13AA1-6-C",
+                "80AA1-3-C": "/api/peptoids/80AA1-3-C",
+                "82AA1-3-C": "/api/peptoids/82AA1-3-C",
+                "83AA1-4-C": "/api/peptoids/83AA1-4-C",
+                "83AB1-8-C": "/api/peptoids/83AB1-8-C"
+            },
+            "short_name": "Pro",
+            "type": "alpha"
+        }
+    },
+    {
+        "Alanine": {
+            "SMILES": "*N[C@@H](C)C(=O)*",
+            "full_nomenclature": "Alanine",
+            "monomer_structure": "",
+            "peptoids": {
+                "18AC1-3-A": "/api/peptoids/18AC1-3-A",
+                "18AC2-7-A": "/api/peptoids/18AC2-7-A"
+            },
+            "short_name": "Ala",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(2,6-dimethylphenyl)glycine": {
+            "SMILES": "*N(c1c(C)cccc1(C))CC(=O)*",
+            "full_nomenclature": "N-(2,6-dimethylphenyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "13AC1-6-A": "/api/peptoids/13AC1-6-A",
+                "13AC4-4-A": "/api/peptoids/13AC4-4-A",
+                "17AB2-8-A": "/api/peptoids/17AB2-8-A"
+            },
+            "short_name": "N2,6mph",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(3,5-dimethylphenyl)glycine": {
+            "SMILES": "*N(c1cc(C)cc(C)c1)CC(=O)*",
+            "full_nomenclature": "N-(3,5-dimethylphenyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "13AC1-6-A": "/api/peptoids/13AC1-6-A",
+                "17AB1-5-A": "/api/peptoids/17AB1-5-A",
+                "17AB2-8-A": "/api/peptoids/17AB2-8-A",
+                "19AF1-10-A": "/api/peptoids/19AF1-10-A"
+            },
+            "short_name": "N3,5mph",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(4-fluorophenyl)glycine": {
+            "SMILES": "*N(c1ccc(F)cc1)CC(=O)*",
+            "full_nomenclature": "N-(4-fluorophenyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "13AC1-6-A": "/api/peptoids/13AC1-6-A",
+                "17AB2-8-A": "/api/peptoids/17AB2-8-A"
+            },
+            "short_name": "N4fph",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(tert-butyl)glycine": {
+            "SMILES": "*N(C(C)(C)C)CC(=O)*",
+            "full_nomenclature": "N-(tert-butyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "13AD1-2-A": "/api/peptoids/13AD1-2-A",
+                "16AA1-3-A": "/api/peptoids/16AA1-3-A",
+                "16AA2-5-A": "/api/peptoids/16AA2-5-A",
+                "17AD1-8-A": "/api/peptoids/17AD1-8-A",
+                "18AA1-2-A": "/api/peptoids/18AA1-2-A",
+                "19AD1-3-A": "/api/peptoids/19AD1-3-A",
+                "19AD2-5-A": "/api/peptoids/19AD2-5-A"
+            },
+            "short_name": "NtBu",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(propargyl)beta-alanine": {
+            "SMILES": "*N(CC#C)CCC(=O)*",
+            "full_nomenclature": "N-(propargyl)beta-alanine",
+            "monomer_structure": "",
+            "peptoids": {
+                "08AA1-4-C": "/api/peptoids/08AA1-4-C",
+                "13AE1-4-C": "/api/peptoids/13AE1-4-C"
+            },
+            "short_name": "betaNpa",
+            "type": "beta"
+        }
+    },
+    {
+        "(S)-N-(1-naphthylethyl)beta-alanine": {
+            "SMILES": "*N([C@@H](C)c1cccc2ccccc21)CCC(=O)*",
+            "full_nomenclature": "(S)-N-(1-naphthylethyl)beta-alanine",
+            "monomer_structure": "",
+            "peptoids": {
+                "15AA1-6-A": "/api/peptoids/15AA1-6-A",
+                "19AC1-6-A": "/api/peptoids/19AC1-6-A"
+            },
+            "short_name": "betaNs1npe",
+            "type": "beta"
+        }
+    },
+    {
+        "(R)-N-(1-naphthylethyl)glycine": {
+            "SMILES": "*N([C@H](C)c1cccc2ccccc21)CC(=O)*",
+            "full_nomenclature": "(R)-N-(1-naphthylethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "16AB1-3-A": "/api/peptoids/16AB1-3-A",
+                "17AB1-5-A": "/api/peptoids/17AB1-5-A",
+                "17AB2-8-A": "/api/peptoids/17AB2-8-A"
+            },
+            "short_name": "Nr1npe",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-allylglycine": {
+            "SMILES": "*N(CC=C)CC(=O)*",
+            "full_nomenclature": "N-allylglycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "03AB1-3-C": "/api/peptoids/03AB1-3-C"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "(S)-N-(1-tert-butylethyl)glycine": {
+            "SMILES": "*N([C@@H](C)C(C)(C)C)CC(=O)*",
+            "full_nomenclature": "(S)-N-(1-tert-butylethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "17AD1-8-A": "/api/peptoids/17AD1-8-A",
+                "17AD2-5-A": "/api/peptoids/17AD2-5-A",
+                "19AD1-3-A": "/api/peptoids/19AD1-3-A",
+                "19AD2-5-A": "/api/peptoids/19AD2-5-A",
+                "20AA4-3-A": "/api/peptoids/20AA4-3-A"
+            },
+            "short_name": "Ns1tbe",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-isopropylglycine": {
+            "SMILES": "*N(C(C)C)CC(=O)*",
+            "full_nomenclature": "N-isopropylglycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "17AC1-6-C": "/api/peptoids/17AC1-6-C",
+                "17AC2-6-C": "/api/peptoids/17AC2-6-C"
+            },
+            "short_name": "NVal",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(phenyl)beta-alanine": {
+            "SMILES": "*N(c1ccccc1)CCC(=O)*",
+            "full_nomenclature": "N-(phenyl)beta-alanine",
+            "monomer_structure": "",
+            "peptoids": {
+                "18AA1-2-A": "/api/peptoids/18AA1-2-A"
+            },
+            "short_name": "betaNPh",
+            "type": "beta"
+        }
+    },
+    {
+        "N-carboxymethylglycine": {
+            "SMILES": "*N(CC(=O)O)CC(=O)*",
+            "full_nomenclature": "N-carboxymethylglycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "18AC1-3-A": "/api/peptoids/18AC1-3-A",
+                "18AC2-7-A": "/api/peptoids/18AC2-7-A"
+            },
+            "short_name": "Ncm",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(2-aminoethyl)glycine": {
+            "SMILES": "*N(CCN)CC(=O)*",
+            "full_nomenclature": "N-(2-aminoethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "18AB2-3-A": "/api/peptoids/18AB2-3-A",
+                "18AC2-7-A": "/api/peptoids/18AC2-7-A",
+                "19AE1-4-A": "/api/peptoids/19AE1-4-A"
+            },
+            "short_name": "Nae",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(2-hydroxyethyl)glycine": {
+            "SMILES": "*N(CCO)CC(=O)*",
+            "full_nomenclature": "N-(2-hydroxyethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "18AB3-3-A": "/api/peptoids/18AB3-3-A",
+                "18AC2-7-A": "/api/peptoids/18AC2-7-A"
+            },
+            "short_name": "Nhe",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(2-carboxyethyl)glycine": {
+            "SMILES": "*N(CCC(=O)O)CC(=O)*",
+            "full_nomenclature": "N-(2-carboxyethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "18AC2-7-A": "/api/peptoids/18AC2-7-A"
+            },
+            "short_name": "Nce",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(2-(N-trimethylammonium)ethyl)glycine": {
+            "SMILES": "*N(CC[N+](C)(C)C)CC(=O)*",
+            "full_nomenclature": "N-(2-(N-trimethylammonium)ethyl)glycine",
+            "monomer_structure": "10.5517/ccdc.csd.cc242d9y",
+            "peptoids": {
+                "19AF1-10-A": "/api/peptoids/19AF1-10-A"
+            },
+            "short_name": "Nme3ae",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(2-(methoxycarbonyl)phenyl)glycine": {
+            "SMILES": "*N(c1c(C(=O)OC)cccc1)CC(=O)*",
+            "full_nomenclature": "N-(2-(methoxycarbonyl)phenyl)glycine",
+            "monomer_structure": "10.5517/ccy39x7",
+            "peptoids": {
+                "11AC1-2-A": "/api/peptoids/11AC1-2-A",
+                "11AC2-2-A": "/api/peptoids/11AC2-2-A",
+                "11AC3-3-A": "/api/peptoids/11AC3-3-A"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(sec-butyl)glycine": {
+            "SMILES": "*N(C(C(C)C))CC(=O)*",
+            "full_nomenclature": "N-(sec-butyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {},
+            "short_name": "Nleu",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-{2-[([2,2\u2019-bipyridin]-6-yl)oxy]ethyl}glycine": {
+            "SMILES": "*N(CCO(c1nc(ccc1)c2ncccc2))CC(=O)*",
+            "full_nomenclature": "N-{2-[([2,2\u2019-bipyridin]-6-yl)oxy]ethyl}glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "18AB1-3-A": "/api/peptoids/18AB1-3-A",
+                "18AB2-3-A": "/api/peptoids/18AB2-3-A",
+                "18AB3-3-A": "/api/peptoids/18AB3-3-A",
+                "20AA1-3-A": "/api/peptoids/20AA1-3-A",
+                "20AA2-3-A": "/api/peptoids/20AA2-3-A",
+                "20AA3-3-A": "/api/peptoids/20AA3-3-A",
+                "20AA4-3-A": "/api/peptoids/20AA4-3-A"
+            },
+            "short_name": "Nbp",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(2-phenylethyl)glycine": {
+            "SMILES": "*N(CCc1ccccc1)CC(=O)*",
+            "full_nomenclature": "N-(2-phenylethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "12AC1-3-A": "/api/peptoids/12AC1-3-A",
+                "19AE1-4-A": "/api/peptoids/19AE1-4-A"
+            },
+            "short_name": "Npe",
+            "type": "alpha"
+        }
+    },
+    {
+        "Sarcosine": {
+            "SMILES": "*N(C)CC(=O)*",
+            "full_nomenclature": "Sarcosine",
+            "monomer_structure": "",
+            "peptoids": {
+                "70AA1-4-C": "/api/peptoids/70AA1-4-C",
+                "73AA1-8-C": "/api/peptoids/73AA1-8-C",
+                "73AB1-5-C": "/api/peptoids/73AB1-5-C",
+                "75AA1-7-C": "/api/peptoids/75AA1-7-C",
+                "76AA1-3-C": "/api/peptoids/76AA1-3-C",
+                "76AB1-10-C": "/api/peptoids/76AB1-10-C",
+                "77AA1-6-C": "/api/peptoids/77AA1-6-C",
+                "83AA1-4-C": "/api/peptoids/83AA1-4-C",
+                "83AB1-8-C": "/api/peptoids/83AB1-8-C"
+            },
+            "short_name": "Sar",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-propylglycine": {
+            "SMILES": "*N(CCC)CC(=O)*",
+            "full_nomenclature": "N-propylglycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "20AD1-6-C": "/api/peptoids/20AD1-6-C"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-[2-(4-methoxyphenyl)ethyl]glycine": {
+            "SMILES": "*N(CCc1ccc(OC)cc1)CC(=O)*",
+            "full_nomenclature": "N-[2-(4-methoxyphenyl)ethyl]glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "18AE1-6-C": "/api/peptoids/18AE1-6-C"
+            },
+            "short_name": "Nmpe",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(3,5-dimethoxyphenyl)glycine": {
+            "SMILES": "*N(c1cc(OC)cc(OC)c1)CC(=O)*",
+            "full_nomenclature": "N-(3,5-dimethoxyphenyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "18AE1-6-C": "/api/peptoids/18AE1-6-C",
+                "19AF1-10-A": "/api/peptoids/19AF1-10-A"
+            },
+            "short_name": "Ndmp",
+            "type": "alpha"
+        }
+    },
+    {
+        "(S)-N-[1-(4-methoxyphenyl)ethyl]glycine": {
+            "SMILES": "*N([C@@H](C)c1ccc(OC)cc1)CC(=O)*",
+            "full_nomenclature": "(S)-N-[1-(4-methoxyphenyl)ethyl]glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "18AE1-6-C": "/api/peptoids/18AE1-6-C"
+            },
+            "short_name": "NSmpe",
+            "type": "alpha"
+        }
+    },
+    {
+        "D-Alanine": {
+            "SMILES": "*N[C@H](C)C(=O)*",
+            "full_nomenclature": "D-Alanine",
+            "monomer_structure": "",
+            "peptoids": {
+                "18AE1-6-C": "/api/peptoids/18AE1-6-C"
+            },
+            "short_name": "DAla",
+            "type": "alpha"
+        }
+    },
+    {
+        "(S)-N-[1-(1-naphthyl)pentyl]beta-alanine": {
+            "SMILES": "*N([C@@H](CCCC)c1cccc2ccccc21)CCC(=O)*",
+            "full_nomenclature": "(S)-N-[1-(1-naphthyl)pentyl]beta-alanine",
+            "monomer_structure": "",
+            "peptoids": {
+                "19AC1-6-A": "/api/peptoids/19AC1-6-A"
+            },
+            "short_name": "",
+            "type": "beta"
+        }
+    },
+    {
+        "N-[2-(N-benzyl-N,N-diethyl)ammonium]ethylglycine": {
+            "SMILES": "*N(CC[N+](Cc1ccccc1)(CC)CC)CC(=O)*",
+            "full_nomenclature": "N-[2-(N-benzyl-N,N-diethyl)ammonium]ethylglycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "19AF1-10-A": "/api/peptoids/19AF1-10-A"
+            },
+            "short_name": "Net2bnae",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-[2-(N-propargyl-N,N-diethyl)ammonium]ethylglycine": {
+            "SMILES": "*N(CC[N+](CC)(CC)CC#C)CC(=O)*",
+            "full_nomenclature": "N-[2-(N-propargyl-N,N-diethyl)ammonium]ethylglycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "19AF1-10-A": "/api/peptoids/19AF1-10-A"
+            },
+            "short_name": "Net2prae",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-[2-(N,N-disopropyl)ammonium]ethylglycine": {
+            "SMILES": "*N(CC[N+](C(C)C)C(C)C)CC(=O)*",
+            "full_nomenclature": "N-[2-(N,N-disopropyl)ammonium]ethylglycine",
+            "monomer_structure": "10.5517/ccdc.csd.cc242d7w",
+            "peptoids": {
+                "19AF1-10-A": "/api/peptoids/19AF1-10-A"
+            },
+            "short_name": "Nipg2ae",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-[2-(N-triethyl)ammonium]ethylglycine": {
+            "SMILES": "*N(CC[N+](CC)(CC)CC)CC(=O)*",
+            "full_nomenclature": "N-[2-(N-triethyl)ammonium]ethylglycine",
+            "monomer_structure": "10.5517/ccdc.csd.cc242d9y",
+            "peptoids": {
+                "19AF1-10-A": "/api/peptoids/19AF1-10-A"
+            },
+            "short_name": "Net3ae",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(4-isopropyl)phenylglycine": {
+            "SMILES": "*N(c1ccc(C(C)C)cc1)CC(=O)*",
+            "full_nomenclature": "N-(4-isopropyl)phenylglycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "19AF1-10-A": "/api/peptoids/19AF1-10-A"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(4-methyl)phenylglycine": {
+            "SMILES": "*N(c1ccc(C)cc1)CC(=O)*",
+            "full_nomenclature": "N-(4-methyl)phenylglycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "19AF1-10-A": "/api/peptoids/19AF1-10-A"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(4-methoxy)phenylglycine": {
+            "SMILES": "*N(c1ccc(OC)cc1)CC(=O)*",
+            "full_nomenclature": "N-(4-methoxy)phenylglycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "19AF1-10-A": "/api/peptoids/19AF1-10-A"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(2-picolyl)glycine": {
+            "SMILES": "*N(Cc1ncccc1)CC(=O)*",
+            "full_nomenclature": "N-(2-picolyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "20AA1-3-A": "/api/peptoids/20AA1-3-A",
+                "20AA2-3-A": "/api/peptoids/20AA2-3-A",
+                "20AA3-3-A": "/api/peptoids/20AA3-3-A",
+                "20AA4-3-A": "/api/peptoids/20AA4-3-A"
+            },
+            "short_name": "N2pic",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(1-naphthylmethyl)glycine": {
+            "SMILES": "*N(Cc1c2ccccc2ccc1)CC(=O)*",
+            "full_nomenclature": "N-(1-naphthylmethyl)glycine",
+            "monomer_structure": "",
+            "peptoids": {},
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-(cyclohexyl)methylglycine": {
+            "SMILES": "*N(CC1CCCCC1)CC(=O)*",
+            "full_nomenclature": "N-(cyclohexyl)methylglycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "20AA3-3-A": "/api/peptoids/20AA3-3-A"
+            },
+            "short_name": "Ncy",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-pentylglycine": {
+            "SMILES": "*N(CCCCC)CC(=O)*",
+            "full_nomenclature": "N-pentylglycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "20AC1-6-C": "/api/peptoids/20AC1-6-C"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "N-hexylglycine": {
+            "SMILES": "*N(CCCCCC)CC(=O)*",
+            "full_nomenclature": "N-hexylglycine",
+            "monomer_structure": "",
+            "peptoids": {
+                "20AC2-6-C": "/api/peptoids/20AC2-6-C"
+            },
+            "short_name": "",
+            "type": "alpha"
+        }
+    },
+    {
+        "Glycine": {
+            "SMILES": "*NCC(=O)*",
+            "full_nomenclature": "Glycine",
+            "monomer_structure": "",
+            "peptoids": {},
+            "short_name": "Gly",
+            "type": "alpha"
+        }
+    },
+    {
+        "beta-Alanine": {
+            "SMILES": "*NCCC(=O)*",
+            "full_nomenclature": "beta-Alanine",
+            "monomer_structure": "",
+            "peptoids": {},
+            "short_name": "betaAla",
+            "type": "beta"
+        }
+    }
+]

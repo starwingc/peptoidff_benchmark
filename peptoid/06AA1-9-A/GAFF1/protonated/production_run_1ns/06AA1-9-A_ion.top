@@ -1,0 +1,21 @@
+; Include force field parameters
+#include "/usr/local/gromacs/share/gromacs/top/amber99.ff/forcefield.itp"
+
+; Include Peptoid
+#include "./06AA1-9-A.itp"
+
+; Include acetonitrile model
+#include "./acetonitrile_320_box.itp"
+
+; Include Ion model
+#include "/usr/local/gromacs/share/gromacs/top/amber99.ff/ions.itp"
+
+
+[ system ]
+06AA1-9-A in acetonitrile 
+
+[ molecules ]
+; Compound        nmols
+ 06AA1-9-A        1 
+UNL         1670
+CL               1

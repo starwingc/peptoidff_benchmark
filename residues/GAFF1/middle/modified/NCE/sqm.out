@@ -1,0 +1,378 @@
+            --------------------------------------------------------
+                             AMBER SQM VERSION 19
+ 
+                                     By
+              Ross C. Walker, Michael F. Crowley, Scott Brozell,
+                         Tim Giese, Andreas W. Goetz,
+                        Tai-Sung Lee and David A. Case
+ 
+            --------------------------------------------------------
+ 
+
+--------------------------------------------------------------------------------
+  QM CALCULATION INFO
+--------------------------------------------------------------------------------
+
+| QMMM: Citation for AMBER QMMM Run:
+| QMMM: R.C. Walker, M.F. Crowley and D.A. Case, J. COMP. CHEM. 29:1019, 2008
+
+QMMM: SINGLET STATE CALCULATION
+QMMM: RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 43
+
+| QMMM: *** Selected Hamiltonian *** 
+| QMMM: PM3         
+
+| QMMM: *** Parameter sets in use ***
+| QMMM: C : J.J.P.STEWART, JCC, 10, 209 (1989)
+| QMMM: O : J.J.P.STEWART, JCC, 10, 209 (1989)
+| QMMM: N : J.J.P.STEWART, JCC, 10, 209 (1989)
+| QMMM: H : J.J.P.STEWART, JCC, 10, 209 (1989)
+
+| QMMM: *** SCF convergence criteria ***
+| QMMM: Energy change                :  0.1D-06 kcal/mol
+| QMMM: Error matrix |FP-PF|         :  0.1D+00 au
+| QMMM: Density matrix change        :  0.2D-04
+| QMMM: Maximum number of SCF cycles :     1000
+
+| QMMM: *** Diagonalization Routine Information ***
+| QMMM: Pseudo diagonalizations are allowed.
+| QMMM: Auto diagonalization routine selection is in use.
+| QMMM:
+| QMMM: Timing diagonalization routines:
+| QMMM:                              norbs =       76
+| QMMM:    diag iterations used for timing =       15
+| QMMM:
+| QMMM:              Internal diag routine = 0.013943 seconds
+| QMMM:                 Dspev diag routine = 0.011682 seconds
+| QMMM:                Dspevd diag routine = 0.006071 seconds
+| QMMM:                Dspevx diag routine = 0.053731 seconds
+| QMMM:                 Dsyev diag routine = 0.013100 seconds
+| QMMM:                Dsyevd diag routine = 0.008275 seconds
+| QMMM:                Dsyevr diag routine = 0.009948 seconds
+| QMMM:
+| QMMM:                Pseudo diag routine = 0.005089 seconds
+| QMMM:
+| QMMM: Using dspevd routine (diag_routine=3).
+
+  QMMM: QM Region Cartesian Coordinates (*=link atom) 
+  QMMM: QM_NO.   MM_NO.  ATOM         X         Y         Z
+  QMMM:     1        1      C        1.0850    2.7150   -0.7980
+  QMMM:     2        2      C       -0.0380    2.0030   -0.0890
+  QMMM:     3        3      O       -0.8750    2.6410    0.5130
+  QMMM:     4        4      N       -0.1120    0.6580   -0.1250
+  QMMM:     5        5      C       -1.2660   -0.0280    0.4620
+  QMMM:     6        6      C       -2.3530   -0.1960   -0.6010
+  QMMM:     7        7      C       -3.5400   -0.9020    0.0030
+  QMMM:     8        8      O       -3.5180   -1.2360    1.1640
+  QMMM:     9        9      O       -4.6220   -1.1590   -0.7490
+  QMMM:    10       10      C        0.9620   -0.1180   -0.7500
+  QMMM:    11       11      C        2.0630   -0.3510    0.2520
+  QMMM:    12       12      O        1.9610    0.0890    1.3780
+  QMMM:    13       13      N        3.1610   -1.0470   -0.1020
+  QMMM:    14       14      C        4.2320   -1.2730    0.8720
+  QMMM:    15       15      C        3.2850   -1.5780   -1.4620
+  QMMM:    16       16      H        1.9540    2.7670   -0.1420
+  QMMM:    17       17      H        1.3470    2.1700   -1.7050
+  QMMM:    18       18      H        0.7680    3.7240   -1.0600
+  QMMM:    19       19      H       -0.9590   -1.0090    0.8260
+  QMMM:    20       20      H       -1.6560    0.5610    1.2920
+  QMMM:    21       21      H       -2.6600    0.7850   -0.9650
+  QMMM:    22       22      H       -1.9630   -0.7860   -1.4300
+  QMMM:    23       23      H       -5.3840   -1.6120   -0.3620
+  QMMM:    24       24      H        0.5690   -1.0770   -1.0860
+  QMMM:    25       25      H        1.3580    0.4310   -1.6040
+  QMMM:    26       26      H        4.0410   -2.2000    1.4130
+  QMMM:    27       27      H        5.1870   -1.3450    0.3520
+  QMMM:    28       28      H        4.2630   -0.4420    1.5770
+  QMMM:    29       29      H        2.3980   -1.3110   -2.0380
+  QMMM:    30       30      H        4.1680   -1.1540   -1.9390
+  QMMM:    31       31      H        3.3790   -2.6630   -1.4210
+
+--------------------------------------------------------------------------------
+  RESULTS
+--------------------------------------------------------------------------------
+
+      iter         sqm energy              rms gradient
+      ----    -------------------    -----------------------
+xmin    10     -172.0727 kcal/mol        5.5313 kcal/(mol*A)
+xmin    20     -177.0759 kcal/mol        3.7052 kcal/(mol*A)
+xmin    30     -178.2957 kcal/mol        1.1674 kcal/(mol*A)
+xmin    40     -178.8317 kcal/mol        1.6337 kcal/(mol*A)
+xmin    50     -179.1176 kcal/mol        0.9121 kcal/(mol*A)
+xmin    60     -179.7845 kcal/mol        0.9274 kcal/(mol*A)
+xmin    70     -180.1524 kcal/mol        0.8698 kcal/(mol*A)
+xmin    80     -180.5188 kcal/mol        0.8254 kcal/(mol*A)
+xmin    90     -180.6266 kcal/mol        0.5074 kcal/(mol*A)
+xmin   100     -180.7427 kcal/mol        0.5215 kcal/(mol*A)
+xmin   110     -180.7993 kcal/mol        0.3608 kcal/(mol*A)
+xmin   120     -180.8696 kcal/mol        0.2604 kcal/(mol*A)
+xmin   130     -180.9430 kcal/mol        0.4058 kcal/(mol*A)
+xmin   140     -180.9639 kcal/mol        0.2680 kcal/(mol*A)
+xmin   150     -181.0579 kcal/mol        0.2696 kcal/(mol*A)
+xmin   160     -181.1093 kcal/mol        0.5036 kcal/(mol*A)
+xmin   170     -181.1661 kcal/mol        0.3453 kcal/(mol*A)
+xmin   180     -181.1953 kcal/mol        0.5193 kcal/(mol*A)
+xmin   190     -181.2295 kcal/mol        0.5788 kcal/(mol*A)
+xmin   200     -181.2521 kcal/mol        0.3648 kcal/(mol*A)
+xmin   210     -181.2866 kcal/mol        0.4684 kcal/(mol*A)
+xmin   220     -181.3129 kcal/mol        0.2724 kcal/(mol*A)
+xmin   230     -181.3796 kcal/mol        0.5606 kcal/(mol*A)
+xmin   240     -181.4056 kcal/mol        0.3770 kcal/(mol*A)
+xmin   250     -181.4594 kcal/mol        0.4947 kcal/(mol*A)
+xmin   260     -181.4968 kcal/mol        0.2781 kcal/(mol*A)
+xmin   270     -181.5117 kcal/mol        0.3594 kcal/(mol*A)
+xmin   280     -181.5421 kcal/mol        0.1732 kcal/(mol*A)
+xmin   290     -181.5716 kcal/mol        0.1443 kcal/(mol*A)
+xmin   300     -181.5941 kcal/mol        0.1423 kcal/(mol*A)
+xmin   310     -181.6020 kcal/mol        0.1318 kcal/(mol*A)
+xmin   320     -181.6099 kcal/mol        0.1304 kcal/(mol*A)
+xmin   330     -181.6184 kcal/mol        0.5145 kcal/(mol*A)
+xmin   340     -181.6294 kcal/mol        0.1374 kcal/(mol*A)
+xmin   350     -181.6340 kcal/mol        0.1778 kcal/(mol*A)
+xmin   360     -181.6389 kcal/mol        0.5246 kcal/(mol*A)
+xmin   370     -181.6557 kcal/mol        0.1963 kcal/(mol*A)
+xmin   380     -181.6802 kcal/mol        0.2568 kcal/(mol*A)
+xmin   390     -181.7058 kcal/mol        0.0880 kcal/(mol*A)
+xmin   400     -181.7145 kcal/mol        0.3154 kcal/(mol*A)
+xmin   410     -181.7191 kcal/mol        0.1734 kcal/(mol*A)
+xmin   420     -181.7224 kcal/mol        0.0607 kcal/(mol*A)
+xmin   430     -181.7354 kcal/mol        0.1983 kcal/(mol*A)
+xmin   440     -181.7404 kcal/mol        0.1079 kcal/(mol*A)
+xmin   450     -181.7461 kcal/mol        0.1732 kcal/(mol*A)
+xmin   460     -181.7496 kcal/mol        0.0600 kcal/(mol*A)
+xmin   470     -181.7552 kcal/mol        0.0962 kcal/(mol*A)
+xmin   480     -181.7573 kcal/mol        0.0541 kcal/(mol*A)
+xmin   490     -181.7593 kcal/mol        0.1071 kcal/(mol*A)
+xmin   500     -181.7642 kcal/mol        0.1199 kcal/(mol*A)
+xmin   510     -181.7670 kcal/mol        0.1102 kcal/(mol*A)
+xmin   520     -181.7702 kcal/mol        0.0965 kcal/(mol*A)
+xmin   530     -181.7742 kcal/mol        0.1118 kcal/(mol*A)
+xmin   540     -181.7787 kcal/mol        0.2010 kcal/(mol*A)
+xmin   550     -181.7875 kcal/mol        0.1390 kcal/(mol*A)
+xmin   560     -181.7991 kcal/mol        0.1092 kcal/(mol*A)
+xmin   570     -181.8112 kcal/mol        0.1132 kcal/(mol*A)
+xmin   580     -181.8538 kcal/mol        0.2121 kcal/(mol*A)
+xmin   590     -181.8611 kcal/mol        0.1798 kcal/(mol*A)
+xmin   600     -181.8682 kcal/mol        0.1918 kcal/(mol*A)
+xmin   610     -181.8752 kcal/mol        0.2928 kcal/(mol*A)
+xmin   620     -181.8871 kcal/mol        0.1107 kcal/(mol*A)
+xmin   630     -181.8983 kcal/mol        0.1852 kcal/(mol*A)
+xmin   640     -181.9041 kcal/mol        0.0810 kcal/(mol*A)
+xmin   650     -181.9096 kcal/mol        0.1563 kcal/(mol*A)
+xmin   660     -181.9159 kcal/mol        0.1719 kcal/(mol*A)
+xmin   670     -181.9245 kcal/mol        0.3185 kcal/(mol*A)
+xmin   680     -181.9291 kcal/mol        0.0619 kcal/(mol*A)
+xmin   690     -181.9343 kcal/mol        0.1877 kcal/(mol*A)
+xmin   700     -181.9384 kcal/mol        0.0887 kcal/(mol*A)
+xmin   710     -181.9399 kcal/mol        0.0683 kcal/(mol*A)
+xmin   720     -181.9421 kcal/mol        0.1628 kcal/(mol*A)
+xmin   730     -181.9460 kcal/mol        0.0814 kcal/(mol*A)
+xmin   740     -181.9538 kcal/mol        0.1126 kcal/(mol*A)
+xmin   750     -181.9635 kcal/mol        0.3188 kcal/(mol*A)
+xmin   760     -181.9771 kcal/mol        0.1549 kcal/(mol*A)
+xmin   770     -181.9904 kcal/mol        0.1249 kcal/(mol*A)
+xmin   780     -182.0034 kcal/mol        0.1135 kcal/(mol*A)
+xmin   790     -182.0200 kcal/mol        0.1377 kcal/(mol*A)
+xmin   800     -182.0307 kcal/mol        0.3542 kcal/(mol*A)
+xmin   810     -182.0416 kcal/mol        0.1669 kcal/(mol*A)
+xmin   820     -182.0503 kcal/mol        0.3179 kcal/(mol*A)
+xmin   830     -182.0608 kcal/mol        0.2021 kcal/(mol*A)
+xmin   840     -182.0647 kcal/mol        0.1267 kcal/(mol*A)
+xmin   850     -182.0718 kcal/mol        0.1904 kcal/(mol*A)
+xmin   860     -182.0744 kcal/mol        0.0610 kcal/(mol*A)
+xmin   870     -182.0790 kcal/mol        0.2472 kcal/(mol*A)
+xmin   880     -182.0838 kcal/mol        0.1853 kcal/(mol*A)
+xmin   890     -182.0910 kcal/mol        0.0943 kcal/(mol*A)
+xmin   900     -182.0969 kcal/mol        0.0944 kcal/(mol*A)
+xmin   910     -182.0988 kcal/mol        0.0492 kcal/(mol*A)
+xmin   920     -182.1030 kcal/mol        0.1249 kcal/(mol*A)
+xmin   930     -182.1060 kcal/mol        0.0529 kcal/(mol*A)
+xmin   940     -182.1093 kcal/mol        0.1496 kcal/(mol*A)
+xmin   950     -182.1114 kcal/mol        0.0506 kcal/(mol*A)
+xmin   960     -182.1254 kcal/mol        0.0516 kcal/(mol*A)
+xmin   970     -182.1272 kcal/mol        0.0816 kcal/(mol*A)
+xmin   980     -182.1284 kcal/mol        0.0345 kcal/(mol*A)
+xmin   990     -182.1299 kcal/mol        0.1142 kcal/(mol*A)
+xmin  1000     -182.1310 kcal/mol        0.0370 kcal/(mol*A)
+xmin  1010     -182.1334 kcal/mol        0.0764 kcal/(mol*A)
+xmin  1020     -182.1344 kcal/mol        0.1222 kcal/(mol*A)
+xmin  1030     -182.1360 kcal/mol        0.0725 kcal/(mol*A)
+xmin  1040     -182.1377 kcal/mol        0.0591 kcal/(mol*A)
+xmin  1050     -182.1389 kcal/mol        0.0576 kcal/(mol*A)
+xmin  1060     -182.1399 kcal/mol        0.0498 kcal/(mol*A)
+xmin  1070     -182.1509 kcal/mol        0.1013 kcal/(mol*A)
+xmin  1080     -182.1528 kcal/mol        0.0591 kcal/(mol*A)
+xmin  1090     -182.1543 kcal/mol        0.0458 kcal/(mol*A)
+xmin  1100     -182.1573 kcal/mol        0.0595 kcal/(mol*A)
+xmin  1110     -182.1614 kcal/mol        0.0876 kcal/(mol*A)
+xmin  1120     -182.1622 kcal/mol        0.0573 kcal/(mol*A)
+xmin  1130     -182.1642 kcal/mol        0.0545 kcal/(mol*A)
+xmin  1140     -182.1659 kcal/mol        0.1392 kcal/(mol*A)
+xmin  1150     -182.1670 kcal/mol        0.0464 kcal/(mol*A)
+xmin  1160     -182.1677 kcal/mol        0.0533 kcal/(mol*A)
+xmin  1170     -182.1703 kcal/mol        0.0557 kcal/(mol*A)
+xmin  1180     -182.1714 kcal/mol        0.0819 kcal/(mol*A)
+xmin  1190     -182.1736 kcal/mol        0.1660 kcal/(mol*A)
+xmin  1200     -182.1767 kcal/mol        0.1181 kcal/(mol*A)
+xmin  1210     -182.1780 kcal/mol        0.0420 kcal/(mol*A)
+xmin  1220     -182.1790 kcal/mol        0.0628 kcal/(mol*A)
+xmin  1230     -182.1807 kcal/mol        0.0522 kcal/(mol*A)
+xmin  1240     -182.1817 kcal/mol        0.0318 kcal/(mol*A)
+xmin  1250     -182.1832 kcal/mol        0.0581 kcal/(mol*A)
+xmin  1260     -182.1860 kcal/mol        0.0465 kcal/(mol*A)
+xmin  1270     -182.1879 kcal/mol        0.0481 kcal/(mol*A)
+xmin  1280     -182.1892 kcal/mol        0.0859 kcal/(mol*A)
+xmin  1290     -182.1907 kcal/mol        0.0759 kcal/(mol*A)
+xmin  1300     -182.1922 kcal/mol        0.0452 kcal/(mol*A)
+xmin  1310     -182.1932 kcal/mol        0.0477 kcal/(mol*A)
+xmin  1320     -182.1951 kcal/mol        0.0845 kcal/(mol*A)
+xmin  1330     -182.1971 kcal/mol        0.1029 kcal/(mol*A)
+xmin  1340     -182.1991 kcal/mol        0.0580 kcal/(mol*A)
+xmin  1350     -182.2014 kcal/mol        0.1771 kcal/(mol*A)
+xmin  1360     -182.2045 kcal/mol        0.1599 kcal/(mol*A)
+xmin  1370     -182.2053 kcal/mol        0.0487 kcal/(mol*A)
+xmin  1380     -182.2062 kcal/mol        0.0466 kcal/(mol*A)
+xmin  1390     -182.2069 kcal/mol        0.0363 kcal/(mol*A)
+xmin  1400     -182.2074 kcal/mol        0.0341 kcal/(mol*A)
+xmin  1410     -182.2078 kcal/mol        0.0726 kcal/(mol*A)
+xmin  1420     -182.2141 kcal/mol        0.1205 kcal/(mol*A)
+xmin  1430     -182.2153 kcal/mol        0.0332 kcal/(mol*A)
+xmin  1440     -182.2164 kcal/mol        0.0384 kcal/(mol*A)
+xmin  1450     -182.2175 kcal/mol        0.0437 kcal/(mol*A)
+xmin  1460     -182.2179 kcal/mol        0.0394 kcal/(mol*A)
+xmin  1470     -182.2186 kcal/mol        0.0684 kcal/(mol*A)
+xmin  1480     -182.2193 kcal/mol        0.0324 kcal/(mol*A)
+xmin  1490     -182.2199 kcal/mol        0.0317 kcal/(mol*A)
+xmin  1500     -182.2206 kcal/mol        0.0646 kcal/(mol*A)
+xmin  1510     -182.2212 kcal/mol        0.0356 kcal/(mol*A)
+xmin  1520     -182.2220 kcal/mol        0.0632 kcal/(mol*A)
+xmin  1530     -182.2227 kcal/mol        0.0361 kcal/(mol*A)
+xmin  1540     -182.2236 kcal/mol        0.0772 kcal/(mol*A)
+xmin  1550     -182.2243 kcal/mol        0.0921 kcal/(mol*A)
+xmin  1560     -182.2248 kcal/mol        0.0346 kcal/(mol*A)
+xmin  1570     -182.2258 kcal/mol        0.0659 kcal/(mol*A)
+xmin  1580     -182.2271 kcal/mol        0.0504 kcal/(mol*A)
+xmin  1590     -182.2277 kcal/mol        0.0370 kcal/(mol*A)
+xmin  1600     -182.2290 kcal/mol        0.0264 kcal/(mol*A)
+xmin  1610     -182.2304 kcal/mol        0.1010 kcal/(mol*A)
+xmin  1620     -182.2311 kcal/mol        0.0389 kcal/(mol*A)
+xmin  1630     -182.2324 kcal/mol        0.0465 kcal/(mol*A)
+xmin  1640     -182.2330 kcal/mol        0.0304 kcal/(mol*A)
+xmin  1650     -182.2333 kcal/mol        0.0527 kcal/(mol*A)
+xmin  1660     -182.2342 kcal/mol        0.1226 kcal/(mol*A)
+xmin  1670     -182.2350 kcal/mol        0.0893 kcal/(mol*A)
+xmin  1680     -182.2355 kcal/mol        0.0326 kcal/(mol*A)
+xmin  1690     -182.2369 kcal/mol        0.0706 kcal/(mol*A)
+xmin  1700     -182.2376 kcal/mol        0.0663 kcal/(mol*A)
+xmin  1710     -182.2381 kcal/mol        0.0729 kcal/(mol*A)
+xmin  1720     -182.2387 kcal/mol        0.0395 kcal/(mol*A)
+xmin  1730     -182.2395 kcal/mol        0.0683 kcal/(mol*A)
+xmin  1740     -182.2412 kcal/mol        0.0499 kcal/(mol*A)
+xmin  1750     -182.2417 kcal/mol        0.0383 kcal/(mol*A)
+xmin  1760     -182.2425 kcal/mol        0.0872 kcal/(mol*A)
+xmin  1770     -182.2431 kcal/mol        0.0239 kcal/(mol*A)
+xmin  1780     -182.2436 kcal/mol        0.0207 kcal/(mol*A)
+xmin  1790     -182.2450 kcal/mol        0.0899 kcal/(mol*A)
+xmin  1800     -182.2454 kcal/mol        0.0269 kcal/(mol*A)
+xmin  1810     -182.2457 kcal/mol        0.0314 kcal/(mol*A)
+xmin  1820     -182.2459 kcal/mol        0.0379 kcal/(mol*A)
+xmin  1830     -182.2464 kcal/mol        0.0402 kcal/(mol*A)
+xmin  1840     -182.2466 kcal/mol        0.0246 kcal/(mol*A)
+xmin  1850     -182.2468 kcal/mol        0.0241 kcal/(mol*A)
+xmin  1860     -182.2475 kcal/mol        0.0417 kcal/(mol*A)
+  ... geometry converged !
+ 
+ Final MO eigenvalues (eV):
+ -40.7782  -39.6545  -37.9134  -35.6018  -34.7066  -34.5407  -32.3209  -29.6454
+ -27.9174  -26.3390  -23.9108  -23.0744  -20.5335  -19.6608  -18.6663  -18.2322
+ -18.0824  -18.0022  -17.5594  -16.8671  -16.3575  -16.2231  -16.1096  -15.6387
+ -15.0529  -14.9163  -14.8111  -14.6343  -14.1981  -14.1533  -14.0334  -13.8976
+ -13.7016  -13.2509  -13.1897  -12.9447  -12.2675  -12.0610  -11.4797  -11.3915
+ -10.9530   -9.8900   -9.7167    0.5613    0.7777    0.9516    1.2434    1.3346
+   2.0621    2.4336    2.7747    3.1065    3.1835    3.2426    3.3172    3.3864
+   3.4616    3.5613    3.6122    3.6246    3.6877    3.8658    3.9147    3.9243
+   4.0331    4.1139    4.1397    4.2945    4.7463    4.7924    5.1426    5.3323
+   5.5514    6.7369    6.9408    7.0505
+
+ Heat of formation   =       -182.24781461 kcal/mol  (       -7.90285827 eV)
+
+ Total SCF energy    =     -64887.07059734 kcal/mol  (    -2813.71452224 eV)
+ Electronic energy   =    -385409.28722652 kcal/mol  (   -16712.60080771 eV)
+ Core-core repulsion =     320522.21662919 kcal/mol  (    13898.88628547 eV)
+ 
+    Atomic Charges for Step       1 :
+  Atom    Element       Mulliken Charge
+     1      C                 -0.144
+     2      C                  0.270
+     3      O                 -0.358
+     4      N                 -0.064
+     5      C                 -0.053
+     6      C                 -0.107
+     7      C                  0.382
+     8      O                 -0.401
+     9      O                 -0.307
+    10      C                 -0.096
+    11      C                  0.222
+    12      O                 -0.353
+    13      N                 -0.061
+    14      C                 -0.075
+    15      C                 -0.085
+    16      H                  0.076
+    17      H                  0.056
+    18      H                  0.074
+    19      H                  0.072
+    20      H                  0.087
+    21      H                  0.097
+    22      H                  0.075
+    23      H                  0.227
+    24      H                  0.081
+    25      H                  0.089
+    26      H                  0.038
+    27      H                  0.047
+    28      H                  0.069
+    29      H                  0.047
+    30      H                  0.057
+    31      H                  0.036
+ Total Mulliken Charge =      -0.000
+ 
+                  X        Y        Z     TOTAL  
+  QM DIPOLE     3.156   -1.929   -4.253    5.636
+ 
+ Final Structure
+
+  QMMM: QM Region Cartesian Coordinates (*=link atom) 
+  QMMM: QM_NO.   MM_NO.  ATOM         X         Y         Z
+  QMMM:     1        1      C        1.0652    3.0179   -0.7641
+  QMMM:     2        2      C       -0.1272    2.2440   -0.2651
+  QMMM:     3        3      O       -1.0940    2.7743    0.2580
+  QMMM:     4        4      N       -0.1864    0.8227   -0.4828
+  QMMM:     5        5      C       -1.1756    0.0083    0.2797
+  QMMM:     6        6      C       -2.4059   -0.2563   -0.5873
+  QMMM:     7        7      C       -3.3514   -1.2226    0.0760
+  QMMM:     8        8      O       -3.1239   -2.1152    0.8736
+  QMMM:     9        9      O       -4.6473   -1.0919   -0.2957
+  QMMM:    10       10      C        1.0348    0.1051   -0.9053
+  QMMM:    11       11      C        2.0346   -0.2175    0.2014
+  QMMM:    12       12      O        1.8990    0.1427    1.3599
+  QMMM:    13       13      N        3.2516   -0.8902   -0.1622
+  QMMM:    14       14      C        4.1217   -1.3803    0.9318
+  QMMM:    15       15      C        3.2173   -1.7821   -1.3425
+  QMMM:    16       16      H        1.8136    3.1103    0.0351
+  QMMM:    17       17      H        1.5521    2.5296   -1.6238
+  QMMM:    18       18      H        0.7802    4.0332   -1.0691
+  QMMM:    19       19      H       -0.7085   -0.9477    0.5967
+  QMMM:    20       20      H       -1.4714    0.5269    1.2160
+  QMMM:    21       21      H       -2.9298    0.6951   -0.8164
+  QMMM:    22       22      H       -2.1193   -0.6883   -1.5681
+  QMMM:    23       23      H       -5.1819   -1.7361    0.1581
+  QMMM:    24       24      H        0.7047   -0.8313   -1.4019
+  QMMM:    25       25      H        1.5380    0.7309   -1.6792
+  QMMM:    26       26      H        3.6919   -2.2436    1.4598
+  QMMM:    27       27      H        5.0938   -1.6747    0.5138
+  QMMM:    28       28      H        4.2948   -0.5788    1.6623
+  QMMM:    29       29      H        2.9235   -1.2106   -2.2337
+  QMMM:    30       30      H        4.2201   -2.1915   -1.5259
+  QMMM:    31       31      H        2.5207   -2.6253   -1.2231
+
+           --------- Calculation Completed ----------
+

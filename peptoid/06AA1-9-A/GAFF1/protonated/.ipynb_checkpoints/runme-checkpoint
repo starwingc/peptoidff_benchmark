@@ -1,0 +1,4 @@
+
+tleap -f 06AA1-9-A.leap
+
+acpype -p '06AA1-9-A_protonated.prmtop' -x '06AA1-9-A_protonated.crd'

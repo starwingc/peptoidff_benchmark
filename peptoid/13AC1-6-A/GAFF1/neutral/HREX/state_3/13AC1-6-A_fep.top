@@ -1,0 +1,16 @@
+; Include force field parameters
+#include "/amber99.ff/forcefield.itp"
+
+; Include Peptoid
+#include "./13AC1-6-A_fep.itp"
+
+; Include chloroform model
+#include "./chloroform_320_box.itp"
+
+[ system ]
+13AC1-6-A in chloroform
+
+[ molecules ]
+; Compound        nmols
+ 13AC1-6-A        1 
+UNL               468

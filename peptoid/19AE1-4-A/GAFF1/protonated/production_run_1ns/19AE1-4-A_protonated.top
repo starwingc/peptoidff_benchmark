@@ -1,0 +1,12 @@
+; Include force field parameters
+#include "/usr/local/gromacs/share/gromacs/top/amber99.ff/forcefield.itp"
+
+; Include Peptoid
+#include "./19AE1-4-A_protonated.itp"
+
+[ system ]
+ 19AE1-4-A_protonated
+
+[ molecules ]
+; Compound        nmols
+ 19AE1-4-A_protonated 1 

@@ -1,0 +1,7 @@
+REMARK smiles_molecule_NEW.pdb created by acpype (v: 2023.10.27) on Thu Jun 20 09:50:47 2024
+ATOM      1    C UNL Z   1       0.964   0.064  -0.076  1.00  0.00           C
+ATOM      2   CL UNL Z   1       0.406  -1.561   0.358  1.00  0.00          CL
+ATOM      3  CL1 UNL Z   1       0.406   1.252   1.114  1.00  0.00          CL
+ATOM      4  CL2 UNL Z   1       0.406   0.501  -1.700  1.00  0.00          CL
+ATOM      5    H UNL Z   1       2.057   0.064  -0.076  1.00  0.00           H
+END

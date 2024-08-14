@@ -1,0 +1,1136 @@
+            --------------------------------------------------------
+                             AMBER SQM VERSION 19
+ 
+                                     By
+              Ross C. Walker, Michael F. Crowley, Scott Brozell,
+                         Tim Giese, Andreas W. Goetz,
+                        Tai-Sung Lee and David A. Case
+ 
+            --------------------------------------------------------
+ 
+
+--------------------------------------------------------------------------------
+  QM CALCULATION INFO
+--------------------------------------------------------------------------------
+
+| QMMM: Citation for AMBER QMMM Run:
+| QMMM: R.C. Walker, M.F. Crowley and D.A. Case, J. COMP. CHEM. 29:1019, 2008
+
+QMMM: SINGLET STATE CALCULATION
+QMMM: RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 56
+
+| QMMM: *** Selected Hamiltonian *** 
+| QMMM: PM3         
+
+| QMMM: *** Parameter sets in use ***
+| QMMM: C : J.J.P.STEWART, JCC, 10, 209 (1989)
+| QMMM: O : J.J.P.STEWART, JCC, 10, 209 (1989)
+| QMMM: N : J.J.P.STEWART, JCC, 10, 209 (1989)
+| QMMM: H : J.J.P.STEWART, JCC, 10, 209 (1989)
+
+| QMMM: *** SCF convergence criteria ***
+| QMMM: Energy change                :  0.1D-06 kcal/mol
+| QMMM: Error matrix |FP-PF|         :  0.1D+00 au
+| QMMM: Density matrix change        :  0.2D-04
+| QMMM: Maximum number of SCF cycles :     1000
+
+| QMMM: *** Diagonalization Routine Information ***
+| QMMM: Pseudo diagonalizations are allowed.
+| QMMM: Auto diagonalization routine selection is in use.
+| QMMM:
+| QMMM: Timing diagonalization routines:
+| QMMM:                              norbs =      105
+| QMMM:    diag iterations used for timing =       10
+| QMMM:
+| QMMM:              Internal diag routine = 0.022039 seconds
+| QMMM:                 Dspev diag routine = 0.017070 seconds
+| QMMM:                Dspevd diag routine = 0.007984 seconds
+| QMMM:                Dspevx diag routine = 0.070734 seconds
+| QMMM:                 Dsyev diag routine = 0.018296 seconds
+| QMMM:                Dsyevd diag routine = 0.009438 seconds
+| QMMM:                Dsyevr diag routine = 0.013621 seconds
+| QMMM:
+| QMMM:                Pseudo diag routine = 0.009709 seconds
+| QMMM: Pseudo diagonalization appears to be slower than regular
+| QMMM: diagonalization. Setting pseudo_diag=0 for optimum performance.
+| QMMM:
+| QMMM: Using dspevd routine (diag_routine=3).
+
+  QMMM: QM Region Cartesian Coordinates (*=link atom) 
+  QMMM: QM_NO.   MM_NO.  ATOM         X         Y         Z
+  QMMM:     1        1      C        2.2400    2.7810   -0.7760
+  QMMM:     2        2      C        1.0520    2.1780   -0.0720
+  QMMM:     3        3      O        0.2760    2.8920    0.5280
+  QMMM:     4        4      N        0.8520    0.8460   -0.1090
+  QMMM:     5        5      C       -0.3640    0.2720    0.4730
+  QMMM:     6        6      C       -1.4590    0.2080   -0.5940
+  QMMM:     7        7      N       -2.6550   -0.4230   -0.0290
+  QMMM:     8        8      C       -2.5960   -1.8050    0.4520
+  QMMM:     9        9      C       -3.9690   -2.2170    0.9880
+  QMMM:    10       10      C       -2.2000   -2.7300   -0.7000
+  QMMM:    11       11      C       -3.9090    0.3300    0.0540
+  QMMM:    12       12      C       -3.6780    1.6210    0.8410
+  QMMM:    13       13      C       -4.3940    0.6710   -1.3570
+  QMMM:    14       14      C        1.8500   -0.0280   -0.7310
+  QMMM:    15       15      C        2.9260   -0.3540    0.2720
+  QMMM:    16       16      O        2.8650    0.0980    1.3960
+  QMMM:    17       17      N        3.9560   -1.1490   -0.0790
+  QMMM:    18       18      C        5.0020   -1.4670    0.8960
+  QMMM:    19       19      C        4.0290   -1.6960   -1.4370
+  QMMM:    20       20      H        3.1060    2.7540   -0.1150
+  QMMM:    21       21      H        2.4540    2.2120   -1.6800
+  QMMM:    22       22      H        2.0180    3.8150   -1.0420
+  QMMM:    23       23      H       -0.1530   -0.7340    0.8370
+  QMMM:    24       24      H       -0.7000    0.8950    1.3020
+  QMMM:    25       25      H       -1.7020    1.2170   -0.9260
+  QMMM:    26       26      H       -1.1060   -0.3780   -1.4420
+  QMMM:    27       27      H       -1.8570   -1.8810    1.2500
+  QMMM:    28       28      H       -4.7080   -2.1410    0.1910
+  QMMM:    29       29      H       -3.9250   -3.2450    1.3460
+  QMMM:    30       30      H       -4.2510   -1.5580    1.8090
+  QMMM:    31       31      H       -2.9390   -2.6540   -1.4980
+  QMMM:    32       32      H       -1.2220   -2.4370   -1.0820
+  QMMM:    33       33      H       -2.1570   -3.7590   -0.3420
+  QMMM:    34       34      H       -4.6620   -0.2750    0.5600
+  QMMM:    35       35      H       -2.9990    2.2690    0.2850
+  QMMM:    36       36      H       -4.6300    2.1330    0.9870
+  QMMM:    37       37      H       -3.2410    1.3830    1.8100
+  QMMM:    38       38      H       -4.6270   -0.2480   -1.8930
+  QMMM:    39       39      H       -5.2880    1.2920   -1.2940
+  QMMM:    40       40      H       -3.6110    1.2140   -1.8880
+  QMMM:    41       41      H        1.3700   -0.9490   -1.0620
+  QMMM:    42       42      H        2.2930    0.4790   -1.5870
+  QMMM:    43       43      H        4.7290   -2.3700    1.4410
+  QMMM:    44       44      H        5.9470   -1.6280    0.3760
+  QMMM:    45       45      H        5.1100   -0.6380    1.5960
+  QMMM:    46       46      H        3.1700   -1.3530   -2.0130
+  QMMM:    47       47      H        4.9470   -1.3570   -1.9160
+  QMMM:    48       48      H        4.0240   -2.7850   -1.3900
+
+--------------------------------------------------------------------------------
+  RESULTS
+--------------------------------------------------------------------------------
+
+      iter         sqm energy              rms gradient
+      ----    -------------------    -----------------------
+xmin    10      -95.3094 kcal/mol        6.9609 kcal/(mol*A)
+xmin    20     -100.0691 kcal/mol        1.0070 kcal/(mol*A)
+xmin    30     -102.2298 kcal/mol        5.1672 kcal/(mol*A)
+xmin    40     -104.0585 kcal/mol        3.0033 kcal/(mol*A)
+xmin    50     -105.1372 kcal/mol        1.6395 kcal/(mol*A)
+xmin    60     -106.5439 kcal/mol        2.5234 kcal/(mol*A)
+xmin    70     -107.5393 kcal/mol        1.0373 kcal/(mol*A)
+xmin    80     -108.1882 kcal/mol        0.8808 kcal/(mol*A)
+xmin    90     -108.6129 kcal/mol        1.0670 kcal/(mol*A)
+xmin   100     -108.8316 kcal/mol        0.6143 kcal/(mol*A)
+xmin   110     -109.0388 kcal/mol        0.7951 kcal/(mol*A)
+xmin   120     -109.1846 kcal/mol        0.4453 kcal/(mol*A)
+xmin   130     -109.2255 kcal/mol        0.4281 kcal/(mol*A)
+xmin   140     -109.3007 kcal/mol        0.4407 kcal/(mol*A)
+xmin   150     -109.3339 kcal/mol        0.4134 kcal/(mol*A)
+xmin   160     -109.4070 kcal/mol        0.6710 kcal/(mol*A)
+xmin   170     -109.4625 kcal/mol        0.4052 kcal/(mol*A)
+xmin   180     -109.5246 kcal/mol        0.3403 kcal/(mol*A)
+xmin   190     -109.5656 kcal/mol        1.0834 kcal/(mol*A)
+xmin   200     -109.6806 kcal/mol        0.2914 kcal/(mol*A)
+xmin   210     -109.7437 kcal/mol        0.6652 kcal/(mol*A)
+xmin   220     -109.8579 kcal/mol        0.2598 kcal/(mol*A)
+xmin   230     -109.9561 kcal/mol        0.7115 kcal/(mol*A)
+xmin   240     -110.1217 kcal/mol        0.2649 kcal/(mol*A)
+xmin   250     -110.1804 kcal/mol        0.2029 kcal/(mol*A)
+xmin   260     -110.2397 kcal/mol        0.2094 kcal/(mol*A)
+xmin   270     -110.2922 kcal/mol        0.2045 kcal/(mol*A)
+xmin   280     -110.3261 kcal/mol        0.2480 kcal/(mol*A)
+xmin   290     -110.4541 kcal/mol        1.4502 kcal/(mol*A)
+xmin   300     -110.5664 kcal/mol        0.2011 kcal/(mol*A)
+xmin   310     -110.6842 kcal/mol        0.2175 kcal/(mol*A)
+xmin   320     -110.7483 kcal/mol        0.3827 kcal/(mol*A)
+xmin   330     -110.8755 kcal/mol        0.4441 kcal/(mol*A)
+xmin   340     -111.2215 kcal/mol        1.1455 kcal/(mol*A)
+xmin   350     -111.3590 kcal/mol        0.4560 kcal/(mol*A)
+xmin   360     -111.4254 kcal/mol        0.2357 kcal/(mol*A)
+xmin   370     -111.4759 kcal/mol        0.2127 kcal/(mol*A)
+xmin   380     -111.5005 kcal/mol        0.1013 kcal/(mol*A)
+xmin   390     -111.5217 kcal/mol        0.1334 kcal/(mol*A)
+xmin   400     -111.5580 kcal/mol        0.3321 kcal/(mol*A)
+xmin   410     -111.5828 kcal/mol        0.2863 kcal/(mol*A)
+xmin   420     -111.5989 kcal/mol        0.2322 kcal/(mol*A)
+xmin   430     -111.6124 kcal/mol        0.2924 kcal/(mol*A)
+xmin   440     -111.6320 kcal/mol        0.0801 kcal/(mol*A)
+xmin   450     -111.6423 kcal/mol        0.2074 kcal/(mol*A)
+xmin   460     -111.6566 kcal/mol        0.0812 kcal/(mol*A)
+xmin   470     -111.6594 kcal/mol        0.0881 kcal/(mol*A)
+xmin   480     -111.6618 kcal/mol        0.0825 kcal/(mol*A)
+xmin   490     -111.6642 kcal/mol        0.0789 kcal/(mol*A)
+xmin   500     -111.6665 kcal/mol        0.0761 kcal/(mol*A)
+xmin   510     -111.6687 kcal/mol        0.0738 kcal/(mol*A)
+xmin   520     -111.6708 kcal/mol        0.0716 kcal/(mol*A)
+xmin   530     -111.6728 kcal/mol        0.0697 kcal/(mol*A)
+xmin   540     -111.6747 kcal/mol        0.0680 kcal/(mol*A)
+xmin   550     -111.6766 kcal/mol        0.0664 kcal/(mol*A)
+xmin   560     -111.6785 kcal/mol        0.0649 kcal/(mol*A)
+xmin   570     -111.6803 kcal/mol        0.0635 kcal/(mol*A)
+xmin   580     -111.6820 kcal/mol        0.0622 kcal/(mol*A)
+xmin   590     -111.6837 kcal/mol        0.0610 kcal/(mol*A)
+xmin   600     -111.6854 kcal/mol        0.0599 kcal/(mol*A)
+xmin   610     -111.6871 kcal/mol        0.0589 kcal/(mol*A)
+xmin   620     -111.6887 kcal/mol        0.0579 kcal/(mol*A)
+xmin   630     -111.6903 kcal/mol        0.0570 kcal/(mol*A)
+xmin   640     -111.6918 kcal/mol        0.0562 kcal/(mol*A)
+xmin   650     -111.6934 kcal/mol        0.0554 kcal/(mol*A)
+xmin   660     -111.6949 kcal/mol        0.0546 kcal/(mol*A)
+xmin   670     -111.6964 kcal/mol        0.0539 kcal/(mol*A)
+xmin   680     -111.6979 kcal/mol        0.0533 kcal/(mol*A)
+xmin   690     -111.6994 kcal/mol        0.0527 kcal/(mol*A)
+xmin   700     -111.7009 kcal/mol        0.0521 kcal/(mol*A)
+xmin   710     -111.7023 kcal/mol        0.0516 kcal/(mol*A)
+xmin   720     -111.7038 kcal/mol        0.0510 kcal/(mol*A)
+xmin   730     -111.7052 kcal/mol        0.0506 kcal/(mol*A)
+xmin   740     -111.7067 kcal/mol        0.0501 kcal/(mol*A)
+xmin   750     -111.7081 kcal/mol        0.0497 kcal/(mol*A)
+xmin   760     -111.7095 kcal/mol        0.0493 kcal/(mol*A)
+xmin   770     -111.7109 kcal/mol        0.0489 kcal/(mol*A)
+xmin   780     -111.7123 kcal/mol        0.0485 kcal/(mol*A)
+xmin   790     -111.7137 kcal/mol        0.0482 kcal/(mol*A)
+xmin   800     -111.7151 kcal/mol        0.0479 kcal/(mol*A)
+xmin   810     -111.7165 kcal/mol        0.0476 kcal/(mol*A)
+xmin   820     -111.7179 kcal/mol        0.0473 kcal/(mol*A)
+xmin   830     -111.7193 kcal/mol        0.0470 kcal/(mol*A)
+xmin   840     -111.7206 kcal/mol        0.0468 kcal/(mol*A)
+xmin   850     -111.7220 kcal/mol        0.0465 kcal/(mol*A)
+xmin   860     -111.7234 kcal/mol        0.0463 kcal/(mol*A)
+xmin   870     -111.7247 kcal/mol        0.0460 kcal/(mol*A)
+xmin   880     -111.7261 kcal/mol        0.0458 kcal/(mol*A)
+xmin   890     -111.7274 kcal/mol        0.0456 kcal/(mol*A)
+xmin   900     -111.7288 kcal/mol        0.0454 kcal/(mol*A)
+xmin   910     -111.7301 kcal/mol        0.0452 kcal/(mol*A)
+xmin   920     -111.7314 kcal/mol        0.0450 kcal/(mol*A)
+xmin   930     -111.7328 kcal/mol        0.0449 kcal/(mol*A)
+xmin   940     -111.7341 kcal/mol        0.0447 kcal/(mol*A)
+xmin   950     -111.7354 kcal/mol        0.0445 kcal/(mol*A)
+xmin   960     -111.7367 kcal/mol        0.0444 kcal/(mol*A)
+xmin   970     -111.7380 kcal/mol        0.0442 kcal/(mol*A)
+xmin   980     -111.7393 kcal/mol        0.0440 kcal/(mol*A)
+xmin   990     -111.7406 kcal/mol        0.0439 kcal/(mol*A)
+xmin  1000     -111.7419 kcal/mol        0.0437 kcal/(mol*A)
+xmin  1010     -111.7432 kcal/mol        0.0436 kcal/(mol*A)
+xmin  1020     -111.7445 kcal/mol        0.0435 kcal/(mol*A)
+xmin  1030     -111.7458 kcal/mol        0.0433 kcal/(mol*A)
+xmin  1040     -111.7470 kcal/mol        0.0432 kcal/(mol*A)
+xmin  1050     -111.7483 kcal/mol        0.0431 kcal/(mol*A)
+xmin  1060     -111.7496 kcal/mol        0.0430 kcal/(mol*A)
+xmin  1070     -111.7508 kcal/mol        0.0428 kcal/(mol*A)
+xmin  1080     -111.7521 kcal/mol        0.0427 kcal/(mol*A)
+xmin  1090     -111.7533 kcal/mol        0.0426 kcal/(mol*A)
+xmin  1100     -111.7546 kcal/mol        0.0425 kcal/(mol*A)
+xmin  1110     -111.7558 kcal/mol        0.0424 kcal/(mol*A)
+xmin  1120     -111.7571 kcal/mol        0.0423 kcal/(mol*A)
+xmin  1130     -111.7583 kcal/mol        0.0422 kcal/(mol*A)
+xmin  1140     -111.7595 kcal/mol        0.0420 kcal/(mol*A)
+xmin  1150     -111.7607 kcal/mol        0.0419 kcal/(mol*A)
+xmin  1160     -111.7620 kcal/mol        0.0418 kcal/(mol*A)
+xmin  1170     -111.7632 kcal/mol        0.0417 kcal/(mol*A)
+xmin  1180     -111.7644 kcal/mol        0.0416 kcal/(mol*A)
+xmin  1190     -111.7656 kcal/mol        0.0415 kcal/(mol*A)
+xmin  1200     -111.7668 kcal/mol        0.0414 kcal/(mol*A)
+xmin  1210     -111.7680 kcal/mol        0.0413 kcal/(mol*A)
+xmin  1220     -111.7692 kcal/mol        0.0413 kcal/(mol*A)
+xmin  1230     -111.7704 kcal/mol        0.0412 kcal/(mol*A)
+xmin  1240     -111.7716 kcal/mol        0.0411 kcal/(mol*A)
+xmin  1250     -111.7727 kcal/mol        0.0410 kcal/(mol*A)
+xmin  1260     -111.7739 kcal/mol        0.0409 kcal/(mol*A)
+xmin  1270     -111.7751 kcal/mol        0.0408 kcal/(mol*A)
+xmin  1280     -111.7763 kcal/mol        0.0407 kcal/(mol*A)
+xmin  1290     -111.7774 kcal/mol        0.0406 kcal/(mol*A)
+xmin  1300     -111.7786 kcal/mol        0.0405 kcal/(mol*A)
+xmin  1310     -111.7797 kcal/mol        0.0405 kcal/(mol*A)
+xmin  1320     -111.7809 kcal/mol        0.0404 kcal/(mol*A)
+xmin  1330     -111.7820 kcal/mol        0.0403 kcal/(mol*A)
+xmin  1340     -111.7832 kcal/mol        0.0402 kcal/(mol*A)
+xmin  1350     -111.7843 kcal/mol        0.0401 kcal/(mol*A)
+xmin  1360     -111.7855 kcal/mol        0.0401 kcal/(mol*A)
+xmin  1370     -111.7866 kcal/mol        0.0400 kcal/(mol*A)
+xmin  1380     -111.7877 kcal/mol        0.0399 kcal/(mol*A)
+xmin  1390     -111.7888 kcal/mol        0.0398 kcal/(mol*A)
+xmin  1400     -111.7900 kcal/mol        0.0398 kcal/(mol*A)
+xmin  1410     -111.7911 kcal/mol        0.0397 kcal/(mol*A)
+xmin  1420     -111.7922 kcal/mol        0.0396 kcal/(mol*A)
+xmin  1430     -111.7933 kcal/mol        0.0395 kcal/(mol*A)
+xmin  1440     -111.7944 kcal/mol        0.0395 kcal/(mol*A)
+xmin  1450     -111.7955 kcal/mol        0.0394 kcal/(mol*A)
+xmin  1460     -111.7966 kcal/mol        0.0393 kcal/(mol*A)
+xmin  1470     -111.7977 kcal/mol        0.0393 kcal/(mol*A)
+xmin  1480     -111.7988 kcal/mol        0.0392 kcal/(mol*A)
+xmin  1490     -111.7999 kcal/mol        0.0391 kcal/(mol*A)
+xmin  1500     -111.8010 kcal/mol        0.0391 kcal/(mol*A)
+xmin  1510     -111.8021 kcal/mol        0.0390 kcal/(mol*A)
+xmin  1520     -111.8031 kcal/mol        0.0389 kcal/(mol*A)
+xmin  1530     -111.8042 kcal/mol        0.0389 kcal/(mol*A)
+xmin  1540     -111.8053 kcal/mol        0.0388 kcal/(mol*A)
+xmin  1550     -111.8063 kcal/mol        0.0387 kcal/(mol*A)
+xmin  1560     -111.8074 kcal/mol        0.0387 kcal/(mol*A)
+xmin  1570     -111.8085 kcal/mol        0.0386 kcal/(mol*A)
+xmin  1580     -111.8095 kcal/mol        0.0385 kcal/(mol*A)
+xmin  1590     -111.8106 kcal/mol        0.0385 kcal/(mol*A)
+xmin  1600     -111.8116 kcal/mol        0.0384 kcal/(mol*A)
+xmin  1610     -111.8127 kcal/mol        0.0383 kcal/(mol*A)
+xmin  1620     -111.8137 kcal/mol        0.0383 kcal/(mol*A)
+xmin  1630     -111.8148 kcal/mol        0.0382 kcal/(mol*A)
+xmin  1640     -111.8158 kcal/mol        0.0382 kcal/(mol*A)
+xmin  1650     -111.8168 kcal/mol        0.0381 kcal/(mol*A)
+xmin  1660     -111.8179 kcal/mol        0.0380 kcal/(mol*A)
+xmin  1670     -111.8189 kcal/mol        0.0380 kcal/(mol*A)
+xmin  1680     -111.8199 kcal/mol        0.0379 kcal/(mol*A)
+xmin  1690     -111.8209 kcal/mol        0.0379 kcal/(mol*A)
+xmin  1700     -111.8220 kcal/mol        0.0378 kcal/(mol*A)
+xmin  1710     -111.8230 kcal/mol        0.0378 kcal/(mol*A)
+xmin  1720     -111.8240 kcal/mol        0.0377 kcal/(mol*A)
+xmin  1730     -111.8250 kcal/mol        0.0376 kcal/(mol*A)
+xmin  1740     -111.8260 kcal/mol        0.0376 kcal/(mol*A)
+xmin  1750     -111.8270 kcal/mol        0.0375 kcal/(mol*A)
+xmin  1760     -111.8280 kcal/mol        0.0375 kcal/(mol*A)
+xmin  1770     -111.8290 kcal/mol        0.0374 kcal/(mol*A)
+xmin  1780     -111.8300 kcal/mol        0.0374 kcal/(mol*A)
+xmin  1790     -111.8310 kcal/mol        0.0373 kcal/(mol*A)
+xmin  1800     -111.8320 kcal/mol        0.0373 kcal/(mol*A)
+xmin  1810     -111.8330 kcal/mol        0.0372 kcal/(mol*A)
+xmin  1820     -111.8340 kcal/mol        0.0372 kcal/(mol*A)
+xmin  1830     -111.8350 kcal/mol        0.0371 kcal/(mol*A)
+xmin  1840     -111.8359 kcal/mol        0.0371 kcal/(mol*A)
+xmin  1850     -111.8369 kcal/mol        0.0370 kcal/(mol*A)
+xmin  1860     -111.8379 kcal/mol        0.0370 kcal/(mol*A)
+xmin  1870     -111.8389 kcal/mol        0.0369 kcal/(mol*A)
+xmin  1880     -111.8398 kcal/mol        0.0369 kcal/(mol*A)
+xmin  1890     -111.8408 kcal/mol        0.0368 kcal/(mol*A)
+xmin  1900     -111.8418 kcal/mol        0.0368 kcal/(mol*A)
+xmin  1910     -111.8427 kcal/mol        0.0367 kcal/(mol*A)
+xmin  1920     -111.8437 kcal/mol        0.0367 kcal/(mol*A)
+xmin  1930     -111.8447 kcal/mol        0.0366 kcal/(mol*A)
+xmin  1940     -111.8456 kcal/mol        0.0366 kcal/(mol*A)
+xmin  1950     -111.8466 kcal/mol        0.0365 kcal/(mol*A)
+xmin  1960     -111.8475 kcal/mol        0.0365 kcal/(mol*A)
+xmin  1970     -111.8485 kcal/mol        0.0364 kcal/(mol*A)
+xmin  1980     -111.8494 kcal/mol        0.0364 kcal/(mol*A)
+xmin  1990     -111.8504 kcal/mol        0.0363 kcal/(mol*A)
+xmin  2000     -111.8513 kcal/mol        0.0363 kcal/(mol*A)
+xmin  2010     -111.8523 kcal/mol        0.0362 kcal/(mol*A)
+xmin  2020     -111.8532 kcal/mol        0.0362 kcal/(mol*A)
+xmin  2030     -111.8541 kcal/mol        0.0361 kcal/(mol*A)
+xmin  2040     -111.8551 kcal/mol        0.0361 kcal/(mol*A)
+xmin  2050     -111.8560 kcal/mol        0.0360 kcal/(mol*A)
+xmin  2060     -111.8569 kcal/mol        0.0360 kcal/(mol*A)
+xmin  2070     -111.8578 kcal/mol        0.0359 kcal/(mol*A)
+xmin  2080     -111.8588 kcal/mol        0.0359 kcal/(mol*A)
+xmin  2090     -111.8597 kcal/mol        0.0359 kcal/(mol*A)
+xmin  2100     -111.8606 kcal/mol        0.0358 kcal/(mol*A)
+xmin  2110     -111.8615 kcal/mol        0.0358 kcal/(mol*A)
+xmin  2120     -111.8625 kcal/mol        0.0357 kcal/(mol*A)
+xmin  2130     -111.8634 kcal/mol        0.0357 kcal/(mol*A)
+xmin  2140     -111.8643 kcal/mol        0.0356 kcal/(mol*A)
+xmin  2150     -111.8652 kcal/mol        0.0356 kcal/(mol*A)
+xmin  2160     -111.8661 kcal/mol        0.0355 kcal/(mol*A)
+xmin  2170     -111.8670 kcal/mol        0.0355 kcal/(mol*A)
+xmin  2180     -111.8679 kcal/mol        0.0355 kcal/(mol*A)
+xmin  2190     -111.8688 kcal/mol        0.0354 kcal/(mol*A)
+xmin  2200     -111.8697 kcal/mol        0.0354 kcal/(mol*A)
+xmin  2210     -111.8706 kcal/mol        0.0353 kcal/(mol*A)
+xmin  2220     -111.8715 kcal/mol        0.0353 kcal/(mol*A)
+xmin  2230     -111.8724 kcal/mol        0.0352 kcal/(mol*A)
+xmin  2240     -111.8733 kcal/mol        0.0352 kcal/(mol*A)
+xmin  2250     -111.8742 kcal/mol        0.0352 kcal/(mol*A)
+xmin  2260     -111.8751 kcal/mol        0.0351 kcal/(mol*A)
+xmin  2270     -111.8760 kcal/mol        0.0351 kcal/(mol*A)
+xmin  2280     -111.8769 kcal/mol        0.0350 kcal/(mol*A)
+xmin  2290     -111.8778 kcal/mol        0.0350 kcal/(mol*A)
+xmin  2300     -111.8786 kcal/mol        0.0350 kcal/(mol*A)
+xmin  2310     -111.8795 kcal/mol        0.0349 kcal/(mol*A)
+xmin  2320     -111.8804 kcal/mol        0.0349 kcal/(mol*A)
+xmin  2330     -111.8813 kcal/mol        0.0348 kcal/(mol*A)
+xmin  2340     -111.8822 kcal/mol        0.0348 kcal/(mol*A)
+xmin  2350     -111.8830 kcal/mol        0.0347 kcal/(mol*A)
+xmin  2360     -111.8839 kcal/mol        0.0347 kcal/(mol*A)
+xmin  2370     -111.8848 kcal/mol        0.0347 kcal/(mol*A)
+xmin  2380     -111.8857 kcal/mol        0.0346 kcal/(mol*A)
+xmin  2390     -111.8865 kcal/mol        0.0346 kcal/(mol*A)
+xmin  2400     -111.8874 kcal/mol        0.0345 kcal/(mol*A)
+xmin  2410     -111.8883 kcal/mol        0.0345 kcal/(mol*A)
+xmin  2420     -111.8891 kcal/mol        0.0345 kcal/(mol*A)
+xmin  2430     -111.8900 kcal/mol        0.0344 kcal/(mol*A)
+xmin  2440     -111.8908 kcal/mol        0.0344 kcal/(mol*A)
+xmin  2450     -111.8917 kcal/mol        0.0344 kcal/(mol*A)
+xmin  2460     -111.8926 kcal/mol        0.0343 kcal/(mol*A)
+xmin  2470     -111.8934 kcal/mol        0.0343 kcal/(mol*A)
+xmin  2480     -111.8943 kcal/mol        0.0342 kcal/(mol*A)
+xmin  2490     -111.8951 kcal/mol        0.0342 kcal/(mol*A)
+xmin  2500     -111.8960 kcal/mol        0.0342 kcal/(mol*A)
+xmin  2510     -111.8968 kcal/mol        0.0341 kcal/(mol*A)
+xmin  2520     -111.8977 kcal/mol        0.0341 kcal/(mol*A)
+xmin  2530     -111.8985 kcal/mol        0.0340 kcal/(mol*A)
+xmin  2540     -111.8994 kcal/mol        0.0340 kcal/(mol*A)
+xmin  2550     -111.9002 kcal/mol        0.0340 kcal/(mol*A)
+xmin  2560     -111.9011 kcal/mol        0.0339 kcal/(mol*A)
+xmin  2570     -111.9019 kcal/mol        0.0339 kcal/(mol*A)
+xmin  2580     -111.9028 kcal/mol        0.0339 kcal/(mol*A)
+xmin  2590     -111.9036 kcal/mol        0.0338 kcal/(mol*A)
+xmin  2600     -111.9045 kcal/mol        0.0338 kcal/(mol*A)
+xmin  2610     -111.9053 kcal/mol        0.0337 kcal/(mol*A)
+xmin  2620     -111.9061 kcal/mol        0.0337 kcal/(mol*A)
+xmin  2630     -111.9070 kcal/mol        0.0337 kcal/(mol*A)
+xmin  2640     -111.9078 kcal/mol        0.0336 kcal/(mol*A)
+xmin  2650     -111.9086 kcal/mol        0.0336 kcal/(mol*A)
+xmin  2660     -111.9095 kcal/mol        0.0336 kcal/(mol*A)
+xmin  2670     -111.9103 kcal/mol        0.0335 kcal/(mol*A)
+xmin  2680     -111.9111 kcal/mol        0.0335 kcal/(mol*A)
+xmin  2690     -111.9120 kcal/mol        0.0334 kcal/(mol*A)
+xmin  2700     -111.9128 kcal/mol        0.0334 kcal/(mol*A)
+xmin  2710     -111.9136 kcal/mol        0.0334 kcal/(mol*A)
+xmin  2720     -111.9145 kcal/mol        0.0333 kcal/(mol*A)
+xmin  2730     -111.9153 kcal/mol        0.0333 kcal/(mol*A)
+xmin  2740     -111.9161 kcal/mol        0.0333 kcal/(mol*A)
+xmin  2750     -111.9169 kcal/mol        0.0332 kcal/(mol*A)
+xmin  2760     -111.9178 kcal/mol        0.0332 kcal/(mol*A)
+xmin  2770     -111.9186 kcal/mol        0.0332 kcal/(mol*A)
+xmin  2780     -111.9194 kcal/mol        0.0331 kcal/(mol*A)
+xmin  2790     -111.9202 kcal/mol        0.0331 kcal/(mol*A)
+xmin  2800     -111.9210 kcal/mol        0.0331 kcal/(mol*A)
+xmin  2810     -111.9219 kcal/mol        0.0330 kcal/(mol*A)
+xmin  2820     -111.9227 kcal/mol        0.0330 kcal/(mol*A)
+xmin  2830     -111.9235 kcal/mol        0.0330 kcal/(mol*A)
+xmin  2840     -111.9243 kcal/mol        0.0329 kcal/(mol*A)
+xmin  2850     -111.9251 kcal/mol        0.0329 kcal/(mol*A)
+xmin  2860     -111.9259 kcal/mol        0.0328 kcal/(mol*A)
+xmin  2870     -111.9267 kcal/mol        0.0328 kcal/(mol*A)
+xmin  2880     -111.9276 kcal/mol        0.0328 kcal/(mol*A)
+xmin  2890     -111.9284 kcal/mol        0.0327 kcal/(mol*A)
+xmin  2900     -111.9292 kcal/mol        0.0327 kcal/(mol*A)
+xmin  2910     -111.9300 kcal/mol        0.0327 kcal/(mol*A)
+xmin  2920     -111.9308 kcal/mol        0.0326 kcal/(mol*A)
+xmin  2930     -111.9316 kcal/mol        0.0326 kcal/(mol*A)
+xmin  2940     -111.9324 kcal/mol        0.0326 kcal/(mol*A)
+xmin  2950     -111.9332 kcal/mol        0.0325 kcal/(mol*A)
+xmin  2960     -111.9340 kcal/mol        0.0325 kcal/(mol*A)
+xmin  2970     -111.9348 kcal/mol        0.0325 kcal/(mol*A)
+xmin  2980     -111.9356 kcal/mol        0.0324 kcal/(mol*A)
+xmin  2990     -111.9364 kcal/mol        0.0324 kcal/(mol*A)
+xmin  3000     -111.9372 kcal/mol        0.0324 kcal/(mol*A)
+xmin  3010     -111.9380 kcal/mol        0.0323 kcal/(mol*A)
+xmin  3020     -111.9388 kcal/mol        0.0323 kcal/(mol*A)
+xmin  3030     -111.9396 kcal/mol        0.0323 kcal/(mol*A)
+xmin  3040     -111.9404 kcal/mol        0.0322 kcal/(mol*A)
+xmin  3050     -111.9412 kcal/mol        0.0322 kcal/(mol*A)
+xmin  3060     -111.9420 kcal/mol        0.0322 kcal/(mol*A)
+xmin  3070     -111.9428 kcal/mol        0.0322 kcal/(mol*A)
+xmin  3080     -111.9436 kcal/mol        0.0321 kcal/(mol*A)
+xmin  3090     -111.9444 kcal/mol        0.0321 kcal/(mol*A)
+xmin  3100     -111.9452 kcal/mol        0.0321 kcal/(mol*A)
+xmin  3110     -111.9460 kcal/mol        0.0320 kcal/(mol*A)
+xmin  3120     -111.9468 kcal/mol        0.0320 kcal/(mol*A)
+xmin  3130     -111.9476 kcal/mol        0.0320 kcal/(mol*A)
+xmin  3140     -111.9484 kcal/mol        0.0319 kcal/(mol*A)
+xmin  3150     -111.9492 kcal/mol        0.0319 kcal/(mol*A)
+xmin  3160     -111.9500 kcal/mol        0.0319 kcal/(mol*A)
+xmin  3170     -111.9508 kcal/mol        0.0318 kcal/(mol*A)
+xmin  3180     -111.9516 kcal/mol        0.0318 kcal/(mol*A)
+xmin  3190     -111.9524 kcal/mol        0.0318 kcal/(mol*A)
+xmin  3200     -111.9532 kcal/mol        0.0318 kcal/(mol*A)
+xmin  3210     -111.9540 kcal/mol        0.0317 kcal/(mol*A)
+xmin  3220     -111.9548 kcal/mol        0.0317 kcal/(mol*A)
+xmin  3230     -111.9555 kcal/mol        0.0317 kcal/(mol*A)
+xmin  3240     -111.9563 kcal/mol        0.0316 kcal/(mol*A)
+xmin  3250     -111.9571 kcal/mol        0.0316 kcal/(mol*A)
+xmin  3260     -111.9579 kcal/mol        0.0316 kcal/(mol*A)
+xmin  3270     -111.9587 kcal/mol        0.0315 kcal/(mol*A)
+xmin  3280     -111.9595 kcal/mol        0.0315 kcal/(mol*A)
+xmin  3290     -111.9603 kcal/mol        0.0315 kcal/(mol*A)
+xmin  3300     -111.9611 kcal/mol        0.0315 kcal/(mol*A)
+xmin  3310     -111.9619 kcal/mol        0.0314 kcal/(mol*A)
+xmin  3320     -111.9626 kcal/mol        0.0314 kcal/(mol*A)
+xmin  3330     -111.9634 kcal/mol        0.0314 kcal/(mol*A)
+xmin  3340     -111.9642 kcal/mol        0.0314 kcal/(mol*A)
+xmin  3350     -111.9650 kcal/mol        0.0313 kcal/(mol*A)
+xmin  3360     -111.9658 kcal/mol        0.0313 kcal/(mol*A)
+xmin  3370     -111.9666 kcal/mol        0.0313 kcal/(mol*A)
+xmin  3380     -111.9674 kcal/mol        0.0312 kcal/(mol*A)
+xmin  3390     -111.9681 kcal/mol        0.0312 kcal/(mol*A)
+xmin  3400     -111.9689 kcal/mol        0.0312 kcal/(mol*A)
+xmin  3410     -111.9697 kcal/mol        0.0312 kcal/(mol*A)
+xmin  3420     -111.9705 kcal/mol        0.0311 kcal/(mol*A)
+xmin  3430     -111.9713 kcal/mol        0.0311 kcal/(mol*A)
+xmin  3440     -111.9721 kcal/mol        0.0311 kcal/(mol*A)
+xmin  3450     -111.9729 kcal/mol        0.0311 kcal/(mol*A)
+xmin  3460     -111.9736 kcal/mol        0.0310 kcal/(mol*A)
+xmin  3470     -111.9744 kcal/mol        0.0310 kcal/(mol*A)
+xmin  3480     -111.9752 kcal/mol        0.0310 kcal/(mol*A)
+xmin  3490     -111.9760 kcal/mol        0.0310 kcal/(mol*A)
+xmin  3500     -111.9768 kcal/mol        0.0310 kcal/(mol*A)
+xmin  3510     -111.9776 kcal/mol        0.0309 kcal/(mol*A)
+xmin  3520     -111.9784 kcal/mol        0.0309 kcal/(mol*A)
+xmin  3530     -111.9791 kcal/mol        0.0309 kcal/(mol*A)
+xmin  3540     -111.9799 kcal/mol        0.0309 kcal/(mol*A)
+xmin  3550     -111.9807 kcal/mol        0.0308 kcal/(mol*A)
+xmin  3560     -111.9815 kcal/mol        0.0308 kcal/(mol*A)
+xmin  3570     -111.9823 kcal/mol        0.0308 kcal/(mol*A)
+xmin  3580     -111.9831 kcal/mol        0.0308 kcal/(mol*A)
+xmin  3590     -111.9839 kcal/mol        0.0308 kcal/(mol*A)
+xmin  3600     -111.9846 kcal/mol        0.0307 kcal/(mol*A)
+xmin  3610     -111.9854 kcal/mol        0.0307 kcal/(mol*A)
+xmin  3620     -111.9862 kcal/mol        0.0307 kcal/(mol*A)
+xmin  3630     -111.9870 kcal/mol        0.0307 kcal/(mol*A)
+xmin  3640     -111.9878 kcal/mol        0.0307 kcal/(mol*A)
+xmin  3650     -111.9886 kcal/mol        0.0306 kcal/(mol*A)
+xmin  3660     -111.9894 kcal/mol        0.0306 kcal/(mol*A)
+xmin  3670     -111.9902 kcal/mol        0.0306 kcal/(mol*A)
+xmin  3680     -111.9909 kcal/mol        0.0306 kcal/(mol*A)
+xmin  3690     -111.9917 kcal/mol        0.0306 kcal/(mol*A)
+xmin  3700     -111.9925 kcal/mol        0.0306 kcal/(mol*A)
+xmin  3710     -111.9933 kcal/mol        0.0305 kcal/(mol*A)
+xmin  3720     -111.9941 kcal/mol        0.0305 kcal/(mol*A)
+xmin  3730     -111.9949 kcal/mol        0.0305 kcal/(mol*A)
+xmin  3740     -111.9957 kcal/mol        0.0305 kcal/(mol*A)
+xmin  3750     -111.9965 kcal/mol        0.0305 kcal/(mol*A)
+xmin  3760     -111.9973 kcal/mol        0.0305 kcal/(mol*A)
+xmin  3770     -111.9981 kcal/mol        0.0305 kcal/(mol*A)
+xmin  3780     -111.9989 kcal/mol        0.0304 kcal/(mol*A)
+xmin  3790     -111.9997 kcal/mol        0.0304 kcal/(mol*A)
+xmin  3800     -112.0004 kcal/mol        0.0304 kcal/(mol*A)
+xmin  3810     -112.0012 kcal/mol        0.0304 kcal/(mol*A)
+xmin  3820     -112.0020 kcal/mol        0.0304 kcal/(mol*A)
+xmin  3830     -112.0028 kcal/mol        0.0304 kcal/(mol*A)
+xmin  3840     -112.0036 kcal/mol        0.0304 kcal/(mol*A)
+xmin  3850     -112.0044 kcal/mol        0.0304 kcal/(mol*A)
+xmin  3860     -112.0052 kcal/mol        0.0304 kcal/(mol*A)
+xmin  3870     -112.0060 kcal/mol        0.0303 kcal/(mol*A)
+xmin  3880     -112.0068 kcal/mol        0.0303 kcal/(mol*A)
+xmin  3890     -112.0076 kcal/mol        0.0303 kcal/(mol*A)
+xmin  3900     -112.0084 kcal/mol        0.0303 kcal/(mol*A)
+xmin  3910     -112.0092 kcal/mol        0.0303 kcal/(mol*A)
+xmin  3920     -112.0101 kcal/mol        0.0303 kcal/(mol*A)
+xmin  3930     -112.0109 kcal/mol        0.0303 kcal/(mol*A)
+xmin  3940     -112.0117 kcal/mol        0.0303 kcal/(mol*A)
+xmin  3950     -112.0125 kcal/mol        0.0303 kcal/(mol*A)
+xmin  3960     -112.0133 kcal/mol        0.0303 kcal/(mol*A)
+xmin  3970     -112.0141 kcal/mol        0.0303 kcal/(mol*A)
+xmin  3980     -112.0149 kcal/mol        0.0303 kcal/(mol*A)
+xmin  3990     -112.0157 kcal/mol        0.0303 kcal/(mol*A)
+xmin  4000     -112.0165 kcal/mol        0.0303 kcal/(mol*A)
+xmin  4010     -112.0174 kcal/mol        0.0303 kcal/(mol*A)
+xmin  4020     -112.0182 kcal/mol        0.0303 kcal/(mol*A)
+xmin  4030     -112.0190 kcal/mol        0.0303 kcal/(mol*A)
+xmin  4040     -112.0198 kcal/mol        0.0303 kcal/(mol*A)
+xmin  4050     -112.0206 kcal/mol        0.0303 kcal/(mol*A)
+xmin  4060     -112.0215 kcal/mol        0.0303 kcal/(mol*A)
+xmin  4070     -112.0223 kcal/mol        0.0303 kcal/(mol*A)
+xmin  4080     -112.0231 kcal/mol        0.0303 kcal/(mol*A)
+xmin  4090     -112.0239 kcal/mol        0.0303 kcal/(mol*A)
+xmin  4100     -112.0248 kcal/mol        0.0303 kcal/(mol*A)
+xmin  4110     -112.0256 kcal/mol        0.0303 kcal/(mol*A)
+xmin  4120     -112.0264 kcal/mol        0.0304 kcal/(mol*A)
+xmin  4130     -112.0273 kcal/mol        0.0304 kcal/(mol*A)
+xmin  4140     -112.0281 kcal/mol        0.0304 kcal/(mol*A)
+xmin  4150     -112.0289 kcal/mol        0.0304 kcal/(mol*A)
+xmin  4160     -112.0298 kcal/mol        0.0304 kcal/(mol*A)
+xmin  4170     -112.0306 kcal/mol        0.0304 kcal/(mol*A)
+xmin  4180     -112.0315 kcal/mol        0.0304 kcal/(mol*A)
+xmin  4190     -112.0323 kcal/mol        0.0305 kcal/(mol*A)
+xmin  4200     -112.0332 kcal/mol        0.0305 kcal/(mol*A)
+xmin  4210     -112.0340 kcal/mol        0.0305 kcal/(mol*A)
+xmin  4220     -112.0349 kcal/mol        0.0305 kcal/(mol*A)
+xmin  4230     -112.0357 kcal/mol        0.0305 kcal/(mol*A)
+xmin  4240     -112.0366 kcal/mol        0.0305 kcal/(mol*A)
+xmin  4250     -112.0374 kcal/mol        0.0306 kcal/(mol*A)
+xmin  4260     -112.0383 kcal/mol        0.0306 kcal/(mol*A)
+xmin  4270     -112.0392 kcal/mol        0.0306 kcal/(mol*A)
+xmin  4280     -112.0400 kcal/mol        0.0306 kcal/(mol*A)
+xmin  4290     -112.0409 kcal/mol        0.0307 kcal/(mol*A)
+xmin  4300     -112.0418 kcal/mol        0.0307 kcal/(mol*A)
+xmin  4310     -112.0427 kcal/mol        0.0307 kcal/(mol*A)
+xmin  4320     -112.0435 kcal/mol        0.0308 kcal/(mol*A)
+xmin  4330     -112.0444 kcal/mol        0.0308 kcal/(mol*A)
+xmin  4340     -112.0453 kcal/mol        0.0308 kcal/(mol*A)
+xmin  4350     -112.0462 kcal/mol        0.0309 kcal/(mol*A)
+xmin  4360     -112.0471 kcal/mol        0.0309 kcal/(mol*A)
+xmin  4370     -112.0480 kcal/mol        0.0309 kcal/(mol*A)
+xmin  4380     -112.0489 kcal/mol        0.0310 kcal/(mol*A)
+xmin  4390     -112.0498 kcal/mol        0.0310 kcal/(mol*A)
+xmin  4400     -112.0507 kcal/mol        0.0311 kcal/(mol*A)
+xmin  4410     -112.0516 kcal/mol        0.0311 kcal/(mol*A)
+xmin  4420     -112.0525 kcal/mol        0.0312 kcal/(mol*A)
+xmin  4430     -112.0534 kcal/mol        0.0312 kcal/(mol*A)
+xmin  4440     -112.0543 kcal/mol        0.0313 kcal/(mol*A)
+xmin  4450     -112.0553 kcal/mol        0.0313 kcal/(mol*A)
+xmin  4460     -112.0562 kcal/mol        0.0314 kcal/(mol*A)
+xmin  4470     -112.0571 kcal/mol        0.0314 kcal/(mol*A)
+xmin  4480     -112.0581 kcal/mol        0.0315 kcal/(mol*A)
+xmin  4490     -112.0590 kcal/mol        0.0315 kcal/(mol*A)
+xmin  4500     -112.0599 kcal/mol        0.0316 kcal/(mol*A)
+xmin  4510     -112.0609 kcal/mol        0.0317 kcal/(mol*A)
+xmin  4520     -112.0618 kcal/mol        0.0317 kcal/(mol*A)
+xmin  4530     -112.0628 kcal/mol        0.0318 kcal/(mol*A)
+xmin  4540     -112.0638 kcal/mol        0.0319 kcal/(mol*A)
+xmin  4550     -112.0647 kcal/mol        0.0319 kcal/(mol*A)
+xmin  4560     -112.0657 kcal/mol        0.0320 kcal/(mol*A)
+xmin  4570     -112.0667 kcal/mol        0.0321 kcal/(mol*A)
+xmin  4580     -112.0677 kcal/mol        0.0322 kcal/(mol*A)
+xmin  4590     -112.0686 kcal/mol        0.0322 kcal/(mol*A)
+xmin  4600     -112.0696 kcal/mol        0.0323 kcal/(mol*A)
+xmin  4610     -112.0706 kcal/mol        0.0324 kcal/(mol*A)
+xmin  4620     -112.0716 kcal/mol        0.0325 kcal/(mol*A)
+xmin  4630     -112.0726 kcal/mol        0.0326 kcal/(mol*A)
+xmin  4640     -112.0736 kcal/mol        0.0327 kcal/(mol*A)
+xmin  4650     -112.0747 kcal/mol        0.0328 kcal/(mol*A)
+xmin  4660     -112.0757 kcal/mol        0.0328 kcal/(mol*A)
+xmin  4670     -112.0767 kcal/mol        0.0329 kcal/(mol*A)
+xmin  4680     -112.0777 kcal/mol        0.0330 kcal/(mol*A)
+xmin  4690     -112.0788 kcal/mol        0.0332 kcal/(mol*A)
+xmin  4700     -112.0798 kcal/mol        0.0333 kcal/(mol*A)
+xmin  4710     -112.0809 kcal/mol        0.0334 kcal/(mol*A)
+xmin  4720     -112.0819 kcal/mol        0.0335 kcal/(mol*A)
+xmin  4730     -112.0830 kcal/mol        0.0336 kcal/(mol*A)
+xmin  4740     -112.0841 kcal/mol        0.0337 kcal/(mol*A)
+xmin  4750     -112.0852 kcal/mol        0.0338 kcal/(mol*A)
+xmin  4760     -112.0863 kcal/mol        0.0340 kcal/(mol*A)
+xmin  4770     -112.0873 kcal/mol        0.0341 kcal/(mol*A)
+xmin  4780     -112.0884 kcal/mol        0.0342 kcal/(mol*A)
+xmin  4790     -112.0896 kcal/mol        0.0343 kcal/(mol*A)
+xmin  4800     -112.0907 kcal/mol        0.0345 kcal/(mol*A)
+xmin  4810     -112.0918 kcal/mol        0.0346 kcal/(mol*A)
+xmin  4820     -112.0929 kcal/mol        0.0348 kcal/(mol*A)
+xmin  4830     -112.0941 kcal/mol        0.0349 kcal/(mol*A)
+xmin  4840     -112.0952 kcal/mol        0.0350 kcal/(mol*A)
+xmin  4850     -112.0963 kcal/mol        0.0352 kcal/(mol*A)
+xmin  4860     -112.0975 kcal/mol        0.0354 kcal/(mol*A)
+xmin  4870     -112.0987 kcal/mol        0.0355 kcal/(mol*A)
+xmin  4880     -112.0999 kcal/mol        0.0357 kcal/(mol*A)
+xmin  4890     -112.1010 kcal/mol        0.0358 kcal/(mol*A)
+xmin  4900     -112.1022 kcal/mol        0.0360 kcal/(mol*A)
+xmin  4910     -112.1034 kcal/mol        0.0362 kcal/(mol*A)
+xmin  4920     -112.1046 kcal/mol        0.0364 kcal/(mol*A)
+xmin  4930     -112.1059 kcal/mol        0.0365 kcal/(mol*A)
+xmin  4940     -112.1071 kcal/mol        0.0367 kcal/(mol*A)
+xmin  4950     -112.1083 kcal/mol        0.0369 kcal/(mol*A)
+xmin  4960     -112.1096 kcal/mol        0.0371 kcal/(mol*A)
+xmin  4970     -112.1108 kcal/mol        0.0373 kcal/(mol*A)
+xmin  4980     -112.1121 kcal/mol        0.0375 kcal/(mol*A)
+xmin  4990     -112.1134 kcal/mol        0.0377 kcal/(mol*A)
+xmin  5000     -112.1146 kcal/mol        0.0379 kcal/(mol*A)
+xmin  5010     -112.1159 kcal/mol        0.0381 kcal/(mol*A)
+xmin  5020     -112.1172 kcal/mol        0.0383 kcal/(mol*A)
+xmin  5030     -112.1185 kcal/mol        0.0386 kcal/(mol*A)
+xmin  5040     -112.1199 kcal/mol        0.0388 kcal/(mol*A)
+xmin  5050     -112.1212 kcal/mol        0.0390 kcal/(mol*A)
+xmin  5060     -112.1225 kcal/mol        0.0392 kcal/(mol*A)
+xmin  5070     -112.1239 kcal/mol        0.0395 kcal/(mol*A)
+xmin  5080     -112.1252 kcal/mol        0.0397 kcal/(mol*A)
+xmin  5090     -112.1266 kcal/mol        0.0400 kcal/(mol*A)
+xmin  5100     -112.1280 kcal/mol        0.0402 kcal/(mol*A)
+xmin  5110     -112.1294 kcal/mol        0.0405 kcal/(mol*A)
+xmin  5120     -112.1308 kcal/mol        0.0407 kcal/(mol*A)
+xmin  5130     -112.1322 kcal/mol        0.0410 kcal/(mol*A)
+xmin  5140     -112.1336 kcal/mol        0.0413 kcal/(mol*A)
+xmin  5150     -112.1350 kcal/mol        0.0416 kcal/(mol*A)
+xmin  5160     -112.1365 kcal/mol        0.0418 kcal/(mol*A)
+xmin  5170     -112.1379 kcal/mol        0.0421 kcal/(mol*A)
+xmin  5180     -112.1394 kcal/mol        0.0424 kcal/(mol*A)
+xmin  5190     -112.1409 kcal/mol        0.0427 kcal/(mol*A)
+xmin  5200     -112.1424 kcal/mol        0.0430 kcal/(mol*A)
+xmin  5210     -112.1439 kcal/mol        0.0433 kcal/(mol*A)
+xmin  5220     -112.1454 kcal/mol        0.0436 kcal/(mol*A)
+xmin  5230     -112.1469 kcal/mol        0.0439 kcal/(mol*A)
+xmin  5240     -112.1484 kcal/mol        0.0443 kcal/(mol*A)
+xmin  5250     -112.1499 kcal/mol        0.0446 kcal/(mol*A)
+xmin  5260     -112.1515 kcal/mol        0.0449 kcal/(mol*A)
+xmin  5270     -112.1531 kcal/mol        0.0453 kcal/(mol*A)
+xmin  5280     -112.1546 kcal/mol        0.0456 kcal/(mol*A)
+xmin  5290     -112.1562 kcal/mol        0.0460 kcal/(mol*A)
+xmin  5300     -112.1578 kcal/mol        0.0463 kcal/(mol*A)
+xmin  5310     -112.1594 kcal/mol        0.0467 kcal/(mol*A)
+xmin  5320     -112.1610 kcal/mol        0.0470 kcal/(mol*A)
+xmin  5330     -112.1626 kcal/mol        0.0474 kcal/(mol*A)
+xmin  5340     -112.1643 kcal/mol        0.0478 kcal/(mol*A)
+xmin  5350     -112.1659 kcal/mol        0.0482 kcal/(mol*A)
+xmin  5360     -112.1676 kcal/mol        0.0486 kcal/(mol*A)
+xmin  5370     -112.1693 kcal/mol        0.0490 kcal/(mol*A)
+xmin  5380     -112.1709 kcal/mol        0.0494 kcal/(mol*A)
+xmin  5390     -112.1726 kcal/mol        0.0498 kcal/(mol*A)
+xmin  5400     -112.1743 kcal/mol        0.0502 kcal/(mol*A)
+xmin  5410     -112.1760 kcal/mol        0.0506 kcal/(mol*A)
+xmin  5420     -112.1778 kcal/mol        0.0510 kcal/(mol*A)
+xmin  5430     -112.1795 kcal/mol        0.0515 kcal/(mol*A)
+xmin  5440     -112.1812 kcal/mol        0.0519 kcal/(mol*A)
+xmin  5450     -112.1830 kcal/mol        0.0524 kcal/(mol*A)
+xmin  5460     -112.1848 kcal/mol        0.0528 kcal/(mol*A)
+xmin  5470     -112.1865 kcal/mol        0.0533 kcal/(mol*A)
+xmin  5480     -112.1883 kcal/mol        0.0538 kcal/(mol*A)
+xmin  5490     -112.1901 kcal/mol        0.0542 kcal/(mol*A)
+xmin  5500     -112.1919 kcal/mol        0.0547 kcal/(mol*A)
+xmin  5510     -112.1937 kcal/mol        0.0552 kcal/(mol*A)
+xmin  5520     -112.1956 kcal/mol        0.0557 kcal/(mol*A)
+xmin  5530     -112.1974 kcal/mol        0.0563 kcal/(mol*A)
+xmin  5540     -112.1993 kcal/mol        0.0568 kcal/(mol*A)
+xmin  5550     -112.2011 kcal/mol        0.0573 kcal/(mol*A)
+xmin  5560     -112.2030 kcal/mol        0.0579 kcal/(mol*A)
+xmin  5570     -112.2049 kcal/mol        0.0584 kcal/(mol*A)
+xmin  5580     -112.2068 kcal/mol        0.0590 kcal/(mol*A)
+xmin  5590     -112.2087 kcal/mol        0.0596 kcal/(mol*A)
+xmin  5600     -112.2106 kcal/mol        0.0601 kcal/(mol*A)
+xmin  5610     -112.2125 kcal/mol        0.0607 kcal/(mol*A)
+xmin  5620     -112.2144 kcal/mol        0.0613 kcal/(mol*A)
+xmin  5630     -112.2164 kcal/mol        0.0620 kcal/(mol*A)
+xmin  5640     -112.2183 kcal/mol        0.0626 kcal/(mol*A)
+xmin  5650     -112.2203 kcal/mol        0.0633 kcal/(mol*A)
+xmin  5660     -112.2223 kcal/mol        0.0639 kcal/(mol*A)
+xmin  5670     -112.2243 kcal/mol        0.0646 kcal/(mol*A)
+xmin  5680     -112.2263 kcal/mol        0.0653 kcal/(mol*A)
+xmin  5690     -112.2283 kcal/mol        0.0660 kcal/(mol*A)
+xmin  5700     -112.2303 kcal/mol        0.0668 kcal/(mol*A)
+xmin  5710     -112.2324 kcal/mol        0.0675 kcal/(mol*A)
+xmin  5720     -112.2344 kcal/mol        0.0683 kcal/(mol*A)
+xmin  5730     -112.2365 kcal/mol        0.0691 kcal/(mol*A)
+xmin  5740     -112.2386 kcal/mol        0.0699 kcal/(mol*A)
+xmin  5750     -112.2406 kcal/mol        0.0707 kcal/(mol*A)
+xmin  5760     -112.2427 kcal/mol        0.0716 kcal/(mol*A)
+xmin  5770     -112.2449 kcal/mol        0.0725 kcal/(mol*A)
+xmin  5780     -112.2470 kcal/mol        0.0734 kcal/(mol*A)
+xmin  5790     -112.2492 kcal/mol        0.0743 kcal/(mol*A)
+xmin  5800     -112.2513 kcal/mol        0.0753 kcal/(mol*A)
+xmin  5810     -112.2535 kcal/mol        0.0763 kcal/(mol*A)
+xmin  5820     -112.2557 kcal/mol        0.0773 kcal/(mol*A)
+xmin  5830     -112.2580 kcal/mol        0.0783 kcal/(mol*A)
+xmin  5840     -112.2602 kcal/mol        0.0793 kcal/(mol*A)
+xmin  5850     -112.2625 kcal/mol        0.0803 kcal/(mol*A)
+xmin  5860     -112.2648 kcal/mol        0.0814 kcal/(mol*A)
+xmin  5870     -112.2671 kcal/mol        0.0825 kcal/(mol*A)
+xmin  5880     -112.2695 kcal/mol        0.0835 kcal/(mol*A)
+xmin  5890     -112.2718 kcal/mol        0.0846 kcal/(mol*A)
+xmin  5900     -112.2742 kcal/mol        0.0856 kcal/(mol*A)
+xmin  5910     -112.2767 kcal/mol        0.0866 kcal/(mol*A)
+xmin  5920     -112.2791 kcal/mol        0.0876 kcal/(mol*A)
+xmin  5930     -112.2816 kcal/mol        0.0886 kcal/(mol*A)
+xmin  5940     -112.2842 kcal/mol        0.0895 kcal/(mol*A)
+xmin  5950     -112.2867 kcal/mol        0.0905 kcal/(mol*A)
+xmin  5960     -112.2893 kcal/mol        0.0913 kcal/(mol*A)
+xmin  5970     -112.2920 kcal/mol        0.0922 kcal/(mol*A)
+xmin  5980     -112.2946 kcal/mol        0.0930 kcal/(mol*A)
+xmin  5990     -112.2974 kcal/mol        0.0937 kcal/(mol*A)
+xmin  6000     -112.3001 kcal/mol        0.0945 kcal/(mol*A)
+xmin  6010     -112.3029 kcal/mol        0.0952 kcal/(mol*A)
+xmin  6020     -112.3057 kcal/mol        0.0959 kcal/(mol*A)
+xmin  6030     -112.3085 kcal/mol        0.0966 kcal/(mol*A)
+xmin  6040     -112.3114 kcal/mol        0.0972 kcal/(mol*A)
+xmin  6050     -112.3144 kcal/mol        0.0979 kcal/(mol*A)
+xmin  6060     -112.3173 kcal/mol        0.0986 kcal/(mol*A)
+xmin  6070     -112.3203 kcal/mol        0.0992 kcal/(mol*A)
+xmin  6080     -112.3234 kcal/mol        0.0999 kcal/(mol*A)
+xmin  6090     -112.3265 kcal/mol        0.1005 kcal/(mol*A)
+xmin  6100     -112.3296 kcal/mol        0.1012 kcal/(mol*A)
+xmin  6110     -112.3328 kcal/mol        0.1019 kcal/(mol*A)
+xmin  6120     -112.3360 kcal/mol        0.1025 kcal/(mol*A)
+xmin  6130     -112.3392 kcal/mol        0.1032 kcal/(mol*A)
+xmin  6140     -112.3425 kcal/mol        0.1039 kcal/(mol*A)
+xmin  6150     -112.3459 kcal/mol        0.1046 kcal/(mol*A)
+xmin  6160     -112.3493 kcal/mol        0.1053 kcal/(mol*A)
+xmin  6170     -112.3527 kcal/mol        0.1061 kcal/(mol*A)
+xmin  6180     -112.3562 kcal/mol        0.1068 kcal/(mol*A)
+xmin  6190     -112.3597 kcal/mol        0.1075 kcal/(mol*A)
+xmin  6200     -112.3633 kcal/mol        0.1083 kcal/(mol*A)
+xmin  6210     -112.3669 kcal/mol        0.1091 kcal/(mol*A)
+xmin  6220     -112.3706 kcal/mol        0.1098 kcal/(mol*A)
+xmin  6230     -112.3743 kcal/mol        0.1106 kcal/(mol*A)
+xmin  6240     -112.3781 kcal/mol        0.1114 kcal/(mol*A)
+xmin  6250     -112.3819 kcal/mol        0.1122 kcal/(mol*A)
+xmin  6260     -112.3858 kcal/mol        0.1130 kcal/(mol*A)
+xmin  6270     -112.3897 kcal/mol        0.1138 kcal/(mol*A)
+xmin  6280     -112.3937 kcal/mol        0.1147 kcal/(mol*A)
+xmin  6290     -112.3978 kcal/mol        0.1155 kcal/(mol*A)
+xmin  6300     -112.4019 kcal/mol        0.1163 kcal/(mol*A)
+xmin  6310     -112.4060 kcal/mol        0.1172 kcal/(mol*A)
+xmin  6320     -112.4102 kcal/mol        0.1181 kcal/(mol*A)
+xmin  6330     -112.4145 kcal/mol        0.1189 kcal/(mol*A)
+xmin  6340     -112.4188 kcal/mol        0.1198 kcal/(mol*A)
+xmin  6350     -112.4232 kcal/mol        0.1207 kcal/(mol*A)
+xmin  6360     -112.4276 kcal/mol        0.1216 kcal/(mol*A)
+xmin  6370     -112.4321 kcal/mol        0.1225 kcal/(mol*A)
+xmin  6380     -112.4367 kcal/mol        0.1234 kcal/(mol*A)
+xmin  6390     -112.4413 kcal/mol        0.1243 kcal/(mol*A)
+xmin  6400     -112.4460 kcal/mol        0.1252 kcal/(mol*A)
+xmin  6410     -112.4507 kcal/mol        0.1261 kcal/(mol*A)
+xmin  6420     -112.4555 kcal/mol        0.1271 kcal/(mol*A)
+xmin  6430     -112.4604 kcal/mol        0.1280 kcal/(mol*A)
+xmin  6440     -112.4653 kcal/mol        0.1290 kcal/(mol*A)
+xmin  6450     -112.4703 kcal/mol        0.1299 kcal/(mol*A)
+xmin  6460     -112.4754 kcal/mol        0.1309 kcal/(mol*A)
+xmin  6470     -112.4805 kcal/mol        0.1318 kcal/(mol*A)
+xmin  6480     -112.4857 kcal/mol        0.1328 kcal/(mol*A)
+xmin  6490     -112.4910 kcal/mol        0.1338 kcal/(mol*A)
+xmin  6500     -112.4964 kcal/mol        0.1347 kcal/(mol*A)
+xmin  6510     -112.5018 kcal/mol        0.1357 kcal/(mol*A)
+xmin  6520     -112.5072 kcal/mol        0.1367 kcal/(mol*A)
+xmin  6530     -112.5128 kcal/mol        0.1377 kcal/(mol*A)
+xmin  6540     -112.5184 kcal/mol        0.1387 kcal/(mol*A)
+xmin  6550     -112.5241 kcal/mol        0.1397 kcal/(mol*A)
+xmin  6560     -112.5298 kcal/mol        0.1407 kcal/(mol*A)
+xmin  6570     -112.5357 kcal/mol        0.1417 kcal/(mol*A)
+xmin  6580     -112.5416 kcal/mol        0.1427 kcal/(mol*A)
+xmin  6590     -112.5476 kcal/mol        0.1437 kcal/(mol*A)
+xmin  6600     -112.5536 kcal/mol        0.1447 kcal/(mol*A)
+xmin  6610     -112.5597 kcal/mol        0.1457 kcal/(mol*A)
+xmin  6620     -112.5659 kcal/mol        0.1468 kcal/(mol*A)
+xmin  6630     -112.5722 kcal/mol        0.1478 kcal/(mol*A)
+xmin  6640     -112.5785 kcal/mol        0.1488 kcal/(mol*A)
+xmin  6650     -112.5849 kcal/mol        0.1498 kcal/(mol*A)
+xmin  6660     -112.5914 kcal/mol        0.1508 kcal/(mol*A)
+xmin  6670     -112.5980 kcal/mol        0.1518 kcal/(mol*A)
+xmin  6680     -112.6047 kcal/mol        0.1528 kcal/(mol*A)
+xmin  6690     -112.6114 kcal/mol        0.1538 kcal/(mol*A)
+xmin  6700     -112.6182 kcal/mol        0.1549 kcal/(mol*A)
+xmin  6710     -112.6250 kcal/mol        0.1559 kcal/(mol*A)
+xmin  6720     -112.6320 kcal/mol        0.1569 kcal/(mol*A)
+xmin  6730     -112.6390 kcal/mol        0.1578 kcal/(mol*A)
+xmin  6740     -112.6461 kcal/mol        0.1588 kcal/(mol*A)
+xmin  6750     -112.6532 kcal/mol        0.1598 kcal/(mol*A)
+xmin  6760     -112.6605 kcal/mol        0.1608 kcal/(mol*A)
+xmin  6770     -112.6678 kcal/mol        0.1618 kcal/(mol*A)
+xmin  6780     -112.6752 kcal/mol        0.1627 kcal/(mol*A)
+xmin  6790     -112.6826 kcal/mol        0.1637 kcal/(mol*A)
+xmin  6800     -112.6902 kcal/mol        0.1646 kcal/(mol*A)
+xmin  6810     -112.6978 kcal/mol        0.1656 kcal/(mol*A)
+xmin  6820     -112.7055 kcal/mol        0.1665 kcal/(mol*A)
+xmin  6830     -112.7132 kcal/mol        0.1674 kcal/(mol*A)
+xmin  6840     -112.7210 kcal/mol        0.1683 kcal/(mol*A)
+xmin  6850     -112.7289 kcal/mol        0.1692 kcal/(mol*A)
+xmin  6860     -112.7369 kcal/mol        0.1701 kcal/(mol*A)
+xmin  6870     -112.7449 kcal/mol        0.1710 kcal/(mol*A)
+xmin  6880     -112.7530 kcal/mol        0.1718 kcal/(mol*A)
+xmin  6890     -112.7611 kcal/mol        0.1727 kcal/(mol*A)
+xmin  6900     -112.7693 kcal/mol        0.1735 kcal/(mol*A)
+xmin  6910     -112.7776 kcal/mol        0.1743 kcal/(mol*A)
+xmin  6920     -112.7859 kcal/mol        0.1751 kcal/(mol*A)
+xmin  6930     -112.7943 kcal/mol        0.1758 kcal/(mol*A)
+xmin  6940     -112.8028 kcal/mol        0.1766 kcal/(mol*A)
+xmin  6950     -112.8113 kcal/mol        0.1773 kcal/(mol*A)
+xmin  6960     -112.8198 kcal/mol        0.1780 kcal/(mol*A)
+xmin  6970     -112.8285 kcal/mol        0.1787 kcal/(mol*A)
+xmin  6980     -112.8371 kcal/mol        0.1794 kcal/(mol*A)
+xmin  6990     -112.8459 kcal/mol        0.1800 kcal/(mol*A)
+xmin  7000     -112.8546 kcal/mol        0.1806 kcal/(mol*A)
+xmin  7010     -112.8634 kcal/mol        0.1812 kcal/(mol*A)
+xmin  7020     -112.8723 kcal/mol        0.1817 kcal/(mol*A)
+xmin  7030     -112.8812 kcal/mol        0.1823 kcal/(mol*A)
+xmin  7040     -112.8901 kcal/mol        0.1828 kcal/(mol*A)
+xmin  7050     -112.8991 kcal/mol        0.1832 kcal/(mol*A)
+xmin  7060     -112.9081 kcal/mol        0.1837 kcal/(mol*A)
+xmin  7070     -112.9172 kcal/mol        0.1841 kcal/(mol*A)
+xmin  7080     -112.9262 kcal/mol        0.1845 kcal/(mol*A)
+xmin  7090     -112.9353 kcal/mol        0.1848 kcal/(mol*A)
+xmin  7100     -112.9444 kcal/mol        0.1852 kcal/(mol*A)
+xmin  7110     -112.9536 kcal/mol        0.1854 kcal/(mol*A)
+xmin  7120     -112.9628 kcal/mol        0.1857 kcal/(mol*A)
+xmin  7130     -112.9719 kcal/mol        0.1859 kcal/(mol*A)
+xmin  7140     -112.9811 kcal/mol        0.1861 kcal/(mol*A)
+xmin  7150     -112.9903 kcal/mol        0.1862 kcal/(mol*A)
+xmin  7160     -112.9996 kcal/mol        0.1863 kcal/(mol*A)
+xmin  7170     -113.0088 kcal/mol        0.1864 kcal/(mol*A)
+xmin  7180     -113.0180 kcal/mol        0.1865 kcal/(mol*A)
+xmin  7190     -113.0272 kcal/mol        0.1865 kcal/(mol*A)
+xmin  7200     -113.0365 kcal/mol        0.1864 kcal/(mol*A)
+xmin  7210     -113.0457 kcal/mol        0.1863 kcal/(mol*A)
+xmin  7220     -113.0549 kcal/mol        0.1862 kcal/(mol*A)
+xmin  7230     -113.0641 kcal/mol        0.1861 kcal/(mol*A)
+xmin  7240     -113.0733 kcal/mol        0.1859 kcal/(mol*A)
+xmin  7250     -113.0824 kcal/mol        0.1857 kcal/(mol*A)
+xmin  7260     -113.0916 kcal/mol        0.1854 kcal/(mol*A)
+xmin  7270     -113.1007 kcal/mol        0.1851 kcal/(mol*A)
+xmin  7280     -113.1098 kcal/mol        0.1848 kcal/(mol*A)
+xmin  7290     -113.1188 kcal/mol        0.1844 kcal/(mol*A)
+xmin  7300     -113.1279 kcal/mol        0.1840 kcal/(mol*A)
+xmin  7310     -113.1369 kcal/mol        0.1835 kcal/(mol*A)
+xmin  7320     -113.1458 kcal/mol        0.1830 kcal/(mol*A)
+xmin  7330     -113.1547 kcal/mol        0.1825 kcal/(mol*A)
+xmin  7340     -113.1636 kcal/mol        0.1820 kcal/(mol*A)
+xmin  7350     -113.1724 kcal/mol        0.1814 kcal/(mol*A)
+xmin  7360     -113.1812 kcal/mol        0.1807 kcal/(mol*A)
+xmin  7370     -113.1899 kcal/mol        0.1801 kcal/(mol*A)
+xmin  7380     -113.1986 kcal/mol        0.1794 kcal/(mol*A)
+xmin  7390     -113.2072 kcal/mol        0.1786 kcal/(mol*A)
+xmin  7400     -113.2157 kcal/mol        0.1779 kcal/(mol*A)
+xmin  7410     -113.2242 kcal/mol        0.1771 kcal/(mol*A)
+xmin  7420     -113.2326 kcal/mol        0.1762 kcal/(mol*A)
+xmin  7430     -113.2409 kcal/mol        0.1754 kcal/(mol*A)
+xmin  7440     -113.2492 kcal/mol        0.1745 kcal/(mol*A)
+xmin  7450     -113.2574 kcal/mol        0.1736 kcal/(mol*A)
+xmin  7460     -113.2656 kcal/mol        0.1726 kcal/(mol*A)
+xmin  7470     -113.2736 kcal/mol        0.1716 kcal/(mol*A)
+xmin  7480     -113.2816 kcal/mol        0.1706 kcal/(mol*A)
+xmin  7490     -113.2895 kcal/mol        0.1696 kcal/(mol*A)
+xmin  7500     -113.2973 kcal/mol        0.1685 kcal/(mol*A)
+xmin  7510     -113.3050 kcal/mol        0.1675 kcal/(mol*A)
+xmin  7520     -113.3127 kcal/mol        0.1664 kcal/(mol*A)
+xmin  7530     -113.3202 kcal/mol        0.1652 kcal/(mol*A)
+xmin  7540     -113.3277 kcal/mol        0.1641 kcal/(mol*A)
+xmin  7550     -113.3351 kcal/mol        0.1629 kcal/(mol*A)
+xmin  7560     -113.3424 kcal/mol        0.1618 kcal/(mol*A)
+xmin  7570     -113.3496 kcal/mol        0.1605 kcal/(mol*A)
+xmin  7580     -113.3567 kcal/mol        0.1593 kcal/(mol*A)
+xmin  7590     -113.3637 kcal/mol        0.1581 kcal/(mol*A)
+xmin  7600     -113.3706 kcal/mol        0.1568 kcal/(mol*A)
+xmin  7610     -113.3774 kcal/mol        0.1556 kcal/(mol*A)
+xmin  7620     -113.3842 kcal/mol        0.1543 kcal/(mol*A)
+xmin  7630     -113.3908 kcal/mol        0.1530 kcal/(mol*A)
+xmin  7640     -113.3973 kcal/mol        0.1517 kcal/(mol*A)
+xmin  7650     -113.4038 kcal/mol        0.1504 kcal/(mol*A)
+xmin  7660     -113.4101 kcal/mol        0.1491 kcal/(mol*A)
+xmin  7670     -113.4163 kcal/mol        0.1477 kcal/(mol*A)
+xmin  7680     -113.4225 kcal/mol        0.1464 kcal/(mol*A)
+xmin  7690     -113.4285 kcal/mol        0.1450 kcal/(mol*A)
+xmin  7700     -113.4345 kcal/mol        0.1437 kcal/(mol*A)
+xmin  7710     -113.4403 kcal/mol        0.1423 kcal/(mol*A)
+xmin  7720     -113.4460 kcal/mol        0.1409 kcal/(mol*A)
+xmin  7730     -113.4517 kcal/mol        0.1396 kcal/(mol*A)
+xmin  7740     -113.4572 kcal/mol        0.1382 kcal/(mol*A)
+xmin  7750     -113.4627 kcal/mol        0.1368 kcal/(mol*A)
+xmin  7760     -113.4680 kcal/mol        0.1354 kcal/(mol*A)
+xmin  7770     -113.4733 kcal/mol        0.1341 kcal/(mol*A)
+xmin  7780     -113.4785 kcal/mol        0.1327 kcal/(mol*A)
+xmin  7790     -113.4835 kcal/mol        0.1313 kcal/(mol*A)
+xmin  7800     -113.4885 kcal/mol        0.1299 kcal/(mol*A)
+xmin  7810     -113.4934 kcal/mol        0.1285 kcal/(mol*A)
+xmin  7820     -113.4982 kcal/mol        0.1272 kcal/(mol*A)
+xmin  7830     -113.5029 kcal/mol        0.1258 kcal/(mol*A)
+xmin  7840     -113.5075 kcal/mol        0.1244 kcal/(mol*A)
+xmin  7850     -113.5120 kcal/mol        0.1231 kcal/(mol*A)
+xmin  7860     -113.5164 kcal/mol        0.1217 kcal/(mol*A)
+xmin  7870     -113.5207 kcal/mol        0.1204 kcal/(mol*A)
+xmin  7880     -113.5250 kcal/mol        0.1190 kcal/(mol*A)
+xmin  7890     -113.5291 kcal/mol        0.1177 kcal/(mol*A)
+xmin  7900     -113.5332 kcal/mol        0.1164 kcal/(mol*A)
+xmin  7910     -113.5372 kcal/mol        0.1150 kcal/(mol*A)
+xmin  7920     -113.5411 kcal/mol        0.1137 kcal/(mol*A)
+xmin  7930     -113.5449 kcal/mol        0.1124 kcal/(mol*A)
+xmin  7940     -113.5486 kcal/mol        0.1111 kcal/(mol*A)
+xmin  7950     -113.5523 kcal/mol        0.1098 kcal/(mol*A)
+xmin  7960     -113.5558 kcal/mol        0.1085 kcal/(mol*A)
+xmin  7970     -113.5593 kcal/mol        0.1073 kcal/(mol*A)
+xmin  7980     -113.5628 kcal/mol        0.1060 kcal/(mol*A)
+xmin  7990     -113.5661 kcal/mol        0.1048 kcal/(mol*A)
+xmin  8000     -113.5694 kcal/mol        0.1036 kcal/(mol*A)
+xmin  8010     -113.5726 kcal/mol        0.1023 kcal/(mol*A)
+xmin  8020     -113.5757 kcal/mol        0.1011 kcal/(mol*A)
+xmin  8030     -113.5788 kcal/mol        0.0999 kcal/(mol*A)
+xmin  8040     -113.5818 kcal/mol        0.0988 kcal/(mol*A)
+xmin  8050     -113.5847 kcal/mol        0.0976 kcal/(mol*A)
+xmin  8060     -113.5875 kcal/mol        0.0965 kcal/(mol*A)
+xmin  8070     -113.5903 kcal/mol        0.0954 kcal/(mol*A)
+xmin  8080     -113.5930 kcal/mol        0.0943 kcal/(mol*A)
+xmin  8090     -113.5957 kcal/mol        0.0932 kcal/(mol*A)
+xmin  8100     -113.5983 kcal/mol        0.0921 kcal/(mol*A)
+xmin  8110     -113.6008 kcal/mol        0.0911 kcal/(mol*A)
+xmin  8120     -113.6033 kcal/mol        0.0901 kcal/(mol*A)
+xmin  8130     -113.6058 kcal/mol        0.0891 kcal/(mol*A)
+xmin  8140     -113.6081 kcal/mol        0.0881 kcal/(mol*A)
+xmin  8150     -113.6104 kcal/mol        0.0872 kcal/(mol*A)
+xmin  8160     -113.6127 kcal/mol        0.0863 kcal/(mol*A)
+xmin  8170     -113.6149 kcal/mol        0.0855 kcal/(mol*A)
+xmin  8180     -113.6171 kcal/mol        0.0847 kcal/(mol*A)
+xmin  8190     -113.6192 kcal/mol        0.0839 kcal/(mol*A)
+xmin  8200     -113.6212 kcal/mol        0.0833 kcal/(mol*A)
+xmin  8210     -113.6232 kcal/mol        0.0827 kcal/(mol*A)
+xmin  8220     -113.6252 kcal/mol        0.0822 kcal/(mol*A)
+xmin  8230     -113.6272 kcal/mol        0.0818 kcal/(mol*A)
+xmin  8240     -113.6290 kcal/mol        0.0815 kcal/(mol*A)
+xmin  8250     -113.6309 kcal/mol        0.0814 kcal/(mol*A)
+xmin  8260     -113.6327 kcal/mol        0.0815 kcal/(mol*A)
+xmin  8270     -113.6345 kcal/mol        0.0818 kcal/(mol*A)
+xmin  8280     -113.6363 kcal/mol        0.0824 kcal/(mol*A)
+xmin  8290     -113.6381 kcal/mol        0.0833 kcal/(mol*A)
+xmin  8300     -113.6398 kcal/mol        0.0844 kcal/(mol*A)
+xmin  8310     -113.6416 kcal/mol        0.0858 kcal/(mol*A)
+xmin  8320     -113.6433 kcal/mol        0.0875 kcal/(mol*A)
+xmin  8330     -113.6451 kcal/mol        0.0891 kcal/(mol*A)
+xmin  8340     -113.6469 kcal/mol        0.0907 kcal/(mol*A)
+xmin  8350     -113.6487 kcal/mol        0.0919 kcal/(mol*A)
+xmin  8360     -113.6505 kcal/mol        0.0929 kcal/(mol*A)
+xmin  8370     -113.6523 kcal/mol        0.0935 kcal/(mol*A)
+xmin  8380     -113.6541 kcal/mol        0.0939 kcal/(mol*A)
+xmin  8390     -113.6559 kcal/mol        0.0941 kcal/(mol*A)
+xmin  8400     -113.6577 kcal/mol        0.0941 kcal/(mol*A)
+xmin  8410     -113.6594 kcal/mol        0.0940 kcal/(mol*A)
+xmin  8420     -113.6612 kcal/mol        0.0939 kcal/(mol*A)
+xmin  8430     -113.6629 kcal/mol        0.0937 kcal/(mol*A)
+xmin  8440     -113.6646 kcal/mol        0.0935 kcal/(mol*A)
+xmin  8450     -113.6662 kcal/mol        0.0932 kcal/(mol*A)
+xmin  8460     -113.6679 kcal/mol        0.0928 kcal/(mol*A)
+xmin  8470     -113.6695 kcal/mol        0.0924 kcal/(mol*A)
+xmin  8480     -113.6711 kcal/mol        0.0920 kcal/(mol*A)
+xmin  8490     -113.6727 kcal/mol        0.0915 kcal/(mol*A)
+xmin  8500     -113.6742 kcal/mol        0.0909 kcal/(mol*A)
+xmin  8510     -113.6758 kcal/mol        0.0903 kcal/(mol*A)
+xmin  8520     -113.6773 kcal/mol        0.0897 kcal/(mol*A)
+xmin  8530     -113.6787 kcal/mol        0.0890 kcal/(mol*A)
+xmin  8540     -113.6802 kcal/mol        0.0883 kcal/(mol*A)
+xmin  8550     -113.6816 kcal/mol        0.0875 kcal/(mol*A)
+xmin  8560     -113.6829 kcal/mol        0.0867 kcal/(mol*A)
+xmin  8570     -113.6843 kcal/mol        0.0858 kcal/(mol*A)
+xmin  8580     -113.6856 kcal/mol        0.0849 kcal/(mol*A)
+xmin  8590     -113.6869 kcal/mol        0.0840 kcal/(mol*A)
+xmin  8600     -113.6881 kcal/mol        0.0831 kcal/(mol*A)
+xmin  8610     -113.6894 kcal/mol        0.0821 kcal/(mol*A)
+xmin  8620     -113.6905 kcal/mol        0.0809 kcal/(mol*A)
+xmin  8630     -113.6917 kcal/mol        0.0818 kcal/(mol*A)
+xmin  8640     -113.6926 kcal/mol        0.0586 kcal/(mol*A)
+xmin  8650     -113.6934 kcal/mol        0.0697 kcal/(mol*A)
+xmin  8660     -113.6942 kcal/mol        0.0595 kcal/(mol*A)
+xmin  8670     -113.6950 kcal/mol        0.0640 kcal/(mol*A)
+xmin  8680     -113.6957 kcal/mol        0.0582 kcal/(mol*A)
+xmin  8690     -113.6964 kcal/mol        0.0615 kcal/(mol*A)
+xmin  8700     -113.6971 kcal/mol        0.0559 kcal/(mol*A)
+xmin  8710     -113.6978 kcal/mol        0.0602 kcal/(mol*A)
+xmin  8720     -113.6984 kcal/mol        0.0542 kcal/(mol*A)
+xmin  8730     -113.6991 kcal/mol        0.0584 kcal/(mol*A)
+xmin  8740     -113.6997 kcal/mol        0.0531 kcal/(mol*A)
+xmin  8750     -113.7003 kcal/mol        0.0565 kcal/(mol*A)
+xmin  8760     -113.7009 kcal/mol        0.0519 kcal/(mol*A)
+xmin  8770     -113.7014 kcal/mol        0.0551 kcal/(mol*A)
+xmin  8780     -113.7020 kcal/mol        0.0506 kcal/(mol*A)
+xmin  8790     -113.7025 kcal/mol        0.0537 kcal/(mol*A)
+xmin  8800     -113.7031 kcal/mol        0.0497 kcal/(mol*A)
+xmin  8810     -113.7074 kcal/mol        0.0989 kcal/(mol*A)
+xmin  8820     -113.7091 kcal/mol        0.0540 kcal/(mol*A)
+xmin  8830     -113.7099 kcal/mol        0.0259 kcal/(mol*A)
+xmin  8840     -113.7101 kcal/mol        0.0241 kcal/(mol*A)
+xmin  8850     -113.7103 kcal/mol        0.0234 kcal/(mol*A)
+xmin  8860     -113.7105 kcal/mol        0.0223 kcal/(mol*A)
+xmin  8870     -113.7107 kcal/mol        0.0205 kcal/(mol*A)
+  ... geometry converged !
+ 
+ Final MO eigenvalues (eV):
+ -40.7775  -39.4367  -37.6681  -34.5919  -34.4701  -34.1323  -31.7145  -29.3569
+ -28.1186  -27.6724  -26.5206  -26.3122  -24.3679  -23.3088  -21.6885  -21.0381
+ -19.4989  -18.2947  -18.2221  -17.9190  -17.5898  -17.0917  -17.0213  -16.4479
+ -16.1338  -16.0151  -15.4620  -15.2361  -15.0258  -14.8955  -14.7437  -14.5513
+ -14.3090  -14.2195  -14.0776  -14.0146  -13.9345  -13.6419  -13.5417  -13.5058
+ -13.1761  -13.0590  -12.9888  -12.8819  -12.7200  -12.6454  -12.4988  -12.2702
+ -11.7648  -11.3413  -11.3207  -11.1828  -10.7053   -9.7740   -9.4829   -8.9588
+   0.6818    0.9979    1.4435    1.5376    2.4553    2.5733    2.9768    3.2597
+   3.2885    3.3742    3.4034    3.4926    3.5160    3.6211    3.6584    3.6840
+   3.7223    3.7701    3.8069    3.8413    3.9644    3.9896    4.0223    4.0315
+   4.1048    4.1196    4.1780    4.1978    4.2283    4.3454    4.4582    4.4917
+   4.5599    4.6104    4.6393    4.7172    4.8217    4.8376    4.8755    4.9358
+   5.0495    5.1402    5.2074    5.4242    5.7929    5.9357    6.0010    6.8599
+   7.2986
+
+ Heat of formation   =       -113.71081518 kcal/mol  (       -4.93087096 eV)
+
+ Total SCF energy    =     -73378.53732876 kcal/mol  (    -3181.93215076 eV)
+ Electronic energy   =    -572072.46157281 kcal/mol  (   -24806.92344533 eV)
+ Core-core repulsion =     498693.92424405 kcal/mol  (    21624.99129457 eV)
+ 
+    Atomic Charges for Step       1 :
+  Atom    Element       Mulliken Charge
+     1      C                 -0.146
+     2      C                  0.267
+     3      O                 -0.362
+     4      N                 -0.057
+     5      C                 -0.066
+     6      C                 -0.102
+     7      N                 -0.081
+     8      C                 -0.044
+     9      C                 -0.119
+    10      C                 -0.159
+    11      C                 -0.056
+    12      C                 -0.121
+    13      C                 -0.156
+    14      C                 -0.098
+    15      C                  0.223
+    16      O                 -0.351
+    17      N                 -0.065
+    18      C                 -0.074
+    19      C                 -0.084
+    20      H                  0.074
+    21      H                  0.055
+    22      H                  0.073
+    23      H                  0.059
+    24      H                  0.096
+    25      H                  0.073
+    26      H                  0.046
+    27      H                  0.062
+    28      H                  0.042
+    29      H                  0.051
+    30      H                  0.047
+    31      H                  0.055
+    32      H                  0.044
+    33      H                  0.049
+    34      H                  0.074
+    35      H                  0.057
+    36      H                  0.038
+    37      H                  0.051
+    38      H                  0.047
+    39      H                  0.051
+    40      H                  0.051
+    41      H                  0.080
+    42      H                  0.088
+    43      H                  0.036
+    44      H                  0.046
+    45      H                  0.069
+    46      H                  0.047
+    47      H                  0.056
+    48      H                  0.034
+ Total Mulliken Charge =      -0.000
+ 
+                  X        Y        Z     TOTAL  
+  QM DIPOLE     1.887   -3.963   -3.902    5.873
+ 
+ Final Structure
+
+  QMMM: QM Region Cartesian Coordinates (*=link atom) 
+  QMMM: QM_NO.   MM_NO.  ATOM         X         Y         Z
+  QMMM:     1        1      C        2.3639    3.0860   -0.8073
+  QMMM:     2        2      C        1.0790    2.5128   -0.2649
+  QMMM:     3        3      O        0.1999    3.2081    0.2198
+  QMMM:     4        4      N        0.8302    1.1048   -0.3945
+  QMMM:     5        5      C       -0.2516    0.4600    0.4051
+  QMMM:     6        6      C       -1.3970    0.0295   -0.5175
+  QMMM:     7        7      N       -2.5092   -0.5215    0.3147
+  QMMM:     8        8      C       -2.6242   -2.0135    0.1988
+  QMMM:     9        9      C       -3.6317   -2.5764    1.1929
+  QMMM:    10       10      C       -2.9337   -2.4900   -1.2182
+  QMMM:    11       11      C       -3.7948    0.2477    0.2126
+  QMMM:    12       12      C       -3.6656    1.5512    0.9937
+  QMMM:    13       13      C       -4.2406    0.5312   -1.2190
+  QMMM:    14       14      C        1.9354    0.2130   -0.8009
+  QMMM:    15       15      C        2.9273   -0.1686    0.2936
+  QMMM:    16       16      O        2.8500    0.2185    1.4483
+  QMMM:    17       17      N        4.0764   -0.9494   -0.0831
+  QMMM:    18       18      C        4.9360   -1.4788    1.0006
+  QMMM:    19       19      C        3.9301   -1.8723   -1.2305
+  QMMM:    20       20      H        3.1332    3.0928   -0.0228
+  QMMM:    21       21      H        2.7564    2.5027   -1.6561
+  QMMM:    22       22      H        2.2264    4.1216   -1.1442
+  QMMM:    23       23      H        0.1589   -0.4122    0.9560
+  QMMM:    24       24      H       -0.6303    1.1606    1.1805
+  QMMM:    25       25      H       -1.7665    0.8923   -1.1208
+  QMMM:    26       26      H       -1.0564   -0.7275   -1.2640
+  QMMM:    27       27      H       -1.6093   -2.3896    0.4854
+  QMMM:    28       28      H       -3.7303   -3.6631    1.0744
+  QMMM:    29       29      H       -3.3296   -2.3822    2.2304
+  QMMM:    30       30      H       -4.6325   -2.1334    1.0574
+  QMMM:    31       31      H       -3.8895   -2.0827   -1.5898
+  QMMM:    32       32      H       -2.1457   -2.1583   -1.9143
+  QMMM:    33       33      H       -2.9906   -3.5837   -1.2698
+  QMMM:    34       34      H       -4.5756   -0.3902    0.7085
+  QMMM:    35       35      H       -2.9210    2.2291    0.5515
+  QMMM:    36       36      H       -4.6247    2.0855    1.0136
+  QMMM:    37       37      H       -3.3644    1.3729    2.0344
+  QMMM:    38       38      H       -4.4400   -0.4042   -1.7688
+  QMMM:    39       39      H       -5.1576    1.1324   -1.2352
+  QMMM:    40       40      H       -3.4655    1.0855   -1.7743
+  QMMM:    41       41      H        1.4735   -0.7056   -1.2203
+  QMMM:    42       42      H        2.4836    0.7192   -1.6298
+  QMMM:    43       43      H        4.4571   -2.2945    1.5610
+  QMMM:    44       44      H        5.8714   -1.8558    0.5655
+  QMMM:    45       45      H        5.1890   -0.6760    1.7059
+  QMMM:    46       46      H        3.6479   -1.3086   -2.1303
+  QMMM:    47       47      H        4.8909   -2.3644   -1.4342
+  QMMM:    48       48      H        3.1753   -2.6540   -1.0583
+
+           --------- Calculation Completed ----------
+

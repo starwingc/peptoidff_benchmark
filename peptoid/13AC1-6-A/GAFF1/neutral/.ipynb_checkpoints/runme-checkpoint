@@ -1,0 +1,2 @@
+tleap -f 13AC1-6-A.leap
+acpype -p '13AC1-6-A.prmtop' -x '13AC1-6-A.crd'

@@ -1,0 +1,8 @@
+; posre_smiles_molecule.itp created by acpype (v: 2023.10.27) on Thu Jun 20 09:50:47 2024
+
+[ position_restraints ]
+; atom  type      fx      fy      fz
+     1     1  1000  1000  1000
+     2     1  1000  1000  1000
+     3     1  1000  1000  1000
+     4     1  1000  1000  1000

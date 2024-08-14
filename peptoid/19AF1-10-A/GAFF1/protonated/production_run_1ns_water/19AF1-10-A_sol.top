@@ -1,0 +1,16 @@
+; Include force field parameters
+#include "/usr/local/gromacs/share/gromacs/top/amber99.ff/forcefield.itp"
+
+; Include Peptoid
+#include "./19AF1-10-A.itp"
+
+; Include TIP3P water model
+#include "/usr/local/gromacs/share/gromacs/top/amber99.ff/tip3p.itp"
+
+[ system ]
+19AF1-10-A in water
+
+[ molecules ]
+; Compound        nmols
+ 19AF1-10-A        1 
+SOL              5285

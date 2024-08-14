@@ -1,0 +1,26 @@
+Remarks smiles_molecule_CNS.par created by acpype (v: 2023.10.27) on Wed Jul  3 14:48:00 2024
+
+set echo=false end
+
+{ Bonds: atomType1 atomType2 kb r0 }
+BOND   c3_   h1_    330.6   1.0969
+BOND   oh_   ho_    371.4   0.9730
+BOND   c3_   oh_    316.7   1.4233
+
+{ Angles: aType1 aType2 aType3 kt t0 }
+ANGLe   c3_   oh_   ho_     47.4   107.26
+ANGLe   oh_   c3_   h1_     50.9   110.26
+ANGLe   h1_   c3_   h1_     39.2   108.46
+
+{ Proper Dihedrals: aType1 aType2 aType3 aType4 kt period phase }
+DIHEdral   h1_   c3_   oh_   ho_           0.167    3     0.00
+
+{ Improper Dihedrals: aType1 aType2 aType3 aType4 kt period phase }
+
+{ Nonbonded: Type Emin sigma; (1-4): Emin/2 sigma }
+NONBonded   c3_    0.109400    3.399670    0.054700    3.399670
+NONBonded   oh_    0.210400    3.066473    0.105200    3.066473
+NONBonded   h1_    0.015700    2.471353    0.007850    2.471353
+NONBonded   ho_    0.000000    0.000000    0.000000    0.000000
+
+set echo=true end

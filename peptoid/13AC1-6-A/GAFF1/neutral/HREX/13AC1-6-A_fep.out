@@ -1,0 +1,30 @@
+----------------------------------------
+Begin Batch Job Prologue Tue Jul  9 16:19:54 EDT 2024
+Job ID:           1944877
+Username:         tur54445
+Group:            chem
+Job Name:         13AC1-6-A_fep.pf
+Resources List:   nodes=3:ppn=16,walltime=48:00:00,neednodes=3:ppn=16
+Queue:            medium
+Account:          
+Nodes:            s029 s030 s034 
+----------------------------------------
+End Batch Job Prologue Tue Jul  9 16:19:55 EDT 2024
+----------------------------------------
+----------------------------------------
+Begin Batch Job Epilogue Tue Jul  9 16:24:55 EDT 2024
+Job ID:           1944877
+Username:         tur54445
+Group:            chem
+Job Name:         13AC1-6-A_fep.pf
+Session:          200179
+Limits:           nodes=3:ppn=16,walltime=48:00:00,neednodes=3:ppn=16
+Resources:        cput=03:57:12,vmem=26041864kb,walltime=00:05:00,mem=2516172kb,energy_used=0
+Queue:            medium
+Account:          
+Deleting /dev/shm/*...
+Deleting /dev/shm/*...
+Deleting /dev/shm/*...
+----------------------------------------
+End Batch Job Epilogue Tue Jul  9 16:25:15 EDT 2024
+----------------------------------------

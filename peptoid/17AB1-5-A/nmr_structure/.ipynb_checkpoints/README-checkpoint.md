@@ -1,0 +1,1 @@
+## Crystal structure from https://pubs.acs.org/doi/10.1021/jacs.7b02319

@@ -1,0 +1,35 @@
+; smiles_molecule_GMX_OPLS.itp created by acpype (v: 2023.10.27) on Wed Jul  3 16:55:29 2024
+
+; For OPLS atomtypes manual fine tuning
+; AC_at:OPLS_at:OPLScode: Possible_Alternatives (see ffoplsaa.atp and ffoplsaanb.itp)
+; cl:x:opls_x: []
+; c3:CT:opls_135: ['136', '137', '149', '157', '158', '206', '209', '210', '223B', '224B', '245', '246', '274', '283', '284', '285', '292', '292B', '293B', '296', '307', '308', '505']
+; h3:x:opls_x: []
+
+[ moleculetype ]
+;name            nrexcl
+ smiles_molecule  3
+
+[ atoms ]
+;   nr  type  resi  res  atom  cgnr     charge      mass       ; qtot   bond_type
+     1 opls_x     1   UNL    CL    1    -0.114400      0.00000 ; qtot -0.114  x   
+     2 opls_135     1   UNL     C    2     0.224500     12.01100 ; qtot  0.110  CT  
+     3 opls_x     1   UNL   CL1    3    -0.114400      0.00000 ; qtot -0.004  x   
+     4 opls_x     1   UNL   CL2    4    -0.114400      0.00000 ; qtot -0.119  x   
+     5 opls_x     1   UNL     H    5     0.118700      0.00000 ; qtot  0.000  x   
+
+[ bonds ]
+;   ai     aj funct   r             k
+     1      2   1 ;    1.8040e-01    1.3012e+05 ;     CL - C           x - CT    
+     2      3   1 ;    1.8040e-01    1.3012e+05 ;      C - CL1        CT - x     
+     2      4   1 ;    1.8040e-01    1.3012e+05 ;      C - CL2        CT - x     
+     2      5   1 ;    1.0950e-01    3.1757e+05 ;      C - H          CT - x     
+
+[ angles ]
+;   ai     aj     ak    funct   theta         cth
+     1      2      3      1 ;    1.0933e+02    6.8116e+02 ;     CL - C    - CL1       x -   CT - x   
+     1      2      4      1 ;    1.0933e+02    6.8116e+02 ;     CL - C    - CL2       x -   CT - x   
+     1      2      5      1 ;    1.0766e+02    4.0752e+02 ;     CL - C    - H         x -   CT - x   
+     3      2      4      1 ;    1.0933e+02    6.8116e+02 ;    CL1 - C    - CL2       x -   CT - x   
+     3      2      5      1 ;    1.0766e+02    4.0752e+02 ;    CL1 - C    - H         x -   CT - x   
+     4      2      5      1 ;    1.0766e+02    4.0752e+02 ;    CL2 - C    - H         x -   CT - x   

@@ -1,0 +1,3051 @@
+                      :-) GROMACS - mdrun_mpi, 2021.2 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov     
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar       
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd        
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra      
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof      
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang      
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan        
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus        
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul     
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund       
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola       
+        Szilard Pall               Sander Pronk              Roland Schulz       
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers      
+       Peter Tieleman              Jon Vincent              Teemu Virolainen     
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov       
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      mdrun_mpi, version 2021.2
+Executable:   /gpfs/opt/apps/gromacs-2021.2/bin/mdrun_mpi
+Data prefix:  /gpfs/opt/apps/gromacs-2021.2
+Working dir:  /gpfs/work/tur54445/git/peptoid_24summer/peptoid/13AC1-6-A/GAFF/neutral/HREX/state_4
+Process ID:   94539
+Command line:
+  mdrun_mpi -deffnm HREMD -dhdl dhdl.xvg -replex 5000 -multidir state_0 state_1 state_2 state_3 state_4 state_5 -noappend
+
+GROMACS version:    2021.2
+Verified release checksum is d91a739522d82c53dc47c2276b9ac5fae3b2119283e84e3a1c7bed8ce741fda2
+Precision:          mixed
+Memory model:       64 bit
+MPI library:        MPI
+OpenMP support:     enabled (GMX_OPENMP_MAX_THREADS = 64)
+GPU support:        disabled
+SIMD instructions:  SSE4.1
+FFT library:        fftw-3.3.3-sse2
+RDTSCP usage:       enabled
+TNG support:        enabled
+Hwloc support:      disabled
+Tracing support:    disabled
+C compiler:         /gpfs/opt/base/openmpi-2.1.1/bin/mpicc GNU 8.4.0
+C compiler flags:   -msse4.1 -Wno-missing-field-initializers -fexcess-precision=fast -funroll-all-loops -O3 -DNDEBUG
+C++ compiler:       /gpfs/opt/base/openmpi-2.1.1/bin/mpicxx GNU 8.4.0
+C++ compiler flags: -msse4.1 -Wno-missing-field-initializers -fexcess-precision=fast -funroll-all-loops -fopenmp -O3 -DNDEBUG
+
+
+Running on 3 nodes with total 48 cores, 48 logical cores
+  Cores per node:           16
+  Logical cores per node:   16
+Hardware detected on host s029 (the node of MPI rank 32):
+  CPU info:
+    Vendor: Intel
+    Brand:  Intel(R) Xeon(R) Silver 4110 CPU @ 2.10GHz
+    Family: 6   Model: 85   Stepping: 4
+    Features: aes apic avx avx2 avx512f avx512cd avx512bw avx512vl clfsh cmov cx8 cx16 f16c fma hle htt intel lahf mmx msr nonstop_tsc pcid pclmuldq pdcm pdpe1gb popcnt pse rdrnd rdtscp rtm sse2 sse3 sse4.1 sse4.2 ssse3 tdt x2apic
+    Number of AVX-512 FMA units: Cannot run AVX-512 detection - assuming 2
+  Hardware topology: Basic
+    Sockets, cores, and logical processors:
+      Socket  0: [   0] [   1] [   2] [   3] [   4] [   5] [   6] [   7]
+      Socket  1: [   8] [   9] [  10] [  11] [  12] [  13] [  14] [  15]
+
+Highest SIMD level requested by all nodes in run: AVX_512
+SIMD instructions selected at compile time:       SSE4.1
+This program was compiled for different hardware than you are running on,
+which could influence performance.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+M. J. Abraham, T. Murtola, R. Schulz, S. Páll, J. C. Smith, B. Hess, E.
+Lindahl
+GROMACS: High performance molecular simulations through multi-level
+parallelism from laptops to supercomputers
+SoftwareX 1 (2015) pp. 19-25
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+S. Páll, M. J. Abraham, C. Kutzner, B. Hess, E. Lindahl
+Tackling Exascale Software Challenges in Molecular Dynamics Simulations with
+GROMACS
+In S. Markidis & E. Laure (Eds.), Solving Software Challenges for Exascale 8759 (2015) pp. 3-27
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+S. Pronk, S. Páll, R. Schulz, P. Larsson, P. Bjelkmar, R. Apostolov, M. R.
+Shirts, J. C. Smith, P. M. Kasson, D. van der Spoel, B. Hess, and E. Lindahl
+GROMACS 4.5: a high-throughput and highly parallel open source molecular
+simulation toolkit
+Bioinformatics 29 (2013) pp. 845-54
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+B. Hess and C. Kutzner and D. van der Spoel and E. Lindahl
+GROMACS 4: Algorithms for highly efficient, load-balanced, and scalable
+molecular simulation
+J. Chem. Theory Comput. 4 (2008) pp. 435-447
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+D. van der Spoel, E. Lindahl, B. Hess, G. Groenhof, A. E. Mark and H. J. C.
+Berendsen
+GROMACS: Fast, Flexible and Free
+J. Comp. Chem. 26 (2005) pp. 1701-1719
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+E. Lindahl and B. Hess and D. van der Spoel
+GROMACS 3.0: A package for molecular simulation and trajectory analysis
+J. Mol. Mod. 7 (2001) pp. 306-317
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+H. J. C. Berendsen, D. van der Spoel and R. van Drunen
+GROMACS: A message-passing parallel molecular dynamics implementation
+Comp. Phys. Comm. 91 (1995) pp. 43-56
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE CITE THE DOI FOR THIS VERSION OF GROMACS ++++
+https://doi.org/10.5281/zenodo.4723562
+-------- -------- --- Thank You --- -------- --------
+
+
+The number of OpenMP threads was set by environment variable OMP_NUM_THREADS to 1
+
+Input Parameters:
+   integrator                     = md
+   tinit                          = 0
+   dt                             = 0.002
+   nsteps                         = 500000
+   init-step                      = 0
+   simulation-part                = 1
+   mts                            = false
+   comm-mode                      = Linear
+   nstcomm                        = 100
+   bd-fric                        = 0
+   ld-seed                        = -84428833
+   emtol                          = 10
+   emstep                         = 0.01
+   niter                          = 20
+   fcstep                         = 0
+   nstcgsteep                     = 1000
+   nbfgscorr                      = 10
+   rtpi                           = 0.05
+   nstxout                        = 0
+   nstvout                        = 0
+   nstfout                        = 0
+   nstlog                         = 5000
+   nstcalcenergy                  = 100
+   nstenergy                      = 5000
+   nstxout-compressed             = 5000
+   compressed-x-precision         = 1000
+   cutoff-scheme                  = Verlet
+   nstlist                        = 10
+   pbc                            = xyz
+   periodic-molecules             = false
+   verlet-buffer-tolerance        = 0.005
+   rlist                          = 1
+   coulombtype                    = PME
+   coulomb-modifier               = Potential-shift
+   rcoulomb-switch                = 0
+   rcoulomb                       = 1
+   epsilon-r                      = 1
+   epsilon-rf                     = inf
+   vdw-type                       = Cut-off
+   vdw-modifier                   = Potential-shift
+   rvdw-switch                    = 0
+   rvdw                           = 1
+   DispCorr                       = EnerPres
+   table-extension                = 1
+   fourierspacing                 = 0.16
+   fourier-nx                     = 28
+   fourier-ny                     = 28
+   fourier-nz                     = 28
+   pme-order                      = 4
+   ewald-rtol                     = 1e-05
+   ewald-rtol-lj                  = 0.001
+   lj-pme-comb-rule               = Geometric
+   ewald-geometry                 = 0
+   epsilon-surface                = 0
+   tcoupl                         = V-rescale
+   nsttcouple                     = 10
+   nh-chain-length                = 0
+   print-nose-hoover-chain-variables = false
+   pcoupl                         = Berendsen
+   pcoupltype                     = Isotropic
+   nstpcouple                     = 10
+   tau-p                          = 2
+   compressibility (3x3):
+      compressibility[    0]={ 4.50000e-05,  0.00000e+00,  0.00000e+00}
+      compressibility[    1]={ 0.00000e+00,  4.50000e-05,  0.00000e+00}
+      compressibility[    2]={ 0.00000e+00,  0.00000e+00,  4.50000e-05}
+   ref-p (3x3):
+      ref-p[    0]={ 1.00000e+00,  0.00000e+00,  0.00000e+00}
+      ref-p[    1]={ 0.00000e+00,  1.00000e+00,  0.00000e+00}
+      ref-p[    2]={ 0.00000e+00,  0.00000e+00,  1.00000e+00}
+   refcoord-scaling               = No
+   posres-com (3):
+      posres-com[0]= 0.00000e+00
+      posres-com[1]= 0.00000e+00
+      posres-com[2]= 0.00000e+00
+   posres-comB (3):
+      posres-comB[0]= 0.00000e+00
+      posres-comB[1]= 0.00000e+00
+      posres-comB[2]= 0.00000e+00
+   QMMM                           = false
+qm-opts:
+   ngQM                           = 0
+   constraint-algorithm           = Lincs
+   continuation                   = false
+   Shake-SOR                      = false
+   shake-tol                      = 0.0001
+   lincs-order                    = 4
+   lincs-iter                     = 1
+   lincs-warnangle                = 30
+   nwall                          = 0
+   wall-type                      = 9-3
+   wall-r-linpot                  = -1
+   wall-atomtype[0]               = -1
+   wall-atomtype[1]               = -1
+   wall-density[0]                = 0
+   wall-density[1]                = 0
+   wall-ewald-zfac                = 3
+   pull                           = false
+   awh                            = false
+   rotation                       = false
+   interactiveMD                  = false
+   disre                          = No
+   disre-weighting                = Conservative
+   disre-mixed                    = false
+   dr-fc                          = 1000
+   dr-tau                         = 0
+   nstdisreout                    = 100
+   orire-fc                       = 0
+   orire-tau                      = 0
+   nstorireout                    = 100
+   free-energy                    = yes
+   init-lambda                    = -1
+   init-lambda-state              = 4
+   delta-lambda                   = 0
+   nstdhdl                        = 5000
+   n-lambdas                      = 6
+   separate-dvdl:
+       fep-lambdas =   TRUE
+      mass-lambdas =   FALSE
+      coul-lambdas =   FALSE
+       vdw-lambdas =   FALSE
+    bonded-lambdas =   FALSE
+ restraint-lambdas =   FALSE
+temperature-lambdas =   FALSE
+all-lambdas:
+       fep-lambdas =            0         0.2         0.4         0.6         0.8           1
+      mass-lambdas =            0         0.2         0.4         0.6         0.8           1
+      coul-lambdas =            0         0.2         0.4         0.6         0.8           1
+       vdw-lambdas =            0         0.2         0.4         0.6         0.8           1
+    bonded-lambdas =            0         0.2         0.4         0.6         0.8           1
+ restraint-lambdas =            0         0.2         0.4         0.6         0.8           1
+temperature-lambdas =            0         0.2         0.4         0.6         0.8           1
+   calc-lambda-neighbors          = -1
+   dhdl-print-energy              = total
+   sc-alpha                       = 0
+   sc-power                       = 1
+   sc-r-power                     = 6
+   sc-sigma                       = 0.3
+   sc-sigma-min                   = 0.3
+   sc-coul                        = false
+   dh-hist-size                   = 0
+   dh-hist-spacing                = 0.1
+   separate-dhdl-file             = yes
+   dhdl-derivatives               = yes
+   cos-acceleration               = 0
+   deform (3x3):
+      deform[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+      deform[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+      deform[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   simulated-tempering            = false
+   swapcoords                     = no
+   userint1                       = 0
+   userint2                       = 0
+   userint3                       = 0
+   userint4                       = 0
+   userreal1                      = 0
+   userreal2                      = 0
+   userreal3                      = 0
+   userreal4                      = 0
+   applied-forces:
+     electric-field:
+       x:
+         E0                       = 0
+         omega                    = 0
+         t0                       = 0
+         sigma                    = 0
+       y:
+         E0                       = 0
+         omega                    = 0
+         t0                       = 0
+         sigma                    = 0
+       z:
+         E0                       = 0
+         omega                    = 0
+         t0                       = 0
+         sigma                    = 0
+     density-guided-simulation:
+       active                     = false
+       group                      = protein
+       similarity-measure         = inner-product
+       atom-spreading-weight      = unity
+       force-constant             = 1e+09
+       gaussian-transform-spreading-width = 0.2
+       gaussian-transform-spreading-range-in-multiples-of-width = 4
+       reference-density-filename = reference.mrc
+       nst                        = 1
+       normalize-densities        = true
+       adaptive-force-scaling     = false
+       adaptive-force-scaling-time-constant = 4
+       shift-vector               = 
+       transformation-matrix      = 
+grpopts:
+   nrdf:      418.82     6549.18
+   ref-t:         300         300
+   tau-t:         0.1         0.1
+annealing:          No          No
+annealing-npoints:           0           0
+   acc:	           0           0           0
+   nfreeze:           N           N           N
+   energygrp-flags[  0]: 0
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.025
+
+
+Initializing Domain Decomposition on 8 ranks
+Dynamic load balancing: auto
+Minimum cell size due to atom displacement: 0.735 nm
+Initial maximum distances in bonded interactions:
+    two-body bonded interactions: 0.392 nm, LJC Pairs NB, atoms 119 142
+  multi-body bonded interactions: 0.392 nm, Proper Dih., atoms 119 142
+Minimum cell size due to bonded interactions: 0.431 nm
+Maximum distance for 5 constraints, at 120 deg. angles, all-trans: 0.219 nm
+Estimated maximum distance required for P-LINCS: 0.219 nm
+Scaling the initial minimum size with 1/0.8 (option -dds) = 1.25
+Using 0 separate PME ranks, as there are too few total
+ ranks for efficient splitting
+Optimizing the DD grid for 8 cells with a minimum initial size of 0.919 nm
+The maximum allowed number of cells is: X 4 Y 4 Z 4
+Domain decomposition grid 4 x 2 x 1, separate PME ranks 0
+PME domain decomposition: 4 x 2 x 1
+Domain decomposition rank 0, coordinates 0 0 0
+
+The initial number of communication pulses is: X 2 Y 1
+The initial domain decomposition cell size is: X 1.01 nm Y 2.02 nm
+
+The maximum allowed distance for atoms involved in interactions is:
+                 non-bonded interactions           1.025 nm
+(the following are initial values, they could change due to box deformation)
+            two-body bonded interactions  (-rdd)   1.025 nm
+          multi-body bonded interactions  (-rdd)   1.012 nm
+  atoms separated by up to 5 constraints  (-rcon)  1.012 nm
+
+When dynamic load balancing gets turned on, these settings will change to:
+The maximum number of communication pulses is: X 2 Y 1
+The minimum size for domain decomposition cells is 0.735 nm
+The requested allowed shrink of DD cells (option -dds) is: 0.80
+The allowed shrink of domain decomposition cells is: X 0.73 Y 0.51
+The maximum allowed distance for atoms involved in interactions is:
+                 non-bonded interactions           1.025 nm
+            two-body bonded interactions  (-rdd)   1.025 nm
+          multi-body bonded interactions  (-rdd)   0.735 nm
+  atoms separated by up to 5 constraints  (-rcon)  0.735 nm
+
+This is simulation 4 out of 6 running as a composite GROMACS
+multi-simulation job. Setup for this simulation:
+
+Using 8 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+System total charge, top. A: -0.000 top. B: -0.000
+Will do PME sum in reciprocal space for electrostatic interactions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+U. Essmann, L. Perera, M. L. Berkowitz, T. Darden, H. Lee and L. G. Pedersen 
+A smooth particle mesh Ewald method
+J. Chem. Phys. 103 (1995) pp. 8577-8592
+-------- -------- --- Thank You --- -------- --------
+
+Using a Gaussian width (1/beta) of 0.320163 nm for Ewald
+Potential shift: LJ r^-12: -1.000e+00 r^-6: -1.000e+00, Ewald -1.000e-05
+Initialized non-bonded Ewald tables, spacing: 9.33e-04 size: 2172
+
+Generated table with 1012 data points for 1-4 COUL.
+Tabscale = 500 points/nm
+Generated table with 1012 data points for 1-4 LJ6.
+Tabscale = 500 points/nm
+Generated table with 1012 data points for 1-4 LJ12.
+Tabscale = 500 points/nm
+Long Range LJ corr.: <C6> 3.8665e-03
+
+
+Using SIMD 4x4 nonbonded short-range kernels
+
+Using a dual 4x4 pair-list setup updated with dynamic pruning:
+  outer list: updated every 100 steps, buffer 0.025 nm, rlist 1.025 nm
+  inner list: updated every  69 steps, buffer 0.001 nm, rlist 1.001 nm
+At tolerance 0.005 kJ/mol/ps per atom, equivalent classical 1x1 list would be:
+  outer list: updated every 100 steps, buffer 0.144 nm, rlist 1.144 nm
+  inner list: updated every  69 steps, buffer 0.093 nm, rlist 1.093 nm
+
+Using Lorentz-Berthelot Lennard-Jones combination rule
+There are 0 atoms and 0 charges for free energy perturbation
+Removing pbc first time
+
+Initializing Parallel LINear Constraint Solver
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+B. Hess
+P-LINCS: A Parallel Linear Constraint Solver for molecular simulation
+J. Chem. Theory Comput. 4 (2008) pp. 116-122
+-------- -------- --- Thank You --- -------- --------
+
+The number of constraints is 544
+There are constraints between atoms in different decomposition domains,
+will communicate selected coordinates each lincs iteration
+
+Linking all bonded interactions to atoms
+
+
+Intra-simulation communication will occur every 10 steps.
+Initial vector of lambda components:[     0.8000     0.8000     0.8000     0.8000     0.8000     0.8000     0.8000 ]
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+G. Bussi, D. Donadio and M. Parrinello
+Canonical sampling through velocity rescaling
+J. Chem. Phys. 126 (2007) pp. 014101
+-------- -------- --- Thank You --- -------- --------
+
+There are: 2505 Atoms
+Atom distribution over 8 domains: av 313 stddev 23 min 280 max 345
+
+Initializing Replica Exchange
+Repl  There are 6 replicas:
+Multi-checking the number of atoms ... OK
+Multi-checking the integrator ... OK
+Multi-checking init_step+nsteps ... OK
+Multi-checking first exchange step: init_step/-replex ... OK
+Multi-checking the temperature coupling ... OK
+Multi-checking the number of temperature coupling groups ... OK
+Multi-checking the pressure coupling ... OK
+Multi-checking free energy ... OK
+Multi-checking number of lambda states ... OK
+
+Replica exchange in lambda
+   0   1   2   3   4   5
+
+Replica exchange interval: 5000
+
+Replica random seed: 2143747031
+Replica exchange information below: ex and x = exchange, pr = probability
+
+Constraining the starting coordinates (step 0)
+
+Constraining the coordinates at t0-dt (step 0)
+Center of mass motion removal mode is Linear
+We have the following groups for center of mass motion removal:
+  0:  rest
+RMS relative constraint deviation after constraining: 4.02e-07
+Initial temperature: 298.444 K
+
+Started mdrun on rank 0 Tue Jul  9 16:19:58 2024
+
+           Step           Time
+              0        0.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.90954e+03    3.50391e+03    4.13960e+02    1.34083e+01   -1.02737e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.52710e+03   -1.75900e+03    6.12598e+02   -7.10634e+03    8.88295e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.77661e+03    1.77665e+03    3.06651e+02   -3.83455e+02   -1.32474e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.22786e-06
+
+
+DD  step 99 load imb.: force 25.0%
+
+step 200 Turning on dynamic load balancing, because the performance loss due to load imbalance is 12.1 %.
+
+DD  step 4999  vol min/aver 0.694  load imb.: force  4.2%
+           Step           Time
+           5000       10.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.92003e+03    3.42884e+03    4.32518e+02    1.66016e+01   -1.04230e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.53110e+03   -1.82127e+03    5.63326e+02   -7.41410e+03    8.69321e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.27911e+03    1.74136e+03    3.00101e+02   -3.85464e+02   -5.94399e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.11470e-06
+
+Replica exchange at step 5000 time 10.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 4999  vol min/aver 0.698  load imb.: force  4.7%
+
+Atom distribution over 8 domains: av 313 stddev 23 min 288 max 354
+
+DD  step 9999  vol min/aver 0.784  load imb.: force  4.5%
+           Step           Time
+          10000       20.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.97071e+03    3.45233e+03    4.22878e+02    2.33601e+01   -1.03604e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.53781e+03   -1.81878e+03    5.76476e+02   -7.27127e+03    8.74223e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.47096e+03    1.71292e+03    3.01793e+02   -3.88837e+02    1.03741e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.30456e-06
+
+Replica exchange at step 10000 time 20.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 9999  vol min/aver 0.779  load imb.: force  5.1%
+
+Atom distribution over 8 domains: av 313 stddev 23 min 277 max 339
+
+DD  step 14999  vol min/aver 0.753  load imb.: force  4.5%
+           Step           Time
+          15000       30.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.85388e+03    3.43918e+03    4.51147e+02    1.11095e+01   -1.05240e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.53958e+03   -1.81290e+03    5.88321e+02   -7.53283e+03    8.81209e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.27926e+03    1.66899e+03    3.04205e+02   -3.89729e+02   -9.07841e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.27649e-06
+
+Replica exchange at step 15000 time 30.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 14999  vol min/aver 0.751  load imb.: force  4.6%
+
+Atom distribution over 8 domains: av 313 stddev 18 min 297 max 339
+
+DD  step 19999  vol min/aver 0.789  load imb.: force  2.5%
+           Step           Time
+          20000       40.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.88354e+03    3.54910e+03    4.15090e+02    1.32673e+01   -1.04461e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.53513e+03   -1.79900e+03    5.91323e+02   -7.32796e+03    8.70176e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.37380e+03    1.58290e+03    3.00396e+02   -3.87488e+02    9.77137e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.29113e-07
+
+Replica exchange at step 20000 time 40.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 19999  vol min/aver 0.792  load imb.: force  5.4%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 288 max 340
+
+DD  step 24999  vol min/aver 0.750  load imb.: force  2.6%
+           Step           Time
+          25000       50.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.95163e+03    3.43420e+03    4.44038e+02    2.44219e+01   -1.04771e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.54407e+03   -1.78548e+03    5.54178e+02   -7.39816e+03    8.75417e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.35601e+03    1.57711e+03    3.02206e+02   -3.91999e+02    3.33704e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.08376e-06
+
+Replica exchange at step 25000 time 50.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 24999  vol min/aver 0.747  load imb.: force  6.2%
+
+Atom distribution over 8 domains: av 313 stddev 18 min 295 max 337
+
+DD  step 29999  vol min/aver 0.704  load imb.: force  3.0%
+           Step           Time
+          30000       60.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.99663e+03    3.38605e+03    4.67531e+02    2.40305e+01   -1.05323e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.54088e+03   -1.83223e+03    5.77706e+02   -7.45342e+03    8.80662e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.35320e+03    1.50465e+03    3.04016e+02   -3.90387e+02    3.98125e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.05825e-06
+
+Replica exchange at step 30000 time 60.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 29999  vol min/aver 0.712  load imb.: force  4.1%
+
+Atom distribution over 8 domains: av 313 stddev 21 min 295 max 350
+
+DD  step 34999  vol min/aver 0.752  load imb.: force  3.1%
+           Step           Time
+          35000       70.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.94556e+03    3.59491e+03    4.64027e+02    1.83117e+01   -1.04782e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.54096e+03   -1.81114e+03    5.71085e+02   -7.23642e+03    8.82697e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.59055e+03    1.50674e+03    3.04719e+02   -3.90425e+02    7.80787e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.17262e-06
+
+Replica exchange at step 35000 time 70.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 34999  vol min/aver 0.739  load imb.: force  4.4%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 293 max 341
+
+DD  step 39999  vol min/aver 0.800  load imb.: force  0.9%
+           Step           Time
+          40000       80.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.77144e+03    3.40749e+03    4.42709e+02    1.57068e+01   -1.05418e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.53980e+03   -1.82419e+03    5.51619e+02   -7.71682e+03    8.77693e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.06011e+03    1.41392e+03    3.02991e+02   -3.89839e+02    1.25299e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.28321e-06
+
+Replica exchange at step 40000 time 80.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 39999  vol min/aver 0.798  load imb.: force  4.9%
+
+Atom distribution over 8 domains: av 313 stddev 21 min 290 max 348
+
+DD  step 44999  vol min/aver 0.705  load imb.: force  2.4%
+           Step           Time
+          45000       90.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.99997e+03    3.39329e+03    4.26067e+02    1.35368e+01   -1.03606e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.53364e+03   -1.83101e+03    5.78307e+02   -7.31410e+03    8.62635e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.31225e+03    1.40256e+03    2.97793e+02   -3.86736e+02    2.72700e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.32071e-07
+
+Replica exchange at step 45000 time 90.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 44999  vol min/aver 0.699  load imb.: force  7.1%
+
+Atom distribution over 8 domains: av 313 stddev 21 min 288 max 339
+
+DD  step 49999  vol min/aver 0.785  load imb.: force  3.4%
+           Step           Time
+          50000      100.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.83262e+03    3.66234e+03    4.10147e+02    2.63650e+01   -1.06815e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55073e+03   -1.83800e+03    5.60567e+02   -7.57816e+03    8.78379e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.20564e+03    1.35162e+03    3.03228e+02   -3.95378e+02   -1.03700e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.49980e-07
+
+Replica exchange at step 50000 time 100.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 49999  vol min/aver 0.771  load imb.: force  5.5%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 291 max 343
+
+DD  step 54999  vol min/aver 0.822  load imb.: force  1.9%
+           Step           Time
+          55000      110.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.82564e+03    3.46835e+03    3.76834e+02    1.84289e+01   -1.05140e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.54195e+03   -1.77554e+03    5.62508e+02   -7.57972e+03    8.43874e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.59017e+02    1.22926e+03    2.91317e+02   -3.90929e+02    1.65499e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.19501e-06
+
+Replica exchange at step 55000 time 110.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 54999  vol min/aver 0.818  load imb.: force  4.4%
+
+Atom distribution over 8 domains: av 313 stddev 19 min 289 max 342
+
+DD  step 59999  vol min/aver 0.788  load imb.: force  2.7%
+           Step           Time
+          60000      120.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.83804e+03    3.43514e+03    3.91280e+02    2.40270e+01   -1.03165e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.54243e+03   -1.82872e+03    5.47202e+02   -7.45194e+03    8.94805e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.49611e+03    1.23406e+03    3.08899e+02   -3.91167e+02    3.80167e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.10045e-06
+
+Replica exchange at step 60000 time 120.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 59999  vol min/aver 0.798  load imb.: force  5.3%
+
+Atom distribution over 8 domains: av 313 stddev 24 min 286 max 355
+
+DD  step 64999  vol min/aver 0.813  load imb.: force  4.7%
+           Step           Time
+          65000      130.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.05523e+03    3.51934e+03    4.11397e+02    2.31682e+01   -1.06192e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55370e+03   -1.79584e+03    5.63175e+02   -7.39641e+03    8.69013e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.29372e+03    1.07442e+03    2.99995e+02   -3.96889e+02   -1.62131e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.10311e-06
+
+Replica exchange at step 65000 time 130.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 64999  vol min/aver 0.819  load imb.: force  6.3%
+
+Atom distribution over 8 domains: av 313 stddev 21 min 287 max 338
+
+DD  step 69999  vol min/aver 0.798  load imb.: force  3.2%
+           Step           Time
+          70000      140.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.94065e+03    3.72034e+03    4.06681e+02    1.69255e+01   -1.06074e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55494e+03   -1.76461e+03    5.92321e+02   -7.25002e+03    8.83185e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.58183e+03    1.08593e+03    3.04887e+02   -3.97519e+02    2.28819e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.20108e-06
+
+Replica exchange at step 70000 time 140.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 69999  vol min/aver 0.820  load imb.: force  3.9%
+
+Atom distribution over 8 domains: av 313 stddev 22 min 284 max 345
+
+DD  step 74999  vol min/aver 0.792  load imb.: force  4.3%
+           Step           Time
+          75000      150.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.10170e+03    3.44036e+03    4.47680e+02    1.13976e+01   -1.05417e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55488e+03   -1.81579e+03    5.52952e+02   -7.35827e+03    8.63731e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.27905e+03    1.02790e+03    2.98172e+02   -3.97489e+02    4.38922e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    2.07498e-06
+
+Replica exchange at step 75000 time 150.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 74999  vol min/aver 0.807  load imb.: force  8.9%
+
+Atom distribution over 8 domains: av 313 stddev 26 min 287 max 371
+
+DD  step 79999  vol min/aver 0.817  load imb.: force  1.7%
+           Step           Time
+          80000      160.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.94554e+03    3.49848e+03    4.31199e+02    2.44893e+01   -1.06954e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.54998e+03   -1.83827e+03    5.61030e+02   -7.62296e+03    9.08967e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.46670e+03    9.12579e+02    3.13788e+02   -3.94994e+02   -9.72358e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.29064e-06
+
+Replica exchange at step 80000 time 160.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 79999  vol min/aver 0.810  load imb.: force  7.0%
+
+Atom distribution over 8 domains: av 313 stddev 24 min 285 max 363
+
+DD  step 84999  vol min/aver 0.778  load imb.: force  2.2%
+           Step           Time
+          85000      170.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.84784e+03    3.56908e+03    4.23526e+02    1.62034e+01   -1.08004e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55735e+03   -1.83362e+03    5.61527e+02   -7.77315e+03    8.53503e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    7.61881e+02    9.36225e+02    2.94641e+02   -3.98748e+02   -1.86410e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.18167e-07
+
+Replica exchange at step 85000 time 170.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 84999  vol min/aver 0.778  load imb.: force  5.6%
+
+Atom distribution over 8 domains: av 313 stddev 19 min 278 max 332
+
+DD  step 89999  vol min/aver 0.804  load imb.: force  2.0%
+           Step           Time
+          90000      180.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.00291e+03    3.43818e+03    4.40176e+02    1.87452e+01   -1.06229e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55539e+03   -1.84328e+03    5.29491e+02   -7.59202e+03    8.61369e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.02167e+03    8.78667e+02    2.97356e+02   -3.97749e+02   -3.75183e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.02186e-06
+
+Replica exchange at step 90000 time 180.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 89999  vol min/aver 0.803  load imb.: force  5.9%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 296 max 350
+
+DD  step 94999  vol min/aver 0.709  load imb.: force  6.2%
+           Step           Time
+          95000      190.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.98533e+03    3.52401e+03    4.21334e+02    1.66943e+01   -1.06435e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56249e+03   -1.85574e+03    5.46783e+02   -7.56755e+03    8.93162e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.36406e+03    8.91430e+02    3.08331e+02   -4.01376e+02    1.52109e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.07018e-06
+
+Replica exchange at step 95000 time 190.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 94999  vol min/aver 0.685  load imb.: force  5.3%
+
+Atom distribution over 8 domains: av 313 stddev 26 min 289 max 353
+
+DD  step 99999  vol min/aver 0.770  load imb.: force  2.0%
+           Step           Time
+         100000      200.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.08833e+03    3.59692e+03    4.47967e+02    1.67287e+01   -1.05998e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55910e+03   -1.85084e+03    5.66498e+02   -7.29327e+03    8.85297e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.55969e+03    7.81673e+02    3.05616e+02   -3.99646e+02    2.59400e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.71891e-06
+
+Replica exchange at step 100000 time 200.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 99999  vol min/aver 0.774  load imb.: force  3.8%
+
+Atom distribution over 8 domains: av 313 stddev 24 min 291 max 363
+
+DD  step 104999  vol min/aver 0.753  load imb.: force  1.7%
+           Step           Time
+         105000      210.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.07676e+03    3.54059e+03    4.35088e+02    1.66159e+01   -1.05335e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55940e+03   -1.84312e+03    5.48848e+02   -7.31812e+03    8.80470e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.48658e+03    7.27758e+02    3.03950e+02   -3.99798e+02    2.49996e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.52447e-06
+
+Replica exchange at step 105000 time 210.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 104999  vol min/aver 0.758  load imb.: force  3.7%
+
+Atom distribution over 8 domains: av 313 stddev 21 min 280 max 350
+
+DD  step 109999  vol min/aver 0.739  load imb.: force  2.8%
+           Step           Time
+         110000      220.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.96407e+03    3.61839e+03    4.39546e+02    1.47332e+01   -1.06539e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56413e+03   -1.82730e+03    5.44653e+02   -7.46397e+03    8.83247e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.36850e+03    7.25986e+02    3.04909e+02   -4.02217e+02    3.98520e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.02749e-06
+
+Replica exchange at step 110000 time 220.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 109999  vol min/aver 0.744  load imb.: force  4.9%
+
+Atom distribution over 8 domains: av 313 stddev 21 min 293 max 345
+
+DD  step 114999  vol min/aver 0.786  load imb.: force  5.0%
+           Step           Time
+         115000      230.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.01088e+03    3.62003e+03    4.10767e+02    1.27281e+01   -1.05499e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55181e+03   -1.84015e+03    5.98063e+02   -7.28943e+03    8.84635e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.55692e+03    6.23216e+02    3.05388e+02   -3.95925e+02   -1.46997e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.32829e-06
+
+Replica exchange at step 115000 time 230.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 114999  vol min/aver 0.796  load imb.: force  6.5%
+
+Atom distribution over 8 domains: av 313 stddev 18 min 298 max 339
+
+DD  step 119999  vol min/aver 0.817  load imb.: force  3.1%
+           Step           Time
+         120000      240.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.00497e+03    3.51388e+03    4.02618e+02    1.65944e+01   -1.07004e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55808e+03   -1.79152e+03    5.69195e+02   -7.54272e+03    8.53590e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    9.93189e+02    5.71008e+02    2.94671e+02   -3.99121e+02    1.93961e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.05287e-06
+
+Replica exchange at step 120000 time 240.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 119999  vol min/aver 0.818  load imb.: force  6.9%
+
+Atom distribution over 8 domains: av 313 stddev 17 min 292 max 334
+
+DD  step 124999  vol min/aver 0.763  load imb.: force  2.5%
+           Step           Time
+         125000      250.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.92641e+03    3.46646e+03    4.15318e+02    2.07499e+01   -1.07629e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56443e+03   -1.80064e+03    5.40281e+02   -7.75875e+03    8.45546e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    6.96711e+02    4.23816e+02    2.91894e+02   -4.02374e+02    1.16699e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.27392e-07
+
+Replica exchange at step 125000 time 250.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 124999  vol min/aver 0.753  load imb.: force  4.5%
+
+Atom distribution over 8 domains: av 313 stddev 24 min 293 max 353
+
+DD  step 129999  vol min/aver 0.780  load imb.: force  3.3%
+           Step           Time
+         130000      260.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.01807e+03    3.46851e+03    4.22628e+02    2.93394e+01   -1.05783e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55777e+03   -1.81085e+03    5.57360e+02   -7.45102e+03    8.72697e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.27595e+03    4.59723e+02    3.01267e+02   -3.98963e+02    9.29425e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.01563e-06
+
+Replica exchange at step 130000 time 260.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 129999  vol min/aver 0.785  load imb.: force  7.7%
+
+Atom distribution over 8 domains: av 313 stddev 18 min 297 max 347
+
+DD  step 134999  vol min/aver 0.835  load imb.: force  3.3%
+           Step           Time
+         135000      270.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.94934e+03    3.40148e+03    4.59123e+02    1.84401e+01   -1.06883e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55554e+03   -1.83991e+03    5.41631e+02   -7.71368e+03    8.48425e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    7.70570e+02    3.88990e+02    2.92888e+02   -3.97828e+02   -2.48496e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.08059e-06
+
+Replica exchange at step 135000 time 270.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 134999  vol min/aver 0.827  load imb.: force  3.8%
+
+Atom distribution over 8 domains: av 313 stddev 18 min 293 max 340
+
+DD  step 139999  vol min/aver 0.740  load imb.: force  2.4%
+           Step           Time
+         140000      280.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.89743e+03    3.49177e+03    4.40669e+02    1.98028e+01   -1.06433e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56005e+03   -1.87602e+03    5.28203e+02   -7.70146e+03    8.68925e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    9.87788e+02    2.80548e+02    2.99964e+02   -4.00129e+02    1.28280e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.25529e-06
+
+Replica exchange at step 140000 time 280.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 139999  vol min/aver 0.731  load imb.: force  5.3%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 281 max 341
+
+DD  step 144999  vol min/aver 0.873  load imb.: force  4.1%
+           Step           Time
+         145000      290.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.78703e+03    3.50451e+03    4.02376e+02    1.35976e+01   -1.06631e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56364e+03   -1.84730e+03    5.33734e+02   -7.83282e+03    8.63256e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    7.99741e+02    3.25146e+02    2.98008e+02   -4.01967e+02    2.09514e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.50885e-06
+
+Replica exchange at step 145000 time 290.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 144999  vol min/aver 0.855  load imb.: force  3.8%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 285 max 341
+
+DD  step 149999  vol min/aver 0.820  load imb.: force  2.5%
+           Step           Time
+         150000      300.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.92851e+03    3.43780e+03    4.59202e+02    1.90097e+01   -1.05735e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55587e+03   -1.84884e+03    5.49282e+02   -7.58441e+03    8.82562e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.24121e+03    2.33832e+02    3.04672e+02   -3.97995e+02    5.22449e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.36805e-06
+
+Replica exchange at step 150000 time 300.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 149999  vol min/aver 0.823  load imb.: force  6.5%
+
+Atom distribution over 8 domains: av 313 stddev 18 min 290 max 346
+
+DD  step 154999  vol min/aver 0.804  load imb.: force  1.2%
+           Step           Time
+         155000      310.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.93704e+03    3.65351e+03    4.55975e+02    1.79831e+01   -1.06781e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57078e+03   -1.85873e+03    5.65440e+02   -7.47766e+03    8.73269e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.25503e+03    2.79027e+02    3.01464e+02   -4.05633e+02    2.17006e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.83363e-07
+
+Replica exchange at step 155000 time 310.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 154999  vol min/aver 0.802  load imb.: force  6.8%
+
+Atom distribution over 8 domains: av 313 stddev 19 min 296 max 344
+
+DD  step 159999  vol min/aver 0.840  load imb.: force  4.0%
+           Step           Time
+         160000      320.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.91975e+03    3.53251e+03    4.13779e+02    9.00966e+00   -1.08296e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57010e+03   -1.85067e+03    5.74629e+02   -7.80070e+03    8.65816e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.57462e+02    1.73573e+02    2.98891e+02   -4.05284e+02   -5.09132e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.46741e-07
+
+Replica exchange at step 160000 time 320.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 159999  vol min/aver 0.841  load imb.: force  4.7%
+
+Atom distribution over 8 domains: av 313 stddev 19 min 296 max 342
+
+DD  step 164999  vol min/aver 0.771  load imb.: force  2.4%
+           Step           Time
+         165000      330.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.94604e+03    3.43684e+03    4.21731e+02    1.30071e+01   -1.05737e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55811e+03   -1.83732e+03    5.47609e+02   -7.60394e+03    8.72710e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.12317e+03    8.46665e+01    3.01271e+02   -3.99137e+02   -1.06101e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.28493e-06
+
+Replica exchange at step 165000 time 330.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 164999  vol min/aver 0.773  load imb.: force  2.8%
+
+Atom distribution over 8 domains: av 313 stddev 17 min 295 max 337
+
+DD  step 169999  vol min/aver 0.755  load imb.: force  2.6%
+           Step           Time
+         170000      340.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.90019e+03    3.40652e+03    4.14751e+02    1.36965e+01   -1.07144e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55971e+03   -1.85082e+03    5.46991e+02   -7.84277e+03    8.66199e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.19218e+02    1.07990e+02    2.99023e+02   -3.99955e+02   -7.82656e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.05543e-06
+
+Replica exchange at step 170000 time 340.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 169999  vol min/aver 0.757  load imb.: force  6.9%
+
+Atom distribution over 8 domains: av 313 stddev 21 min 293 max 345
+
+DD  step 174999  vol min/aver 0.750  load imb.: force  2.3%
+           Step           Time
+         175000      350.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.02446e+03    3.51386e+03    4.03257e+02    1.74481e+01   -1.08013e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57081e+03   -1.83784e+03    5.70165e+02   -7.68079e+03    8.61336e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    9.32569e+02   -3.53408e+01    2.97345e+02   -4.05650e+02    4.98886e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.11477e-06
+
+Replica exchange at step 175000 time 350.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 174999  vol min/aver 0.759  load imb.: force  6.5%
+
+Atom distribution over 8 domains: av 313 stddev 25 min 286 max 356
+
+DD  step 179999  vol min/aver 0.742  load imb.: force  2.9%
+           Step           Time
+         180000      360.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.97537e+03    3.44888e+03    4.47796e+02    2.96425e+01   -1.05022e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55041e+03   -1.81807e+03    5.62551e+02   -7.40649e+03    8.98006e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.57357e+03   -7.74204e+01    3.10004e+02   -3.95213e+02    3.22976e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    2.26041e-06
+
+Replica exchange at step 180000 time 360.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 179999  vol min/aver 0.755  load imb.: force  6.0%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 278 max 343
+
+DD  step 184999  vol min/aver 0.866  load imb.: force  2.8%
+           Step           Time
+         185000      370.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.94996e+03    3.57820e+03    4.18848e+02    1.51114e+01   -1.07656e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56940e+03   -1.85524e+03    5.62326e+02   -7.66576e+03    8.42231e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    7.56542e+02   -1.45608e+02    2.90749e+02   -4.04923e+02    3.96317e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.02645e-06
+
+Replica exchange at step 185000 time 370.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 184999  vol min/aver 0.870  load imb.: force  4.6%
+
+Atom distribution over 8 domains: av 313 stddev 24 min 291 max 360
+
+DD  step 189999  vol min/aver 0.755  load imb.: force  3.9%
+           Step           Time
+         190000      380.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.86911e+03    3.41743e+03    3.98304e+02    1.37463e+01   -1.06046e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55817e+03   -1.83792e+03    5.36230e+02   -7.76592e+03    9.06588e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.29997e+03   -1.98228e+02    3.12966e+02   -3.99170e+02    3.11978e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.29122e-06
+
+Replica exchange at step 190000 time 380.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 189999  vol min/aver 0.758  load imb.: force  5.2%
+
+Atom distribution over 8 domains: av 313 stddev 18 min 295 max 346
+
+DD  step 194999  vol min/aver 0.892  load imb.: force  2.1%
+           Step           Time
+         195000      390.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.08625e+03    3.53578e+03    4.07520e+02    1.80789e+01   -1.07599e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56336e+03   -1.82751e+03    5.54323e+02   -7.54881e+03    8.51227e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    9.63462e+02   -1.93431e+02    2.93855e+02   -4.01822e+02   -4.33006e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.17835e-06
+
+Replica exchange at step 195000 time 390.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 194999  vol min/aver 0.905  load imb.: force  2.7%
+
+Atom distribution over 8 domains: av 313 stddev 21 min 290 max 349
+
+DD  step 199999  vol min/aver 0.812  load imb.: force  1.9%
+           Step           Time
+         200000      400.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.03767e+03    3.52610e+03    4.21012e+02    2.13631e+01   -1.08633e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56670e+03   -1.86258e+03    5.55092e+02   -7.73139e+03    8.82785e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.09646e+03   -3.07271e+02    3.04749e+02   -4.03538e+02   -1.60694e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.01621e-06
+
+Replica exchange at step 200000 time 400.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 199999  vol min/aver 0.815  load imb.: force  6.2%
+
+Atom distribution over 8 domains: av 313 stddev 19 min 292 max 346
+
+DD  step 204999  vol min/aver 0.681  load imb.: force  3.0%
+           Step           Time
+         205000      410.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.12708e+03    3.42306e+03    4.28631e+02    1.64261e+01   -1.07613e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57366e+03   -1.88056e+03    5.50630e+02   -7.66973e+03    8.46967e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    7.99940e+02   -2.79095e+02    2.92384e+02   -4.07118e+02   -6.69570e+00
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.42343e-06
+
+Replica exchange at step 205000 time 410.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 204999  vol min/aver 0.670  load imb.: force  4.2%
+
+Atom distribution over 8 domains: av 313 stddev 16 min 296 max 337
+
+DD  step 209999  vol min/aver 0.810  load imb.: force  4.1%
+           Step           Time
+         210000      420.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.01287e+03    3.34140e+03    4.40150e+02    2.27973e+01   -1.06255e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55812e+03   -1.84680e+03    5.45391e+02   -7.66779e+03    8.74846e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.08067e+03   -3.48327e+02    3.02009e+02   -3.99141e+02    3.90311e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    8.55405e-07
+
+Replica exchange at step 210000 time 420.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 209999  vol min/aver 0.816  load imb.: force  5.9%
+
+Atom distribution over 8 domains: av 313 stddev 21 min 279 max 341
+
+DD  step 214999  vol min/aver 0.756  load imb.: force  3.0%
+           Step           Time
+         215000      430.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.06134e+03    3.65275e+03    3.99212e+02    2.27745e+01   -1.09408e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.58137e+03   -1.84786e+03    5.83044e+02   -7.65091e+03    8.51410e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.63197e+02   -3.52128e+02    2.93918e+02   -4.11107e+02   -4.00096e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    8.83924e-07
+
+Replica exchange at step 215000 time 430.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 214999  vol min/aver 0.754  load imb.: force  4.7%
+
+Atom distribution over 8 domains: av 313 stddev 29 min 288 max 375
+
+DD  step 219999  vol min/aver 0.650  load imb.: force  2.8%
+           Step           Time
+         220000      440.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.99321e+03    3.52478e+03    4.28668e+02    2.03747e+01   -1.08464e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56783e+03   -1.86548e+03    5.32351e+02   -7.78029e+03    8.88652e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.10623e+03   -4.32588e+02    3.06775e+02   -4.04118e+02   -3.31220e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.85459e-06
+
+Replica exchange at step 220000 time 440.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 219999  vol min/aver 0.647  load imb.: force  4.3%
+
+Atom distribution over 8 domains: av 313 stddev 28 min 287 max 367
+
+DD  step 224999  vol min/aver 0.770  load imb.: force  3.7%
+           Step           Time
+         225000      450.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.03770e+03    3.45422e+03    4.16872e+02    1.94894e+01   -1.07366e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56659e+03   -1.83639e+03    5.61260e+02   -7.65006e+03    8.74012e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.09006e+03   -5.36058e+02    3.01721e+02   -4.03480e+02   -5.27958e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.69158e-07
+
+Replica exchange at step 225000 time 450.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 224999  vol min/aver 0.763  load imb.: force  7.3%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 291 max 350
+
+DD  step 229999  vol min/aver 0.760  load imb.: force  2.2%
+           Step           Time
+         230000      460.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.98810e+03    3.49345e+03    4.09700e+02    1.75545e+01   -1.08066e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57406e+03   -1.85457e+03    5.40861e+02   -7.78560e+03    8.73723e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    9.51634e+02   -4.96104e+02    3.01621e+02   -4.07328e+02   -9.83501e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.14299e-06
+
+Replica exchange at step 230000 time 460.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 229999  vol min/aver 0.768  load imb.: force  6.5%
+
+Atom distribution over 8 domains: av 313 stddev 19 min 293 max 349
+
+DD  step 234999  vol min/aver 0.801  load imb.: force  3.3%
+           Step           Time
+         235000      470.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.98796e+03    3.41844e+03    4.07948e+02    1.71507e+01   -1.06449e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55790e+03   -1.82716e+03    5.59635e+02   -7.63885e+03    8.75656e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.11771e+03   -6.29168e+02    3.02288e+02   -3.99029e+02   -6.63013e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.25100e-07
+
+Replica exchange at step 235000 time 470.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 234999  vol min/aver 0.804  load imb.: force  5.0%
+
+Atom distribution over 8 domains: av 313 stddev 24 min 285 max 360
+
+DD  step 239999  vol min/aver 0.756  load imb.: force  1.7%
+           Step           Time
+         240000      480.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.98528e+03    3.58876e+03    4.29907e+02    3.21285e+01   -1.06522e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56049e+03   -1.82416e+03    5.40567e+02   -7.46022e+03    8.51926e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.05903e+03   -6.96298e+02    2.94096e+02   -4.00356e+02    2.06922e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.14256e-06
+
+Replica exchange at step 240000 time 480.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 239999  vol min/aver 0.757  load imb.: force  6.0%
+
+Atom distribution over 8 domains: av 313 stddev 24 min 282 max 363
+
+DD  step 244999  vol min/aver 0.701  load imb.: force  2.7%
+           Step           Time
+         245000      490.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.03950e+03    3.62321e+03    4.23272e+02    2.24505e+01   -1.07145e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55721e+03   -1.85651e+03    5.51291e+02   -7.46846e+03    8.74679e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.27833e+03   -7.48892e+02    3.01951e+02   -3.98678e+02   -2.17622e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.17371e-06
+
+Replica exchange at step 245000 time 490.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 244999  vol min/aver 0.695  load imb.: force  5.8%
+
+Atom distribution over 8 domains: av 313 stddev 15 min 297 max 336
+
+DD  step 249999  vol min/aver 0.857  load imb.: force  3.4%
+           Step           Time
+         250000      500.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.03204e+03    3.50380e+03    4.03143e+02    1.31656e+01   -1.06045e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56463e+03   -1.82378e+03    5.83466e+02   -7.45731e+03    8.65048e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.19317e+03   -7.82459e+02    2.98626e+02   -4.02477e+02    6.72949e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.30389e-06
+
+Replica exchange at step 250000 time 500.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 249999  vol min/aver 0.849  load imb.: force  3.5%
+
+Atom distribution over 8 domains: av 313 stddev 21 min 297 max 356
+
+DD  step 254999  vol min/aver 0.771  load imb.: force  2.2%
+           Step           Time
+         255000      510.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.04629e+03    3.57357e+03    4.31113e+02    1.80812e+01   -1.08670e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57462e+03   -1.86708e+03    5.40757e+02   -7.69889e+03    8.63827e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    9.39374e+02   -8.08661e+02    2.98205e+02   -4.07616e+02   -2.17790e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.12648e-06
+
+Replica exchange at step 255000 time 510.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 254999  vol min/aver 0.767  load imb.: force  4.6%
+
+Atom distribution over 8 domains: av 313 stddev 22 min 298 max 365
+
+DD  step 259999  vol min/aver 0.595  load imb.: force  2.8%
+           Step           Time
+         260000      520.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.86964e+03    3.71160e+03    4.36807e+02    1.72286e+01   -1.07591e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56545e+03   -1.85535e+03    5.41233e+02   -7.60335e+03    8.82363e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.22028e+03   -8.86335e+02    3.04604e+02   -4.02895e+02   -2.04476e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.36913e-07
+
+Replica exchange at step 260000 time 520.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 259999  vol min/aver 0.585  load imb.: force  3.7%
+
+Atom distribution over 8 domains: av 313 stddev 29 min 296 max 386
+
+DD  step 264999  vol min/aver 0.697  load imb.: force  4.9%
+           Step           Time
+         265000      530.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.92665e+03    3.48643e+03    4.49456e+02    2.47836e+01   -1.05927e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55672e+03   -1.83155e+03    5.65886e+02   -7.52774e+03    8.52220e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    9.94456e+02   -8.93338e+02    2.94198e+02   -3.98429e+02   -2.18921e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.03425e-06
+
+Replica exchange at step 265000 time 530.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 264999  vol min/aver 0.704  load imb.: force  5.4%
+
+Atom distribution over 8 domains: av 313 stddev 23 min 289 max 365
+
+DD  step 269999  vol min/aver 0.701  load imb.: force  2.3%
+           Step           Time
+         270000      540.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.98247e+03    3.68790e+03    4.53974e+02    1.23865e+01   -1.06785e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56637e+03   -1.83433e+03    5.68675e+02   -7.37376e+03    8.89063e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.51687e+03   -9.79574e+02    3.06916e+02   -4.03367e+02    2.98881e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.49377e-06
+
+Replica exchange at step 270000 time 540.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 269999  vol min/aver 0.692  load imb.: force  2.6%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 291 max 349
+
+DD  step 274999  vol min/aver 0.758  load imb.: force  2.7%
+           Step           Time
+         275000      550.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.86468e+03    3.49604e+03    4.49243e+02    1.59279e+01   -1.09809e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.58326e+03   -1.84470e+03    5.57944e+02   -8.02502e+03    8.69187e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    6.66857e+02   -9.39093e+02    3.00055e+02   -4.12088e+02   -5.12270e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.42703e-07
+
+Replica exchange at step 275000 time 550.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 274999  vol min/aver 0.748  load imb.: force  3.2%
+
+Atom distribution over 8 domains: av 313 stddev 26 min 292 max 373
+
+DD  step 279999  vol min/aver 0.762  load imb.: force  5.1%
+           Step           Time
+         280000      560.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.89362e+03    3.59727e+03    4.00994e+02    1.40596e+01   -1.07663e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56795e+03   -1.82681e+03    5.76425e+02   -7.67873e+03    8.46190e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    7.83179e+02   -1.05516e+03    2.92116e+02   -4.04178e+02   -5.85658e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.18769e-06
+
+Replica exchange at step 280000 time 560.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 279999  vol min/aver 0.753  load imb.: force  3.2%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 299 max 357
+
+DD  step 284999  vol min/aver 0.764  load imb.: force  2.6%
+           Step           Time
+         285000      570.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.95285e+03    3.33401e+03    3.74906e+02    2.90247e+01   -1.06889e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56824e+03   -1.81944e+03    5.76025e+02   -7.80978e+03    8.64342e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.33635e+02   -1.16676e+03    2.98382e+02   -4.04328e+02    1.59727e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.16343e-07
+
+Replica exchange at step 285000 time 570.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 284999  vol min/aver 0.775  load imb.: force  4.7%
+
+Atom distribution over 8 domains: av 313 stddev 19 min 288 max 338
+
+DD  step 289999  vol min/aver 0.746  load imb.: force  4.7%
+           Step           Time
+         290000      580.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.96947e+03    3.62221e+03    4.27321e+02    2.16031e+01   -1.07928e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57591e+03   -1.82736e+03    5.78949e+02   -7.57655e+03    8.73257e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.15602e+03   -1.07933e+03    3.01460e+02   -4.08279e+02    2.72690e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.29169e-06
+
+Replica exchange at step 290000 time 580.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 289999  vol min/aver 0.755  load imb.: force  5.4%
+
+Atom distribution over 8 domains: av 313 stddev 23 min 289 max 350
+
+DD  step 294999  vol min/aver 0.840  load imb.: force  3.3%
+           Step           Time
+         295000      590.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.98389e+03    3.42569e+03    3.66742e+02    1.35003e+01   -1.06958e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56492e+03   -1.84142e+03    5.66832e+02   -7.74547e+03    8.65258e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    9.07109e+02   -1.24646e+03    2.98699e+02   -4.02622e+02   -3.86731e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.99359e-07
+
+Replica exchange at step 295000 time 590.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 294999  vol min/aver 0.831  load imb.: force  6.9%
+
+Atom distribution over 8 domains: av 313 stddev 24 min 292 max 364
+
+DD  step 299999  vol min/aver 0.740  load imb.: force  3.2%
+           Step           Time
+         300000      600.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.96918e+03    3.43896e+03    3.91847e+02    1.82000e+01   -1.08568e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56932e+03   -1.82503e+03    5.50149e+02   -7.88285e+03    8.54797e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    6.65117e+02   -1.30437e+03    2.95087e+02   -4.04885e+02   -1.74359e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.67902e-06
+
+Replica exchange at step 300000 time 600.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 299999  vol min/aver 0.756  load imb.: force  3.8%
+
+Atom distribution over 8 domains: av 313 stddev 27 min 274 max 359
+
+DD  step 304999  vol min/aver 0.656  load imb.: force  4.7%
+           Step           Time
+         305000      610.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.07016e+03    3.54991e+03    4.29583e+02    2.27554e+01   -1.07743e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56454e+03   -1.81717e+03    5.70102e+02   -7.51348e+03    8.61693e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.10345e+03   -1.33368e+03    2.97468e+02   -4.02430e+02   -2.42153e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    8.93362e-07
+
+Replica exchange at step 305000 time 610.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 304999  vol min/aver 0.665  load imb.: force  4.7%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 289 max 351
+
+DD  step 309999  vol min/aver 0.786  load imb.: force  2.9%
+           Step           Time
+         310000      620.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.80749e+03    3.41742e+03    4.27584e+02    1.87540e+01   -1.06815e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56105e+03   -1.81915e+03    5.56716e+02   -7.83376e+03    8.65988e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.26118e+02   -1.39000e+03    2.98951e+02   -4.00642e+02    2.14170e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.07223e-06
+
+Replica exchange at step 310000 time 620.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 309999  vol min/aver 0.798  load imb.: force  6.5%
+
+Atom distribution over 8 domains: av 313 stddev 22 min 285 max 356
+
+DD  step 314999  vol min/aver 0.738  load imb.: force  2.3%
+           Step           Time
+         315000      630.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.97492e+03    3.54675e+03    4.46889e+02    1.96513e+01   -1.06966e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56366e+03   -1.83679e+03    5.44390e+02   -7.56448e+03    8.97360e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.40912e+03   -1.44967e+03    3.09781e+02   -4.01979e+02   -2.33740e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.86897e-06
+
+Replica exchange at step 315000 time 630.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 314999  vol min/aver 0.745  load imb.: force  4.2%
+
+Atom distribution over 8 domains: av 313 stddev 27 min 294 max 379
+
+DD  step 319999  vol min/aver 0.626  load imb.: force  3.4%
+           Step           Time
+         320000      640.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.91584e+03    3.69324e+03    4.53833e+02    1.68352e+01   -1.09401e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57779e+03   -1.90137e+03    5.44198e+02   -7.79531e+03    8.61918e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.23871e+02   -1.48325e+03    2.97546e+02   -4.09253e+02   -6.31358e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.14552e-06
+
+Replica exchange at step 320000 time 640.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 319999  vol min/aver 0.617  load imb.: force  3.7%
+
+Atom distribution over 8 domains: av 313 stddev 23 min 292 max 358
+
+DD  step 324999  vol min/aver 0.793  load imb.: force  1.8%
+           Step           Time
+         325000      650.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.83235e+03    3.46469e+03    4.39556e+02    1.77709e+01   -1.06053e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55666e+03   -1.86042e+03    5.60917e+02   -7.70704e+03    8.65876e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    9.51717e+02   -1.53242e+03    2.98912e+02   -3.98395e+02    2.52126e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.02018e-06
+
+Replica exchange at step 325000 time 650.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 324999  vol min/aver 0.795  load imb.: force  6.0%
+
+Atom distribution over 8 domains: av 313 stddev 22 min 289 max 360
+
+DD  step 329999  vol min/aver 0.711  load imb.: force  3.4%
+           Step           Time
+         330000      660.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.97688e+03    3.58557e+03    4.52001e+02    2.27230e+01   -1.08089e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56844e+03   -1.87197e+03    5.59818e+02   -7.65234e+03    8.54331e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.90969e+02   -1.57617e+03    2.94927e+02   -4.04432e+02    1.29695e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.03229e-06
+
+Replica exchange at step 330000 time 660.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 329999  vol min/aver 0.720  load imb.: force  5.7%
+
+Atom distribution over 8 domains: av 313 stddev 16 min 293 max 337
+
+DD  step 334999  vol min/aver 0.814  load imb.: force  4.5%
+           Step           Time
+         335000      670.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.06913e+03    3.60189e+03    4.22415e+02    2.23617e+01   -1.10397e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.59394e+03   -1.83683e+03    5.35045e+02   -7.81959e+03    8.69318e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.73585e+02   -1.57367e+03    3.00100e+02   -4.17649e+02    6.84036e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.10477e-07
+
+Replica exchange at step 335000 time 670.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 334999  vol min/aver 0.819  load imb.: force  5.7%
+
+Atom distribution over 8 domains: av 313 stddev 17 min 293 max 337
+
+DD  step 339999  vol min/aver 0.805  load imb.: force  1.3%
+           Step           Time
+         340000      680.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.91721e+03    3.52297e+03    4.53465e+02    2.02939e+01   -1.06739e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55505e+03   -1.83598e+03    5.58197e+02   -7.59281e+03    8.73067e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.13786e+03   -1.67937e+03    3.01395e+02   -3.97578e+02    1.27610e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.28978e-06
+
+Replica exchange at step 340000 time 680.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 339999  vol min/aver 0.800  load imb.: force  4.4%
+
+Atom distribution over 8 domains: av 313 stddev 31 min 290 max 387
+
+DD  step 344999  vol min/aver 0.676  load imb.: force  2.0%
+           Step           Time
+         345000      690.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.02341e+03    3.46539e+03    4.47898e+02    1.92883e+01   -1.07707e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57446e+03   -1.84496e+03    5.43520e+02   -7.69064e+03    8.58377e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.93131e+02   -1.74430e+03    2.96323e+02   -4.07532e+02   -1.21502e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.20939e-06
+
+Replica exchange at step 345000 time 690.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 344999  vol min/aver 0.686  load imb.: force  5.8%
+
+Atom distribution over 8 domains: av 313 stddev 16 min 299 max 337
+
+DD  step 349999  vol min/aver 0.806  load imb.: force  2.3%
+           Step           Time
+         350000      700.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.94889e+03    3.74707e+03    4.36263e+02    1.61637e+01   -1.08533e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57782e+03   -1.84478e+03    5.55344e+02   -7.57217e+03    8.78761e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.21544e+03   -1.74173e+03    3.03360e+02   -4.09267e+02    3.87244e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.54428e-07
+
+Replica exchange at step 350000 time 700.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 349999  vol min/aver 0.804  load imb.: force  5.6%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 296 max 355
+
+DD  step 354999  vol min/aver 0.835  load imb.: force  2.4%
+           Step           Time
+         355000      710.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.95681e+03    3.60253e+03    4.70395e+02    2.24221e+01   -1.08379e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57522e+03   -1.84106e+03    5.61062e+02   -7.64100e+03    8.76155e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.12055e+03   -1.85195e+03    3.02461e+02   -4.07926e+02    3.91943e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.26725e-06
+
+Replica exchange at step 355000 time 710.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 354999  vol min/aver 0.825  load imb.: force  4.1%
+
+Atom distribution over 8 domains: av 313 stddev 33 min 284 max 387
+
+DD  step 359999  vol min/aver 0.641  load imb.: force  2.1%
+           Step           Time
+         360000      720.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.94924e+03    3.56013e+03    4.33179e+02    1.38304e+01   -1.09537e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.58175e+03   -1.82403e+03    5.39791e+02   -7.86329e+03    8.57689e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    7.13603e+02   -1.90335e+03    2.96086e+02   -4.11301e+02   -2.81761e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.28386e-07
+
+Replica exchange at step 360000 time 720.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 359999  vol min/aver 0.639  load imb.: force  4.1%
+
+Atom distribution over 8 domains: av 313 stddev 27 min 286 max 372
+
+DD  step 364999  vol min/aver 0.773  load imb.: force  2.7%
+           Step           Time
+         365000      730.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.98376e+03    3.52862e+03    4.23340e+02    1.67302e+01   -1.09146e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.58236e+03   -1.85157e+03    5.43533e+02   -7.85253e+03    8.47264e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    6.20111e+02   -1.94342e+03    2.92487e+02   -4.11619e+02    7.42240e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.17409e-06
+
+Replica exchange at step 365000 time 730.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 364999  vol min/aver 0.773  load imb.: force  3.2%
+
+Atom distribution over 8 domains: av 313 stddev 25 min 288 max 363
+
+DD  step 369999  vol min/aver 0.777  load imb.: force  2.2%
+           Step           Time
+         370000      740.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.78501e+03    3.61277e+03    4.64497e+02    1.26392e+01   -1.07407e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56555e+03   -1.83905e+03    5.72414e+02   -7.69799e+03    8.83806e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.14008e+03   -2.00755e+03    3.05102e+02   -4.02947e+02   -2.41018e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.13415e-07
+
+Replica exchange at step 370000 time 740.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 369999  vol min/aver 0.784  load imb.: force  4.0%
+
+Atom distribution over 8 domains: av 313 stddev 21 min 293 max 346
+
+DD  step 374999  vol min/aver 0.768  load imb.: force  2.5%
+           Step           Time
+         375000      750.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.98935e+03    3.44422e+03    4.13487e+02    1.53330e+01   -1.07461e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56853e+03   -1.85387e+03    5.39974e+02   -7.76614e+03    8.57059e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.04457e+02   -2.05339e+03    2.95868e+02   -4.04475e+02   -6.35104e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.51033e-06
+
+Replica exchange at step 375000 time 750.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 374999  vol min/aver 0.776  load imb.: force  5.4%
+
+Atom distribution over 8 domains: av 313 stddev 25 min 295 max 371
+
+DD  step 379999  vol min/aver 0.760  load imb.: force  2.2%
+           Step           Time
+         380000      760.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.09271e+03    3.61921e+03    4.46987e+02    2.82803e+01   -1.09409e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.58117e+03   -1.88564e+03    5.21166e+02   -7.69935e+03    8.62028e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    9.20930e+02   -2.07382e+03    2.97584e+02   -4.11005e+02   -1.21033e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.27384e-06
+
+Replica exchange at step 380000 time 760.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 379999  vol min/aver 0.766  load imb.: force  6.6%
+
+Atom distribution over 8 domains: av 313 stddev 29 min 294 max 382
+
+DD  step 384999  vol min/aver 0.779  load imb.: force  0.8%
+           Step           Time
+         385000      770.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.97530e+03    3.37704e+03    4.01201e+02    1.17969e+01   -1.08335e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57201e+03   -1.77234e+03    5.80971e+02   -7.83158e+03    8.64904e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.17461e+02   -2.16099e+03    2.98577e+02   -4.06270e+02   -2.24975e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.72060e-06
+
+Replica exchange at step 385000 time 770.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 384999  vol min/aver 0.776  load imb.: force  6.2%
+
+Atom distribution over 8 domains: av 313 stddev 24 min 281 max 360
+
+DD  step 389999  vol min/aver 0.823  load imb.: force  2.4%
+           Step           Time
+         390000      780.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.01687e+03    3.53879e+03    4.52014e+02    2.77367e+01   -1.06288e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56733e+03   -1.85841e+03    5.31533e+02   -7.48757e+03    8.63305e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.14548e+03   -2.21744e+03    2.98024e+02   -4.03862e+02    4.71788e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.18992e-07
+
+Replica exchange at step 390000 time 780.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 389999  vol min/aver 0.817  load imb.: force 93.3%
+
+Atom distribution over 8 domains: av 313 stddev 23 min 277 max 354
+
+DD  step 394999  vol min/aver 0.806  load imb.: force  1.9%
+           Step           Time
+         395000      790.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.04113e+03    3.59909e+03    4.37403e+02    1.65186e+01   -1.09932e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.58263e+03   -1.86632e+03    5.69804e+02   -7.77820e+03    9.01367e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.23547e+03   -2.23225e+03    3.11164e+02   -4.11762e+02   -4.54351e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.39555e-06
+
+Replica exchange at step 395000 time 790.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 394999  vol min/aver 0.809  load imb.: force  7.7%
+
+Atom distribution over 8 domains: av 313 stddev 27 min 291 max 368
+
+DD  step 399999  vol min/aver 0.809  load imb.: force  2.8%
+           Step           Time
+         400000      800.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.83664e+03    3.35205e+03    4.61237e+02    2.76624e+01   -1.07160e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55696e+03   -1.80144e+03    5.88254e+02   -7.80858e+03    8.67534e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.66764e+02   -2.32146e+03    2.99484e+02   -3.98549e+02    9.61541e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.29936e-07
+
+Replica exchange at step 400000 time 800.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 399999  vol min/aver 0.820  load imb.: force  4.6%
+
+Atom distribution over 8 domains: av 313 stddev 27 min 283 max 371
+
+DD  step 404999  vol min/aver 0.715  load imb.: force  2.9%
+           Step           Time
+         405000      810.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.04023e+03    3.50700e+03    4.36051e+02    1.64642e+01   -1.08458e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56296e+03   -1.82874e+03    5.61439e+02   -7.67630e+03    8.65084e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    9.74541e+02   -2.41452e+03    2.98639e+02   -4.01617e+02   -1.87182e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.03712e-06
+
+Replica exchange at step 405000 time 810.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 404999  vol min/aver 0.721  load imb.: force  5.3%
+
+Atom distribution over 8 domains: av 313 stddev 22 min 284 max 358
+
+DD  step 409999  vol min/aver 0.731  load imb.: force  2.0%
+           Step           Time
+         410000      820.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.02685e+03    3.70472e+03    4.55211e+02    1.12653e+01   -1.08487e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.58405e+03   -1.85575e+03    5.09272e+02   -7.58118e+03    8.65047e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.06929e+03   -2.36873e+03    2.98626e+02   -4.12498e+02    4.05103e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.59651e-07
+
+Replica exchange at step 410000 time 820.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 409999  vol min/aver 0.732  load imb.: force  4.3%
+
+Atom distribution over 8 domains: av 313 stddev 25 min 293 max 370
+
+DD  step 414999  vol min/aver 0.726  load imb.: force  4.2%
+           Step           Time
+         415000      830.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.94693e+03    3.36584e+03    3.99438e+02    1.09395e+01   -1.06559e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55389e+03   -1.81805e+03    5.66295e+02   -7.73839e+03    8.61872e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.80337e+02   -2.48835e+03    2.97530e+02   -3.96986e+02   -1.72238e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.12913e-06
+
+Replica exchange at step 415000 time 830.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 414999  vol min/aver 0.728  load imb.: force  3.7%
+
+Atom distribution over 8 domains: av 313 stddev 26 min 290 max 372
+
+DD  step 419999  vol min/aver 0.672  load imb.: force  3.7%
+           Step           Time
+         420000      840.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.94843e+03    3.63881e+03    4.59928e+02    1.68399e+01   -1.07763e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56857e+03   -1.85732e+03    5.55837e+02   -7.58233e+03    8.67739e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.09506e+03   -2.54605e+03    2.99555e+02   -4.04499e+02    1.98563e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.27242e-06
+
+Replica exchange at step 420000 time 840.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 419999  vol min/aver 0.683  load imb.: force  4.5%
+
+Atom distribution over 8 domains: av 313 stddev 25 min 282 max 357
+
+DD  step 424999  vol min/aver 0.734  load imb.: force  2.8%
+           Step           Time
+         425000      850.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.06011e+03    3.46622e+03    4.93930e+02    1.47018e+01   -1.09118e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.58511e+03   -1.82124e+03    5.55388e+02   -7.72780e+03    8.78278e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.05498e+03   -2.51759e+03    3.03193e+02   -4.13046e+02    2.09456e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.22524e-06
+
+Replica exchange at step 425000 time 850.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 424999  vol min/aver 0.734  load imb.: force  2.9%
+
+Atom distribution over 8 domains: av 313 stddev 29 min 283 max 381
+
+DD  step 429999  vol min/aver 0.688  load imb.: force  3.3%
+           Step           Time
+         430000      860.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.89923e+03    3.50037e+03    4.21491e+02    2.08093e+01   -1.06049e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55909e+03   -1.84351e+03    5.63076e+02   -7.60256e+03    8.48715e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    8.84589e+02   -2.61930e+03    2.92988e+02   -3.99636e+02    1.49128e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.00283e-06
+
+Replica exchange at step 430000 time 860.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 429999  vol min/aver 0.696  load imb.: force  7.8%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 291 max 350
+
+DD  step 434999  vol min/aver 0.784  load imb.: force  3.0%
+           Step           Time
+         435000      870.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.09007e+03    3.67986e+03    4.58161e+02    1.71096e+01   -1.08596e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57729e+03   -1.86961e+03    5.42880e+02   -7.51839e+03    8.59774e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.07935e+03   -2.65338e+03    2.96806e+02   -4.08992e+02   -1.44983e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    8.71520e-07
+
+Replica exchange at step 435000 time 870.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 434999  vol min/aver 0.792  load imb.: force  3.4%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 293 max 354
+
+DD  step 439999  vol min/aver 0.860  load imb.: force  2.7%
+           Step           Time
+         440000      880.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.09778e+03    3.54149e+03    4.37980e+02    2.80942e+01   -1.09707e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.58822e+03   -1.79979e+03    5.81828e+02   -7.67157e+03    8.70668e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.03512e+03   -2.66675e+03    3.00566e+02   -4.14665e+02    4.71797e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.13342e-06
+
+Replica exchange at step 440000 time 880.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 439999  vol min/aver 0.870  load imb.: force  5.6%
+
+Atom distribution over 8 domains: av 313 stddev 18 min 298 max 352
+
+DD  step 444999  vol min/aver 0.776  load imb.: force  2.6%
+           Step           Time
+         445000      890.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.94796e+03    3.34623e+03    4.07237e+02    2.52243e+01   -1.06517e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.55231e+03   -1.81069e+03    5.79276e+02   -7.70880e+03    8.84038e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.13158e+03   -2.77189e+03    3.05182e+02   -3.96183e+02   -4.46484e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.21655e-06
+
+Replica exchange at step 445000 time 890.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 444999  vol min/aver 0.792  load imb.: force  6.4%
+
+Atom distribution over 8 domains: av 313 stddev 21 min 296 max 356
+
+DD  step 449999  vol min/aver 0.769  load imb.: force  2.7%
+           Step           Time
+         450000      900.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.99157e+03    3.70648e+03    4.06553e+02    1.65083e+01   -1.08287e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57361e+03   -1.86558e+03    5.47773e+02   -7.59905e+03    8.67897e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.07993e+03   -2.81454e+03    2.99610e+02   -4.07092e+02   -2.03240e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.18928e-06
+
+Replica exchange at step 450000 time 900.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 449999  vol min/aver 0.763  load imb.: force  4.8%
+
+Atom distribution over 8 domains: av 313 stddev 22 min 290 max 354
+
+DD  step 454999  vol min/aver 0.773  load imb.: force  3.9%
+           Step           Time
+         455000      910.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.02433e+03    3.60165e+03    4.27066e+02    1.27372e+01   -1.10460e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.58802e+03   -1.86315e+03    5.47124e+02   -7.88426e+03    8.52123e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    6.36972e+02   -2.82001e+03    2.94164e+02   -4.14562e+02   -3.09882e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.35740e-06
+
+Replica exchange at step 455000 time 910.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 454999  vol min/aver 0.771  load imb.: force  3.3%
+
+Atom distribution over 8 domains: av 313 stddev 20 min 292 max 344
+
+DD  step 459999  vol min/aver 0.828  load imb.: force  4.8%
+           Step           Time
+         460000      920.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.98430e+03    3.40578e+03    4.55423e+02    1.32420e+01   -1.06402e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.54450e+03   -1.78195e+03    5.87162e+02   -7.52079e+03    8.70155e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.18076e+03   -2.92865e+03    3.00389e+02   -3.92216e+02   -3.83991e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.44103e-06
+
+Replica exchange at step 460000 time 920.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 459999  vol min/aver 0.808  load imb.: force  5.0%
+
+Atom distribution over 8 domains: av 313 stddev 32 min 286 max 387
+
+DD  step 464999  vol min/aver 0.648  load imb.: force  3.3%
+           Step           Time
+         465000      930.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.92701e+03    3.42256e+03    4.19972e+02    2.66853e+01   -1.07126e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57296e+03   -1.85770e+03    5.29120e+02   -7.81788e+03    8.53333e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    7.15446e+02   -3.03610e+03    2.94582e+02   -4.06760e+02    7.98001e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.04084e-06
+
+Replica exchange at step 465000 time 930.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 464999  vol min/aver 0.654  load imb.: force  7.3%
+
+Atom distribution over 8 domains: av 313 stddev 17 min 289 max 334
+
+DD  step 469999  vol min/aver 0.805  load imb.: force  2.5%
+           Step           Time
+         470000      940.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.02447e+03    3.57394e+03    4.44421e+02    1.77157e+01   -1.10589e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.59556e+03   -1.84351e+03    5.19868e+02   -7.91752e+03    8.69927e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    7.81750e+02   -2.97527e+03    3.00310e+02   -4.18496e+02    1.58506e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.44856e-06
+
+Replica exchange at step 470000 time 940.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 469999  vol min/aver 0.796  load imb.: force  5.7%
+
+Atom distribution over 8 domains: av 313 stddev 31 min 283 max 386
+
+DD  step 474999  vol min/aver 0.665  load imb.: force  1.4%
+           Step           Time
+         475000      950.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.08885e+03    3.56447e+03    4.39079e+02    1.89562e+01   -1.08007e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56632e+03   -1.84905e+03    5.42683e+02   -7.56198e+03    8.59517e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.03319e+03   -3.04913e+03    2.96717e+02   -4.03341e+02    1.43742e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.57793e-07
+
+Replica exchange at step 475000 time 950.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 474999  vol min/aver 0.663  load imb.: force  2.6%
+
+Atom distribution over 8 domains: av 313 stddev 26 min 291 max 368
+
+DD  step 479999  vol min/aver 0.657  load imb.: force  3.6%
+           Step           Time
+         480000      960.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.06503e+03    3.58063e+03    4.31057e+02    1.89859e+01   -1.05651e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56357e+03   -1.78125e+03    5.77655e+02   -7.23655e+03    8.93598e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.69943e+03   -3.18265e+03    3.08482e+02   -4.01932e+02    2.09142e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.59638e-06
+
+Replica exchange at step 480000 time 960.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 479999  vol min/aver 0.667  load imb.: force  6.4%
+
+Atom distribution over 8 domains: av 313 stddev 26 min 287 max 374
+
+DD  step 484999  vol min/aver 0.728  load imb.: force  2.6%
+           Step           Time
+         485000      970.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.02842e+03    3.54336e+03    4.68915e+02    2.65942e+01   -1.08510e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57835e+03   -1.82645e+03    5.60171e+02   -7.62836e+03    8.68400e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.05564e+03   -3.12458e+03    2.99783e+02   -4.09544e+02    8.59147e+01
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.30715e-06
+
+Replica exchange at step 485000 time 970.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 484999  vol min/aver 0.719  load imb.: force  4.7%
+
+Atom distribution over 8 domains: av 313 stddev 24 min 283 max 368
+
+DD  step 489999  vol min/aver 0.658  load imb.: force  3.0%
+           Step           Time
+         490000      980.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    2.05464e+03    3.60666e+03    4.38496e+02    1.45568e+01   -1.08704e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57836e+03   -1.82321e+03    5.54419e+02   -7.60317e+03    8.56365e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    9.60483e+02   -3.19551e+03    2.95629e+02   -4.09548e+02   -1.42995e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    9.67506e-07
+
+Replica exchange at step 490000 time 980.00000
+Repl 3 <-> 4  dE_term =  0.000e+00 (kT)
+Repl ex  0    1 x  2    3 x  4    5
+Repl pr        1.0       1.0     
+
+
+DD  step 489999  vol min/aver 0.654  load imb.: force  3.0%
+
+Atom distribution over 8 domains: av 313 stddev 22 min 289 max 354
+
+DD  step 494999  vol min/aver 0.822  load imb.: force  2.7%
+           Step           Time
+         495000      990.00000
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.97072e+03    3.57003e+03    4.56302e+02    1.91593e+01   -1.09033e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57485e+03   -1.86907e+03    5.54545e+02   -7.77642e+03    8.76503e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    9.88612e+02   -3.26502e+03    3.02581e+02   -4.07733e+02   -2.08074e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.05541e-06
+
+Replica exchange at step 495000 time 990.00000
+Repl 4 <-> 5  dE_term =  0.000e+00 (kT)
+Repl ex  0 x  1    2 x  3    4 x  5
+Repl pr   1.0       1.0       1.0
+
+
+DD  step 494999  vol min/aver 0.829  load imb.: force  4.5%
+
+Atom distribution over 8 domains: av 313 stddev 27 min 295 max 378
+
+DD  step 499999  vol min/aver 0.699  load imb.: force  2.5%
+           Step           Time
+         500000     1000.00000
+
+Writing checkpoint, step 500000 at Tue Jul  9 16:24:53 2024
+
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.98431e+03    3.53104e+03    4.28923e+02    2.08558e+01   -1.08335e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.57251e+03   -1.83297e+03    5.44401e+02   -7.72942e+03    8.50411e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    7.74688e+02   -3.26856e+03    2.93573e+02   -4.06525e+02   -1.11992e+02
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    1.30673e-06
+
+
+Cannot report drift of the conserved energy quantity because simulations share state
+
+
+	<======  ###############  ==>
+	<====  A V E R A G E S  ====>
+	<==  ###############  ======>
+
+	Statistics over 500001 steps using 5001 frames
+
+   Energies (kJ/mol)
+           Bond          Angle    Proper Dih.  Improper Dih.        LJ (SR)
+    1.96483e+03    3.52284e+03    4.31433e+02    1.91281e+01   -1.07210e+04
+  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential    Kinetic En.
+   -1.56395e+03   -1.83468e+03    5.61130e+02   -7.62025e+03    8.68985e+03
+   Total Energy  Conserved En.    Temperature Pres. DC (bar) Pressure (bar)
+    1.06960e+03   -7.61007e+02    2.99985e+02   -4.02156e+02    1.02770e+00
+    dVremain/dl   Constr. rmsd
+    0.00000e+00    0.00000e+00
+
+          Box-X          Box-Y          Box-Z
+    4.01628e+00    4.01628e+00    4.01628e+00
+
+   Total Virial (kJ/mol)
+    2.89243e+03   -2.34687e+00    7.01160e-02
+   -2.34692e+00    2.88990e+03    1.23205e+01
+    7.01338e-02    1.23204e+01    2.90152e+03
+
+   Pressure (bar)
+    2.84715e+00    8.42062e-01    4.93832e-02
+    8.42087e-01    2.66789e+00   -6.82594e+00
+    4.93733e-02   -6.82589e+00   -2.43193e+00
+
+      T-peptoid          T-UNL
+    2.99813e+02    2.99996e+02
+
+
+Replica exchange statistics
+Repl  99 attempts, 50 odd, 49 even
+Repl  average probabilities:
+Repl     0    1    2    3    4    5
+Repl      1.0  1.0  1.0  1.0  1.0
+Repl  number of exchanges:
+Repl     0    1    2    3    4    5
+Repl       50   49   50   49   50
+Repl  average number of exchanges:
+Repl     0    1    2    3    4    5
+Repl      1.0  1.0  1.0  1.0  1.0
+
+
+Repl                        Empirical Transition Matrix
+Repl       1       2       3       4       5       6
+Repl  0.4949  0.5051  0.0000  0.0000  0.0000  0.0000  0
+Repl  0.5051  0.0000  0.4949  0.0000  0.0000  0.0000  1
+Repl  0.0000  0.4949  0.0000  0.5051  0.0000  0.0000  2
+Repl  0.0000  0.0000  0.5051  0.0000  0.4949  0.0000  3
+Repl  0.0000  0.0000  0.0000  0.4949  0.0000  0.5051  4
+Repl  0.0000  0.0000  0.0000  0.0000  0.5051  0.4949  5
+
+	M E G A - F L O P S   A C C O U N T I N G
+
+ NB=Group-cutoff nonbonded kernels    NxN=N-by-N cluster Verlet kernels
+ RF=Reaction-Field  VdW=Van der Waals  QSTab=quadratic-spline table
+ W3=SPC/TIP3p  W4=TIP4p (single or pairs)
+ V&F=Potential and force  V=Potential only  F=Force only
+
+ Computing:                               M-Number         M-Flops  % Flops
+-----------------------------------------------------------------------------
+ Pair Search distance check            2222.430734       20001.877     0.1
+ NxN QSTab Elec. + LJ [F]            244799.874000    10036794.834    71.0
+ NxN QSTab Elec. + LJ [V&F]            2473.661040      145946.001     1.0
+ NxN QSTab Elec. [F]                   4721.964192      160546.783     1.1
+ NxN QSTab Elec. [V&F]                   47.533600        1948.878     0.0
+ 1,4 nonbonded interactions             197.000394       17730.035     0.1
+ Calc Weights                          3757.507515      135270.271     1.0
+ Spread Q Bspline                     80160.160320      160320.321     1.1
+ Gather F Bspline                     80160.160320      480960.962     3.4
+ 3D-FFT                              316593.633186     2532749.065    17.9
+ Solve PME                              784.001568       50176.100     0.4
+ Reset In Box                            12.775500          38.326     0.0
+ CG-CoM                                  13.026000          39.078     0.0
+ Bonds                                  750.501501       44279.589     0.3
+ Angles                                1554.003108      261072.522     1.8
+ Propers                                163.000326       37327.075     0.3
+ Impropers                               30.500061        6344.013     0.0
+ Virial                                 143.252865        2578.552     0.0
+ Stop-CM                                 12.530010         125.300     0.0
+ P-Coupling                             125.252505         751.515     0.0
+ Calc-Ekin                              250.753005        6770.331     0.0
+ Lincs                                  297.718674       17863.120     0.1
+ Lincs-Mat                              269.171628        1076.687     0.0
+ Constraint-V                           595.436158        5358.925     0.0
+ Constraint-Vir                          29.772454         714.539     0.0
+-----------------------------------------------------------------------------
+ Total                                                14126784.698   100.0
+-----------------------------------------------------------------------------
+
+
+    D O M A I N   D E C O M P O S I T I O N   S T A T I S T I C S
+
+ av. #atoms communicated per step for force:  2 x 4935.7
+ av. #atoms communicated per step for LINCS:  2 x 99.7
+
+
+Dynamic load balancing report:
+ DLB was turned on during the run due to measured imbalance.
+ Average load imbalance: 3.9%.
+ The balanceable part of the MD step is 53%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.0%.
+ Steps where the load balancing was limited by -rdd, -rcon and/or -dds: X 0 % Y 0 %
+
+
+     R E A L   C Y C L E   A N D   T I M E   A C C O U N T I N G
+
+On 8 MPI ranks
+
+ Computing:          Num   Num      Call    Wall time         Giga-Cycles
+                     Ranks Threads  Count      (s)         total sum    %
+-----------------------------------------------------------------------------
+ Domain decomp.         8    1       5199       1.937         32.537   0.7
+ DD comm. load          8    1       5099       0.015          0.245   0.0
+ DD comm. bounds        8    1       5197       0.057          0.954   0.0
+ Neighbor search        8    1       5100       2.841         47.723   1.0
+ Comm. coord.           8    1     494901       5.518         92.695   1.9
+ Force                  8    1     500001     142.006       2385.662  48.1
+ Wait + Comm. F         8    1     500001       6.340        106.511   2.1
+ PME mesh               8    1     500001     115.503       1940.419  39.1
+ NB X/F buffer ops.     8    1    1489803       3.937         66.138   1.3
+ Write traj.            8    1        101       0.026          0.432   0.0
+ Update                 8    1     500001       1.886         31.687   0.6
+ Constraints            8    1     500003       6.799        114.216   2.3
+ Comm. energies         8    1      50100       0.675         11.348   0.2
+ Rest                                           7.836        131.649   2.7
+-----------------------------------------------------------------------------
+ Total                                        295.374       4962.217 100.0
+-----------------------------------------------------------------------------
+ Breakdown of PME mesh computation
+-----------------------------------------------------------------------------
+ PME redist. X/F        8    1    1000002      22.189        372.768   7.5
+ PME spread             8    1     500001      20.513        344.606   6.9
+ PME gather             8    1     500001      23.646        397.247   8.0
+ PME 3D-FFT             8    1    1000002      24.338        408.864   8.2
+ PME 3D-FFT Comm.       8    1    2000004      19.743        331.685   6.7
+ PME solve Elec         8    1     500001       4.781         80.321   1.6
+-----------------------------------------------------------------------------
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     2362.990      295.374      800.0
+                 (ns/day)    (hour/ns)
+Performance:      292.511        0.082
+Finished mdrun on rank 0 Tue Jul  9 16:24:54 2024
+

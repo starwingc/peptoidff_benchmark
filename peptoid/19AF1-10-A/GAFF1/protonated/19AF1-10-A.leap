@@ -1,0 +1,20 @@
+source oldff/leaprc.ff14SB
+source leaprc.gaff
+
+loadoff /Users/starwingchen/Voelz_Lab/git/peptoid_24summer/residues/GAFF/middle/modified/+NXP/NXP.off
+loadoff /Users/starwingchen/Voelz_Lab/git/peptoid_24summer/residues/GAFF/middle/modified/NIS/NIS.off
+loadoff /Users/starwingchen/Voelz_Lab/git/peptoid_24summer/residues/GAFF/middle/modified/+NXB/NXB.off
+loadoff /Users/starwingchen/Voelz_Lab/git/peptoid_24summer/residues/GAFF/middle/modified/NDM/NDM.off
+loadoff /Users/starwingchen/Voelz_Lab/git/peptoid_24summer/residues/GAFF/middle/modified/+NXA/NXA.off
+loadoff /Users/starwingchen/Voelz_Lab/git/peptoid_24summer/residues/GAFF/middle/modified/NTM/NTM.off
+loadoff /Users/starwingchen/Voelz_Lab/git/peptoid_24summer/residues/GAFF/middle/modified/+NMA/NMA.off
+loadoff /Users/starwingchen/Voelz_Lab/git/peptoid_24summer/residues/GAFF/middle/modified/NMO/NMO.off
+loadoff /Users/starwingchen/Voelz_Lab/git/peptoid_24summer/residues/GAFF/middle/modified/+NIX/NIX.off
+
+loadoff /Users/starwingchen/Voelz_Lab/git/peptoid_24summer/peptoid/19AF1-10-A/GAFF/NNYZ/NNYZ.off
+
+
+protein = sequence { NNYZ NXP NIS NXB NDM NXA NTM NMA NMO NIX NHE }
+savepdb protein 19AF1-10-A.pdb
+saveAmberParm protein 19AF1-10-A.prmtop 19AF1-10-A.crd
+quit

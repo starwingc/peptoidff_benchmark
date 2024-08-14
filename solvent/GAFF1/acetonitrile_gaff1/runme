@@ -1,0 +1,8 @@
+acpype -i CC#N -a gaff
+
+cp smiles_molecule.acpype/smiles_molecule_GMX.gro acetonitrile_GMX.gro
+cp smiles_molecule.acpype/smiles_molecule_GMX.top acetonitrile_GMX.top
+# change the number of mol in top from 1 to 320
+#change the improt itp path to 'smiles_molecule.acpype/smiles_molecule_GMX.itp' 
+
+

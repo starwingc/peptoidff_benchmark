@@ -1,0 +1,11 @@
+CHARGE      0.00 ( 0 )
+Formula: H1 C1 Cl3 
+ATOM      1  Cl  UNL     1       1.052  -0.095  -0.011 -0.114400        72
+ATOM      2  C   UNL     1       2.824  -0.061  -0.001  0.223500        11
+ATOM      3  Cl1 UNL     1       3.431   1.121  -1.173 -0.114400        72
+ATOM      4  Cl2 UNL     1       3.431   0.304   1.623 -0.114400        72
+ATOM      5  H   UNL     1       3.188  -1.050  -0.291  0.118700        91
+BOND    1    1    2    1     Cl    C
+BOND    2    2    3    1      C  Cl1
+BOND    3    2    4    1      C  Cl2
+BOND    4    2    5    1      C    H

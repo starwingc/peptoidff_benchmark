@@ -1,0 +1,7 @@
+# Use acpype to create the gaff1 file
+acpype -i CO -a gaff
+
+cp smiles_molecule.acpype/smiles_molecule_GMX.gro meoh_GMX.gro
+cp smiles_molecule.acpype/smiles_molecule_GMX.top meoh_GMX.top
+# change the number of mol in top from 1 to 320
+#change the improt itp path to 'smiles_molecule.acpype/smiles_molecule_GMX.itp' 

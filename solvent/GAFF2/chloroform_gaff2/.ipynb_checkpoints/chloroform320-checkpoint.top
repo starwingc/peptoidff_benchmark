@@ -1,0 +1,47 @@
+; chloroform_GMX.top created by acpype (v: 2023.10.27) on Wed Apr 17 14:01:00 2024
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333333333
+
+[ atomtypes ]
+;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
+ cl       cl          0.00000  0.00000   A     3.46595e-01   1.10374e+00 ; 1.95  0.2638
+ c3       c3          0.00000  0.00000   A     3.39771e-01   4.51035e-01 ; 1.91  0.1078
+ h3       h3          0.00000  0.00000   A     2.06564e-01   8.70272e-02 ; 1.16  0.0208
+
+[ moleculetype ]
+;name            nrexcl
+CHL       3
+
+[ atoms ]
+;   nr  type  resi  res  atom  cgnr     charge      mass       ; qtot   bond_type
+     1   cl     1   CHL   CL1    1    -0.114400     35.45000 ; qtot -0.114
+     2   c3     1   CHL    C1    2     0.224500     12.01000 ; qtot 0.110
+     3   cl     1   CHL   CL2    3    -0.114400     35.45000 ; qtot -0.004
+     4   cl     1   CHL   CL3    4    -0.114400     35.45000 ; qtot -0.119
+     5   h3     1   CHL    H1    5     0.118700      1.00800 ; qtot 0.000
+
+[ bonds ]
+;   ai     aj funct   r             k
+     1      2   1    1.8092e-01    1.3724e+05 ;    CL1 - C1
+     2      3   1    1.8092e-01    1.3724e+05 ;     C1 - CL2
+     2      4   1    1.8092e-01    1.3724e+05 ;     C1 - CL3
+     2      5   1    1.0938e-01    2.9188e+05 ;     C1 - H1
+
+[ angles ]
+;   ai     aj     ak    funct   theta         cth
+     1      2      3      1    1.0934e+02    5.8225e+02 ;    CL1 - C1     - CL2
+     1      2      4      1    1.0934e+02    5.8225e+02 ;    CL1 - C1     - CL3
+     1      2      5      1    1.0765e+02    3.6033e+02 ;    CL1 - C1     - H1
+     3      2      4      1    1.0934e+02    5.8225e+02 ;    CL2 - C1     - CL3
+     3      2      5      1    1.0765e+02    3.6033e+02 ;    CL2 - C1     - H1
+     4      2      5      1    1.0765e+02    3.6033e+02 ;    CL3 - C1     - H1
+
+
+[ system ]
+ chloroform
+
+[ molecules ]
+; Compound        nmols
+ CHL       320     

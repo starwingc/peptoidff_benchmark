@@ -1,0 +1,35 @@
+; smiles_molecule_GMX.itp created by acpype (v: 2023.10.27) on Wed Jul  3 16:55:29 2024
+
+;[ atomtypes ]
+;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
+; cl       cl          0.00000  0.00000   A     3.46595e-01   1.10374e+00 ; ;1.95  0.2638
+; c3       c3          0.00000  0.00000   A     3.39771e-01   4.51035e-01 ; ;1.91  0.1078
+; h3       h3          0.00000  0.00000   A     2.06564e-01   8.70272e-02 ; ;1.16  0.0208
+
+[ moleculetype ]
+;name            nrexcl
+UNL  3
+
+[ atoms ]
+;   nr  type  resi  res  atom  cgnr     charge      mass       ; qtot   bond_type
+     1   cl     1   UNL    CL    1    -0.114400     35.45000 ; qtot -0.114
+     2   c3     1   UNL     C    2     0.224500     12.01000 ; qtot 0.110
+     3   cl     1   UNL   CL1    3    -0.114400     35.45000 ; qtot -0.004
+     4   cl     1   UNL   CL2    4    -0.114400     35.45000 ; qtot -0.119
+     5   h3     1   UNL     H    5     0.118700      1.00800 ; qtot 0.000
+
+[ bonds ]
+;   ai     aj funct   r             k
+     1      2   1    1.8040e-01    1.3012e+05 ;     CL - C     
+     2      3   1    1.8040e-01    1.3012e+05 ;      C - CL1   
+     2      4   1    1.8040e-01    1.3012e+05 ;      C - CL2   
+     2      5   1    1.0950e-01    3.1757e+05 ;      C - H     
+
+[ angles ]
+;   ai     aj     ak    funct   theta         cth
+     1      2      3      1    1.0933e+02    6.8116e+02 ;     CL - C      - CL1   
+     1      2      4      1    1.0933e+02    6.8116e+02 ;     CL - C      - CL2   
+     1      2      5      1    1.0766e+02    4.0752e+02 ;     CL - C      - H     
+     3      2      4      1    1.0933e+02    6.8116e+02 ;    CL1 - C      - CL2   
+     3      2      5      1    1.0766e+02    4.0752e+02 ;    CL1 - C      - H     
+     4      2      5      1    1.0766e+02    4.0752e+02 ;    CL2 - C      - H     

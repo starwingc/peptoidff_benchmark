@@ -1,0 +1,43 @@
+Remarks smiles_molecule_CNS.top created by acpype (v: 2023.10.27) on Thu Jun 20 09:50:47 2024
+
+set echo=false end
+
+autogenerate angles=True dihedrals=True end
+
+{ atomType  mass }
+MASS c3_     12.010
+MASS cl_     35.450
+MASS h3_      1.008
+
+RESIdue UNL
+
+GROUP
+
+{ atomName  atomType  Charge }
+ATOM C     TYPE= c3_   CHARGE=   0.2245 END
+ATOM CL    TYPE= cl_   CHARGE=  -0.1144 END
+ATOM CL1   TYPE= cl_   CHARGE=  -0.1144 END
+ATOM CL2   TYPE= cl_   CHARGE=  -0.1144 END
+ATOM H     TYPE= h3_   CHARGE=   0.1187 END
+
+{ Bonds: atomName1  atomName2 }
+BOND C     H    
+BOND C     CL   
+BOND C     CL1  
+BOND C     CL2  
+
+{ Angles: atomName1 atomName2 atomName3}
+ANGLe CL    C     H    
+ANGLe CL1   C     H    
+ANGLe CL2   C     H    
+ANGLe CL    C     CL1  
+ANGLe CL    C     CL2  
+ANGLe CL1   C     CL2  
+
+{ Proper Dihedrals: name1 name2 name3 name4 }
+
+{ Improper Dihedrals: aName1 aName2 aName3 aName4 }
+
+END {RESIdue UNL}
+
+set echo=true end

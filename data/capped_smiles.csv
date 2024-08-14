@@ -1,0 +1,11 @@
+06AA1-9-A,13AC1-6-A,17AB1-5-A,17AB2-8-A,18AC2-7-A,18AC1-3-A,19AE1-4-A,19AF1-10-A
+CC(=O)N([C@@H](C)c1ccccc1)CC(=O)N(C)C,CC(=O)N(c1cc(C)cc(C)c1)CC(=O)N(C)C,CC(=O)N([C@@H](C)c1cccc2ccccc21)CC(=O)N(C)C,CC(=O)N(c1c(C)cccc1(C))CC(=O)N(C)C,CC(=O)N(CCC(=O)O)CC(=O)N(C)C,CC(=O)N(CC(=O)O)CC(=O)N(C)C,CC(=O)N(CCN)CC(=O)N(C)C,CC(=O)N(c1cc(C)cc(C)c1)CC(=O)N(C)C
+CC(=O)N([C@@H](C)c1ccccc1)CC(=O)N(C)C,CC(=O)N([C@@H](C)c1cccc2ccccc21)CC(=O)N(C)C,CC(=O)N(c1cc(C)cc(C)c1)CC(=O)N(C)C,CC(=O)N([C@H](C)c1cccc2ccccc21)CC(=O)N(C)C,CC(=O)N(CCN)CC(=O)N(C)C,CC(=O)N(Cc1ccccc1)CC(=O)N(C)C,CC(=O)N(CCc1ccccc1)CC(=O)N(C)C,CC(=O)N(CC[N+](C(C)C)C(C)C)CC(=O)N(C)C
+CC(=O)N([C@@H](C)c1ccccc1)CC(=O)N(C)C,CC(=O)N(c1c(C)cccc1(C))CC(=O)N(C)C,CC(=O)N([C@H](C)c1cccc2ccccc21)CC(=O)N(C)C,CC(=O)N(c1ccc(F)cc1)CC(=O)N(C)C,CC(=O)N(CCO)CC(=O)N(C)C,CC(=O)N[C@@H](C)C(=O)N(C)C,CC(=O)N(CCN)CC(=O)N(C)C,CC(=O)N(c1ccc(C(C)C)cc1)CC(=O)N(C)C
+CC(=O)N([C@@H](C)c1ccccc1)CC(=O)N(C)C,CC(=O)N([C@@H](C)c1cccc2ccccc21)CC(=O)N(C)C,CC(=O)N(c1ccccc1)CC(=O)N(C)C,CC(=O)N([C@@H](C)c1cccc2ccccc21)CC(=O)N(C)C,CC(=O)N([C@@H](C)c1ccccc1)CC(=O)N(C)C,,CC(=O)N(CCc1ccccc1)CC(=O)N(C)C,CC(=O)N(CC[N+](Cc1ccccc1)(CC)CC)CC(=O)N(C)C
+CC(=O)N([C@@H](C)c1ccccc1)CC(=O)N(C)C,CC(=O)N(c1ccc(F)cc1)CC(=O)N(C)C,,CC(=O)N(c1cc(C)cc(C)c1)CC(=O)N(C)C,CC(=O)N(CC(=O)O)CC(=O)N(C)C,,,CC(=O)N(c1cc(OC)cc(OC)c1)CC(=O)N(C)C
+CC(=O)N([C@@H](C)c1ccccc1)CC(=O)N(C)C,CC(=O)N([C@@H](C)c1cccc2ccccc21)CC(=O)N(C)C,,CC(=O)N([C@H](C)c1cccc2ccccc21)CC(=O)N(C)C,CC(=O)N(Cc1ccccc1)CC(=O)N(C)C,,,CC(=O)N(CC[N+](CC)(CC)CC)CC(=O)N(C)C
+CC(=O)N([C@@H](C)c1ccccc1)CC(=O)N(C)C,,,CC(=O)N(c1ccccc1)CC(=O)N(C)C,CC(=O)N[C@@H](C)C(=O)N(C)C,,,CC(=O)N(c1ccc(C)cc1)CC(=O)N(C)C
+CC(=O)N([C@@H](C)c1ccccc1)CC(=O)N(C)C,,,,,,,CC(=O)N(CC[N+](C)(C)C)CC(=O)N(C)C
+CC(=O)N([C@@H](C)c1ccccc1)CC(=O)N(C)C,,,,,,,CC(=O)N(c1ccc(OC)cc1)CC(=O)N(C)C
+,,,,,,,CC(=O)N(CC[N+](C(C)C)C(C)C)CC(=O)N(C)C
