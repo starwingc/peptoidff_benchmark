@@ -1,0 +1,2 @@
+
+python ~/Voelz_Lab/git/prep-tools/scripts/build_amber_residue.py -s N -t C NYE.mol2 NYE CappingAtoms.dat X G 0
