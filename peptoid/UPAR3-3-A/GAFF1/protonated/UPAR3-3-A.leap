@@ -1,0 +1,12 @@
+source oldff/leaprc.ff14SB
+source leaprc.gaff
+
+loadoff ../../../../residues/GAFF1/middle/modified/NBA/NBA.off
+loadoff ../../../../residues/GAFF1/middle/modified/+NYE/NYE.off
+
+loadoff ../../../../residues/GAFF1/N_terminal/modified/+NNBA/NNBA.off
+
+protein = sequence { NNBA NYE NBA NHE }
+savepdb protein UPAR3-3-A.pdb
+saveAmberParm protein UPAR3-3-A.prmtop UPAR3-3-A.crd
+quit
