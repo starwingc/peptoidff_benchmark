@@ -1,0 +1,2 @@
+tleap -f UPAR4-3-A.leap
+acpype -p 'UPAR4-3-A.prmtop' -x 'UPAR4-3-A.crd'
