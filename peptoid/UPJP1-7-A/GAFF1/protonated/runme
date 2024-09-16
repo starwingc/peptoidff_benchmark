@@ -1,0 +1,6 @@
+
+tleap -f UPJP1-7-A.leap
+
+acpype -p 'UPJP1-7-A_protonated.prmtop' -x 'UPJP1-7-A_protonated.crd' -a gaff
+
+

@@ -1,0 +1,11 @@
+source oldff/leaprc.ff14SB
+source leaprc.gaff
+loadoff ../../../../residues/GAFF1/middle/modified/NSP/NSP.off
+
+loadoff ../../../../residues/GAFF1/N_terminal/modified/+NNSP/NNSP.off
+
+protein = sequence { NNSP NSP NSP NSP NSP NSP NSP NHE }
+
+savepdb protein UPJP1-7-A_protonated.pdb
+saveAmberParm protein UPJP1-7-A_protonated.prmtop UPJP1-7-A_protonated.crd
+quit
