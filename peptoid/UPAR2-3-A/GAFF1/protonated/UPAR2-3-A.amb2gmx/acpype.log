@@ -1,0 +1,54 @@
+============================================================================
+| ACPYPE: AnteChamber PYthon Parser interfacE v. 2023.10.27 (c) 2024 AWSdS |
+============================================================================
+DEBUG: CLI: -p UPAR2-3-A.prmtop -x UPAR2-3-A.crd
+DEBUG: Python Version 3.9.15 | packaged by conda-forge | (main, Nov 22 2022, 08:50:29) 
+[Clang 14.0.6 ]
+Converting Amber input files to Gromacs ...
+DEBUG: prmtop and inpcrd files loaded
+DEBUG: basename defined = 'UPAR2-3-A'
+DEBUG: getCoords done
+DEBUG: getABCOEFs done
+DEBUG: charge to be balanced: total 2.0000059950
+DEBUG: balanceCharges done
+DEBUG: Balanced TotalCharge 2.0000000000
+DEBUG: PBC = None
+DEBUG: getAtoms done
+DEBUG: getBonds done
+DEBUG: getAngles done
+DEBUG: getDihedrals done
+==> Writing GROMACS files
+
+==> Disambiguating lower and uppercase atomtypes in GMX top file, even if identical.
+
+DEBUG: writing GRO file
+DEBUG: Box size estimated
+DEBUG: writing POSRE file
+DEBUG: atomTypes 12
+DEBUG: GMX atomtypes done
+DEBUG: atoms 61
+DEBUG: GMX atoms done
+DEBUG: bonds 62
+DEBUG: GMX bonds done
+DEBUG: atomPairs 144
+DEBUG: GMX pairs done
+DEBUG: angles 108
+DEBUG: GMX angles done
+DEBUG: setProperDihedralsCoef done
+DEBUG: properDihedralsCoefRB 150
+DEBUG: properDihedralsAlphaGamma 0
+DEBUG: properDihedralsGmx45 165
+==> Writing GMX dihedrals for GMX 4.5 and higher.
+
+DEBUG: GMX special proper dihedrals done
+DEBUG: improperDihedrals 18
+DEBUG: GMX improper dihedrals done
+==> Non-default 1-4 scale parameters detected. Converting individually. Please cite:
+
+ BERNARDI, A., FALLER, R., REITH, D., and KIRSCHNER, K. N. ACPYPE update for
+ nonuniform 1-4 scale factors: Conversion of the GLYCAM06 force field from AMBER
+ to GROMACS. SoftwareX 10 (2019), 100241. doi: 10.1016/j.softx.2019.100241"
+
+DEBUG: prmtop and inpcrd files parsed
+Total time of execution: less than a second
+DEBUG: No tmp folder left to be removed
