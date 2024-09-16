@@ -1,0 +1,2 @@
+# conda activate AmberTools20
+python ~/git/prep-tools/scripts/build_amber_residue.py NXA.mol2 NXA CappingAtoms.dat X G 1

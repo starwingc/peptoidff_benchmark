@@ -1,0 +1,2 @@
+python ~/Voelz_Lab/git/prep-tools/scripts/build_amber_residue_gaff2.py -t C NXY.mol2 NNXY CappingAtoms.dat N G2 0
+
