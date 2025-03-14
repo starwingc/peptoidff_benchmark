@@ -1,15 +1,15 @@
 ;
 ;	File 'mdout.mdp' was generated
-;	By user: starwingchen (501)
+;	By user: root (501)
 ;	On host: Starwings-MacBook-Pro.local
-;	At date: Wed Jul  3 17:05:07 2024
+;	At date: Fri Mar 14 07:49:00 2025
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2020.5 (-:
 ;	
 ;	Executable:   /usr/local/gromacs/bin/gmx
 ;	Data prefix:  /usr/local/gromacs
-;	Working dir:  /Users/starwingchen/Voelz_Lab/git/peptoid_24summer/forcefield/GMX/solvent/chloroform_gaff1
+;	Working dir:  /Users/starwingchen/Voelz_Lab/git/peptoidff_benchmark/solvent/GAFF1/chloroform_gaff1
 ;	Command line:
 ;	  gmx grompp -f ./work/npt.mdp -c ./work/nvt.gro -p chloroform_GMX.top -o ./work/npt.tpr -maxwarn 1
 

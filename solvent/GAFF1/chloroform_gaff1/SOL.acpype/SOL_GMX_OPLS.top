@@ -1,0 +1,19 @@
+; SOL_GMX_OPLS.top created by acpype (v: 2023.10.27) on Fri Mar 14 07:37:07 2025
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include SOL_GMX.itp topology
+#include "SOL_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_SOL.itp"
+#endif
+
+[ system ]
+ SOL
+
+[ molecules ]
+; Compound        nmols
+ SOL              1     

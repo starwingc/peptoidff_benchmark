@@ -1,0 +1,7 @@
+REMARK SOL_NEW.pdb created by acpype (v: 2023.10.27) on Fri Mar 14 07:37:07 2025
+ATOM      1   CL UNL Z   1       0.957  -0.088   0.034  1.00  0.00          CL
+ATOM      2    C UNL Z   1       2.729  -0.086  -0.001  1.00  0.00           C
+ATOM      3  CL1 UNL Z   1       3.336  -1.484  -0.905  1.00  0.00          CL
+ATOM      4  CL2 UNL Z   1       3.336   1.422  -0.706  1.00  0.00          CL
+ATOM      5    H UNL Z   1       3.093  -0.156   1.027  1.00  0.00           H
+END

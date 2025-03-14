@@ -1,20 +1,20 @@
-; smiles_molecule_GMX.top created by acpype (v: 2023.10.27) on Wed Jul  3 16:55:29 2024
+; SOL_GMX.top created by acpype (v: 2023.10.27) on Fri Mar 14 07:37:07 2025
 
 [ defaults ]
 ; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
 1               2               yes             0.5     0.8333333333
 
-; Include smiles_molecule_GMX.itp topology
-#include "smiles_molecule.acpype/smiles_molecule_GMX.itp"
+; Include chloroform_GMX.gro topology
+#include "chloroform_GMX.gro"
 
 ; Ligand position restraints
 #ifdef POSRES_LIG
-#include "posre_smiles_molecule.itp"
+#include "posre_SOL.itp"
 #endif
 
 [ system ]
- smiles_molecule
+ chloroform
 
 [ molecules ]
 ; Compound        nmols
- smiles_molecule  320     
+ SOL              320     

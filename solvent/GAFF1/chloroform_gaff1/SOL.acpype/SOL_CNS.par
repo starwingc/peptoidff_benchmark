@@ -1,0 +1,22 @@
+Remarks SOL_CNS.par created by acpype (v: 2023.10.27) on Fri Mar 14 07:37:07 2025
+
+set echo=false end
+
+{ Bonds: atomType1 atomType2 kb r0 }
+BOND   c3_   h3_    333.3   1.0949
+BOND   cl_   c3_    266.3   1.8045
+
+{ Angles: aType1 aType2 aType3 kt t0 }
+ANGLe   cl_   c3_   h3_     39.9   107.66
+ANGLe   cl_   c3_   cl_     54.1   109.33
+
+{ Proper Dihedrals: aType1 aType2 aType3 aType4 kt period phase }
+
+{ Improper Dihedrals: aType1 aType2 aType3 aType4 kt period phase }
+
+{ Nonbonded: Type Emin sigma; (1-4): Emin/2 sigma }
+NONBonded   cl_    0.265000    3.470941    0.132500    3.470941
+NONBonded   c3_    0.109400    3.399670    0.054700    3.399670
+NONBonded   h3_    0.015700    2.114994    0.007850    2.114994
+
+set echo=true end
